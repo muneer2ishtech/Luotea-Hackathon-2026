@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-06-05T16:41:36.358313+00:00",
+  "buildings": [
+    {
+      "id": "lentokentankatu_11",
+      "name": "Lentokentänkatu 11",
+      "customer": "Valmet Technologies Oy",
+      "address": "Lentokentänkatu 11, Tampere",
+      "sources": [
+        "alarms",
+        "work_orders",
+        "maintenance_schedule"
+      ],
+      "site_match": "Lentokentänkatu 11"
+    },
+    {
+      "id": "aurora_house",
+      "name": "Aurora House",
+      "customer": "NovaProp (anonymized)",
+      "address": "Innovation Drive 14, Northville",
+      "sources": [
+        "smartti_climate",
+        "smartti_incidents"
+      ],
+      "site_match": "Aurora House"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RiskPulse — Luotea Hackathon Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <span class="logo">RiskPulse</span>
+      <span class="tagline">data → signals → decisions</span>
+    </div>
+    <div class="header-controls">
+      <nav class="role-tabs" id="role-tabs" aria-label="Audience role">
+        <button type="button" class="role-tab active" data-role="owner">Owner</button>
+        <button type="button" class="role-tab" data-role="manager">Manager</button>
+        <button type="button" class="role-tab" data-role="technician">Technician</button>
+      </nav>
+      <div class="building-select">
+        <label for="building">Building</label>
+        <select id="building"></select>
+      </div>
+    </div>
+  </header>
+
+  <div class="role-banner" id="role-banner">
+    <strong id="role-label">Owner / Investor</strong>
+    <span id="role-focus">Portfolio-level visibility and comparability</span>
+  </div>
+
+  <main class="container">
+    <!-- Owner view -->
+    <section class="role-view" id="view-owner" hidden>
+      <section class="hero">
+        <h1 id="owner-headline">Portfolio snapshot</h1>
+        <p class="subtitle" id="owner-subtitle">Outcomes and comparability — not maintenance hours</p>
+      </section>
+      <section class="owner-metrics">
+        <div class="reliability-card" id="reliability-card">
+          <div class="reliability-grade" id="reliability-grade">—</div>
+          <div>
+            <div class="score-label">Operational reliability index</div>
+            <div class="reliability-value"><span id="reliability-index">—</span> / 100</div>
+            <p class="reliability-expl" id="reliability-expl"></p>
+          </div>
+        </div>
+        <div class="kpi-grid" id="owner-kpis"></div>
+      </section>
+      <section class="panel">
+        <h2>Portfolio comparability</h2>
+        <p class="panel-desc">Same metric across assets — supports investment and ESG reporting.</p>
+        <div class="portfolio-table-wrap">
+          <table class="portfolio-table" id="portfolio-table">
+            <thead>
+              <tr>
+                <th>Asset</th>
+                <th>Reliability</th>
+                <th>Grade</th>
+                <th>Risk</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+      <section class="grid-2">
+        <div class="panel">
+          <h2>ESG &amp; reporting summary</h2>
+          <ul class="esg-list" id="esg-list"></ul>
+        </div>
+        <div class="panel">
+          <h2>Decisions for approval</h2>
+          <div class="decisions-list" id="owner-decisions"></div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Manager view -->
+    <section class="role-view" id="view-manager" hidden>
+      <section class="hero">
+        <h1 id="manager-headline">Operations center</h1>
+        <p class="subtitle" id="manager-subtitle">Real-time data to support decisions</p>
+      </section>
+      <div class="situation-bar" id="situation-bar"></div>
+      <section class="score-row">
+        <div class="score-card" id="score-card">
+          <div class="score-label">Disruption risk</div>
+          <div class="score-value" id="risk-score">—</div>
+          <div class="score-status" id="risk-label">Loading…</div>
+        </div>
+        <div class="efficiency-card" id="efficiency-card"></div>
+      </section>
+      <section class="grid-2">
+        <div class="panel">
+          <h2>Normal variation vs elevated risk</h2>
+          <p class="panel-desc" id="chart-desc">Weekly alarm count compared to historical baseline band.</p>
+          <canvas id="risk-chart" height="120"></canvas>
+          <div class="legend" id="chart-legend"></div>
+        </div>
+        <div class="panel">
+          <h2>Live risk signals</h2>
+          <ul class="signal-list" id="signals"></ul>
+        </div>
+      </section>
+      <section class="panel" id="calendar-panel" hidden>
+        <h2>Calendar vs risk</h2>
+        <p class="panel-desc" id="calendar-desc"></p>
+        <ul id="calendar-sample"></ul>
+      </section>
+      <section class="panel">
+        <h2>Your action queue</h2>
+        <div class="actions-grid" id="manager-actions"></div>
+      </section>
+    </section>
+
+    <!-- Technician view -->
+    <section class="role-view" id="view-technician" hidden>
+      <section class="hero hero-tech">
+        <h1 id="tech-headline">Today's task queue</h1>
+        <p class="subtitle" id="tech-subtitle">Risk-ranked field work</p>
+        <p class="tech-risk-context" id="tech-risk-context"></p>
+      </section>
+      <section class="field-context" id="field-context"></section>
+      <section class="task-list" id="task-list"></section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Luotea Hackathon 2026 · Three audiences, one data pipeline · RiskPulse
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
