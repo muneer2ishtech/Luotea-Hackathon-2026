@@ -1,14 +1,19 @@
 {
   "building_id": "aurora_house",
+  "profile": "smartti",
   "meta": {
     "name": "Aurora House",
     "customer": "NovaProp (anonymized)",
     "address": "Innovation Drive 14, Northville",
+    "profile": "smartti",
+    "site_match": "Aurora House",
     "sources": [
       "smartti_climate",
-      "smartti_incidents"
+      "smartti_incidents",
+      "kone_occupancy"
     ],
-    "site_match": "Aurora House"
+    "smartti_json": "aurora_house.json",
+    "kone_json": "Aurora_House_2026-05-27_123944-normalized.json"
   },
   "climate_daily": {
     "interior_co2_ppm": [
@@ -16,9 +21,9 @@
         "day": "2026-04-07",
         "sensor_key": "TK1/null",
         "node_name": "TK1/null",
-        "avg": 632.0,
+        "avg": 651.0,
         "max": 702.0,
-        "samples": 3
+        "samples": 2
       },
       {
         "day": "2026-04-14",
@@ -80,9 +85,9 @@
         "day": "2026-04-07",
         "sensor_key": "TK2/null",
         "node_name": "TK2/null",
-        "avg": 529.5,
+        "avg": 580.0,
         "max": 580.0,
-        "samples": 2
+        "samples": 1
       },
       {
         "day": "2026-04-08",
@@ -136,9 +141,9 @@
         "day": "2026-04-07",
         "sensor_key": "TK3/null",
         "node_name": "TK3/null",
-        "avg": 413.5,
+        "avg": 464.0,
         "max": 464.0,
-        "samples": 2
+        "samples": 1
       },
       {
         "day": "2026-04-14",
@@ -296,9 +301,9 @@
         "day": "2026-04-07",
         "sensor_key": "TK4/null",
         "node_name": "TK4/null",
-        "avg": 437.5,
+        "avg": 488.0,
         "max": 488.0,
-        "samples": 2
+        "samples": 1
       },
       {
         "day": "2026-04-14",
@@ -392,9 +397,9 @@
         "day": "2026-04-07",
         "sensor_key": "TK5/null",
         "node_name": "TK5/null",
-        "avg": 603.5,
+        "avg": 654.0,
         "max": 654.0,
-        "samples": 2
+        "samples": 1
       },
       {
         "day": "2026-04-08",
@@ -605,14 +610,6 @@
         "samples": 4
       },
       {
-        "day": "2026-04-07",
-        "sensor_key": "TK6/null",
-        "node_name": "TK6/null",
-        "avg": 299.0,
-        "max": 299.0,
-        "samples": 1
-      },
-      {
         "day": "2026-04-14",
         "sensor_key": "TK6/null",
         "node_name": "TK6/null",
@@ -656,9 +653,9 @@
         "day": "2026-04-07",
         "sensor_key": "TK7/null",
         "node_name": "TK7/null",
-        "avg": 442.5,
+        "avg": 493.0,
         "max": 493.0,
-        "samples": 2
+        "samples": 1
       },
       {
         "day": "2026-04-08",
@@ -823,20 +820,12 @@
     ],
     "interior_temperature_C": [
       {
-        "day": "2026-04-06",
-        "sensor_key": "TK1/null",
-        "node_name": "TK1/null",
-        "avg": 22.43,
-        "max": 22.6,
-        "samples": 6
-      },
-      {
         "day": "2026-04-07",
         "sensor_key": "TK1/null",
         "node_name": "TK1/null",
-        "avg": 20.45,
-        "max": 22.0,
-        "samples": 42
+        "avg": 20.79,
+        "max": 21.1,
+        "samples": 28
       },
       {
         "day": "2026-04-08",
@@ -1199,20 +1188,12 @@
         "samples": 11
       },
       {
-        "day": "2026-04-06",
-        "sensor_key": "TK2/null",
-        "node_name": "TK2/null",
-        "avg": 19.5,
-        "max": 19.5,
-        "samples": 1
-      },
-      {
         "day": "2026-04-07",
         "sensor_key": "TK2/null",
         "node_name": "TK2/null",
-        "avg": 20.12,
-        "max": 20.7,
-        "samples": 10
+        "avg": 20.15,
+        "max": 20.5,
+        "samples": 4
       },
       {
         "day": "2026-04-08",
@@ -1575,20 +1556,12 @@
         "samples": 8
       },
       {
-        "day": "2026-04-06",
-        "sensor_key": "TK3/null",
-        "node_name": "TK3/null",
-        "avg": 20.29,
-        "max": 20.6,
-        "samples": 5
-      },
-      {
         "day": "2026-04-07",
         "sensor_key": "TK3/null",
         "node_name": "TK3/null",
-        "avg": 20.58,
+        "avg": 20.86,
         "max": 22.1,
-        "samples": 49
+        "samples": 35
       },
       {
         "day": "2026-04-08",
@@ -1935,20 +1908,12 @@
         "samples": 21
       },
       {
-        "day": "2026-04-06",
-        "sensor_key": "TK4/null",
-        "node_name": "TK4/null",
-        "avg": 19.5,
-        "max": 19.6,
-        "samples": 2
-      },
-      {
         "day": "2026-04-07",
         "sensor_key": "TK4/null",
         "node_name": "TK4/null",
-        "avg": 20.21,
-        "max": 21.0,
-        "samples": 13
+        "avg": 20.15,
+        "max": 20.8,
+        "samples": 6
       },
       {
         "day": "2026-04-08",
@@ -2303,20 +2268,12 @@
         "samples": 11
       },
       {
-        "day": "2026-04-06",
-        "sensor_key": "TK5/null",
-        "node_name": "TK5/null",
-        "avg": 19.1,
-        "max": 19.1,
-        "samples": 1
-      },
-      {
         "day": "2026-04-07",
         "sensor_key": "TK5/null",
         "node_name": "TK5/null",
-        "avg": 19.64,
+        "avg": 19.65,
         "max": 20.7,
-        "samples": 19
+        "samples": 11
       },
       {
         "day": "2026-04-08",
@@ -2679,20 +2636,12 @@
         "samples": 9
       },
       {
-        "day": "2026-04-06",
-        "sensor_key": "TK6/null",
-        "node_name": "TK6/null",
-        "avg": 20.5,
-        "max": 20.6,
-        "samples": 2
-      },
-      {
         "day": "2026-04-07",
         "sensor_key": "TK6/null",
         "node_name": "TK6/null",
-        "avg": 20.64,
+        "avg": 20.57,
         "max": 21.2,
-        "samples": 9
+        "samples": 7
       },
       {
         "day": "2026-04-08",
@@ -3058,9 +3007,9 @@
         "day": "2026-04-07",
         "sensor_key": "TK7/null",
         "node_name": "TK7/null",
-        "avg": 20.04,
+        "avg": 20.01,
         "max": 21.2,
-        "samples": 22
+        "samples": 11
       },
       {
         "day": "2026-04-08",
@@ -3410,9 +3359,9 @@
         "day": "2026-04-07",
         "sensor_key": "TK8/null",
         "node_name": "TK8/null",
-        "avg": 21.85,
-        "max": 22.2,
-        "samples": 24
+        "avg": 21.82,
+        "max": 22.1,
+        "samples": 17
       },
       {
         "day": "2026-04-08",
@@ -3735,20 +3684,12 @@
         "samples": 9
       },
       {
-        "day": "2026-04-06",
-        "sensor_key": "TK9/null",
-        "node_name": "TK9/null",
-        "avg": 11.41,
-        "max": 12.1,
-        "samples": 22
-      },
-      {
         "day": "2026-04-07",
         "sensor_key": "TK9/null",
         "node_name": "TK9/null",
-        "avg": 11.01,
+        "avg": 11.07,
         "max": 12.6,
-        "samples": 360
+        "samples": 228
       },
       {
         "day": "2026-04-08",
@@ -4096,6 +4037,218 @@
       }
     ]
   },
+  "incident_weekly": [
+    {
+      "week_start": "2025-03-24",
+      "count": 1
+    },
+    {
+      "week_start": "2025-03-31",
+      "count": 2
+    },
+    {
+      "week_start": "2025-04-07",
+      "count": 1
+    },
+    {
+      "week_start": "2025-04-14",
+      "count": 1
+    },
+    {
+      "week_start": "2025-05-05",
+      "count": 1
+    },
+    {
+      "week_start": "2025-05-12",
+      "count": 1
+    },
+    {
+      "week_start": "2025-05-19",
+      "count": 2
+    },
+    {
+      "week_start": "2025-06-02",
+      "count": 2
+    },
+    {
+      "week_start": "2025-06-09",
+      "count": 1
+    },
+    {
+      "week_start": "2025-06-30",
+      "count": 1
+    },
+    {
+      "week_start": "2025-07-14",
+      "count": 1
+    },
+    {
+      "week_start": "2025-08-04",
+      "count": 1
+    },
+    {
+      "week_start": "2025-09-08",
+      "count": 1
+    },
+    {
+      "week_start": "2025-09-29",
+      "count": 1
+    },
+    {
+      "week_start": "2025-10-13",
+      "count": 1
+    },
+    {
+      "week_start": "2025-11-10",
+      "count": 1
+    },
+    {
+      "week_start": "2025-11-24",
+      "count": 1
+    },
+    {
+      "week_start": "2025-12-01",
+      "count": 1
+    },
+    {
+      "week_start": "2025-12-15",
+      "count": 1
+    },
+    {
+      "week_start": "2026-01-05",
+      "count": 1
+    },
+    {
+      "week_start": "2026-01-12",
+      "count": 1
+    },
+    {
+      "week_start": "2026-01-26",
+      "count": 1
+    },
+    {
+      "week_start": "2026-02-02",
+      "count": 2
+    },
+    {
+      "week_start": "2026-02-16",
+      "count": 1
+    },
+    {
+      "week_start": "2026-02-23",
+      "count": 2
+    },
+    {
+      "week_start": "2026-04-13",
+      "count": 3
+    }
+  ],
+  "kone_weekly": [
+    {
+      "week_start": "2026-03-W3",
+      "count": 6.3
+    },
+    {
+      "week_start": "2026-03-W4",
+      "count": 5.6
+    },
+    {
+      "week_start": "2026-03-W5",
+      "count": 4.7
+    },
+    {
+      "week_start": "2026-03-W6",
+      "count": 0.3
+    },
+    {
+      "week_start": "2026-03-W7",
+      "count": 0.4
+    },
+    {
+      "week_start": "2026-04-W1",
+      "count": 7.0
+    },
+    {
+      "week_start": "2026-04-W2",
+      "count": 5.4
+    },
+    {
+      "week_start": "2026-04-W3",
+      "count": 5.3
+    },
+    {
+      "week_start": "2026-04-W4",
+      "count": 6.7
+    },
+    {
+      "week_start": "2026-04-W5",
+      "count": 6.3
+    },
+    {
+      "week_start": "2026-04-W6",
+      "count": 1.3
+    },
+    {
+      "week_start": "2026-04-W7",
+      "count": 0.1
+    },
+    {
+      "week_start": "2026-05-W1",
+      "count": 4.7
+    },
+    {
+      "week_start": "2026-05-W2",
+      "count": 5.3
+    },
+    {
+      "week_start": "2026-05-W3",
+      "count": 5.6
+    },
+    {
+      "week_start": "2026-05-W4",
+      "count": 4.7
+    },
+    {
+      "week_start": "2026-05-W5",
+      "count": 5.4
+    },
+    {
+      "week_start": "2026-05-W6",
+      "count": 1.3
+    },
+    {
+      "week_start": "2026-05-W7",
+      "count": 0.4
+    },
+    {
+      "week_start": "2026-12-W1",
+      "count": 4.6
+    },
+    {
+      "week_start": "2026-12-W2",
+      "count": 5.4
+    },
+    {
+      "week_start": "2026-12-W3",
+      "count": 5.1
+    },
+    {
+      "week_start": "2026-12-W4",
+      "count": 5.0
+    },
+    {
+      "week_start": "2026-12-W5",
+      "count": 5.0
+    },
+    {
+      "week_start": "2026-12-W6",
+      "count": 0.6
+    },
+    {
+      "week_start": "2026-12-W7",
+      "count": 0.3
+    }
+  ],
   "incidents_total": 90,
   "incidents_fault": 38,
   "recent_incidents": [
@@ -5222,6 +5375,197 @@
       "status": "resolved",
       "description": "KSK6.1-3 kojeen nopean käynnin raja laitettu 18=>21 'C. Ravintolatilassa kylmyyttä. Laitetaan takaisin normaaliksi kun plussakelit.",
       "node_name": "Erillispisteet"
+    }
+  ],
+  "recent_alarms": [
+    {
+      "id": "incident_oixdwe0qe531gs04lavuftgl",
+      "time": "2026-04-17T12:16:55+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Tiloista B115 ja B116 on tullut valituksia kylmästä. Tuloilma on hieman viileä, nostetaan tuloilman asetuksia Min 16->18 max 19->20.",
+      "location_hint": "TK2 toimistot ja neuvottelu B-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_trmjx12808ykac6ow2e9w85k",
+      "time": "2026-04-13T07:50:31+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "IOT-anturi 3.krs, Toimisto E315 01FF16C8 on lopettanut lukemien lähettämisen. Anturin patteri on luultavasti loppunut.",
+      "location_hint": "Rakennusautomaatio",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_qzxp4kzbfde7jfrjvt3o6a4v",
+      "time": "2026-04-13T07:30:47+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "IV-koneen tulopuhallin on RAU:n mukaan käsikäytöllä, onko tämä aiempiin sähköongelmiin liittyvä ratkaisu?",
+      "location_hint": "TK1 toimistot ja neuvottelu A-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_k8db5ycfgqya1sem64iosz10",
+      "time": "2026-02-24T10:01:19+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Lämmityspatterin paluuvesi korkeampi kuin muilla C-osan koneilla, johtuukohan lämpö nyt kunnolla tuloilmaan? Venttiili ja patteri hyvä tarkastaa. LTO:ta tutkittu jo monesti ja ollut ok, alhainen laskennallinen hyötysuhde johtuu hyvin todennäköiesti tulopainotteisuudesta.",
+      "location_hint": "TK3 ravintola ja näyttelytila C-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_mqegy7wz00rfpwrhfzie9xmn",
+      "time": "2026-02-23T06:48:19+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Koneen pakkaspudotus ja automaation oma CO2-tarpeenmukaistus otettu pois käytöstä. Nyt aamusta kanavapaineasetukset olemattomat (15 % maksimipaineista). Ilmamääriin tuli pudotusta tuplana Smartti + automaation omat.",
+      "location_hint": "TK4 toimistot ja neuvottelutilat C-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_l35rtt249pgv8mf8ae31k5hj",
+      "time": "2026-02-19T12:09:13+00:00",
+      "priority": 50,
+      "alert_type": "Lämpötilaolosuhteet",
+      "description": "Aikaohjelmasta 2 h aiemmin käyntiin. Tulomax 25 -> 27.",
+      "location_hint": "TK3 ravintola ja näyttelytila C-osa",
+      "hwid_type": "conditions_deviation"
+    },
+    {
+      "id": "incident_lenzw177xjwzg0sebjfko03a",
+      "time": "2026-01-12T14:15:01+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Kone käynyt lisäaikapainikkeella 22.12. lähtien. Tulisi tarkastaa ja vapauttaa aikaohjelman perään.",
+      "location_hint": "TK2 toimistot ja neuvottelu B-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_onawa025cabue4b780rfl8yf",
+      "time": "2025-11-12T12:11:01+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "TL välittänyt asiakas palautetta jonka mukaan IV-kone välillä puhaltaa kylmää, välillä huojuu ja välillä ei toimi ollenkaan. Tarkastelupäivänä kone on toiminut trendien ja Smarttin mukaan normaalisti, otetaan seurantaan. ",
+      "location_hint": "TK3 ravintola ja näyttelytila C-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_g6acs5pxzw1puhk6ugsuqepo",
+      "time": "2025-10-16T13:53:04+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Huoneiden B125, A234, A332, E438, E451, B525, B545, D518 ja D534 lämpötila lukemat ovat normaalia tasoa alhaisempia. Onko näille jokin selitys? Jos ei, ehdotetaan tarkistamaan kyseisten huoneiden tilanne paikan päältä.",
+      "location_hint": "Rakennusautomaatio",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_j23475xds90oneu9f0q554mr",
+      "time": "2025-10-01T10:15:57+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Muutettu ulkovalaistuksen aikalupaa TL:n\npyynnöstä 15:30-10 --> 16-8.",
+      "location_hint": "Rakennusautomaatio",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_hetnttdbhtc2ds57rjnzsfva",
+      "time": "2025-09-10T11:58:47+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "IV-koneiden TK1 ja TK4-TK6 kanavapaineet huojuvat 10-20 Pa , mikä johtuu puhaltimien taajuusmuuttajien huojunnasta.",
+      "location_hint": "Ilmanvaihto",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_n370tani5dcnvr0dsmqqyd1m",
+      "time": "2025-08-05T13:12:18+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "VJK vikaantunut.",
+      "location_hint": "VJK1",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_mqrgdb6fpenecxddpmrh5yji",
+      "time": "2025-06-30T13:07:58+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Serveritila 4. krs, hälyttää kuumuutta. TL soitteli ja pyysi vkl tuuletusta, mutta kone lähtee käyntiin myös aikaohjelman ulkopuolella kunhan ulkolämpötila on yli +8'C. Epäily jäähdytyksen toiminnasta, TLlle ilmoitettu. Seurataan.",
+      "location_hint": "TK5 luentosalit ja neuvottelutilat C-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_z3t2721war0bjwc3u5ea75y0",
+      "time": "2025-06-05T10:32:31+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Lämmitysverkoston menoveden säätövika aktiivisena hälytyksenä, menovesi kahdeksan astetta yli säädön. Myös IV-verkostolla säätövika hälytys. Venttiilit tarkastettava.",
+      "location_hint": "Lämmitys",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_ia5o65k83u1mkl0ukj0liitl",
+      "time": "2025-06-05T10:17:04+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "LTO:n kunto tarkastettava kohteella, hyötysuhde näyttää 30% kieppeillä vaikka kunnossa olevan kikko LTO:n HS pitäisi olla 60 - 80%.",
+      "location_hint": "TK3 ravintola ja näyttelytila C-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_wo9dd2mtdb2ephg05qst0dty",
+      "time": "2025-02-04T07:34:01+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Tulokanavan paine ei täysteholla pääse asetukseensa ja tulopuhallin pyörii tästä syystä 100 % säädöllä. Pitäisi tutkia ahdistaako jokin tuloilman virtausta.",
+      "location_hint": "TK1 toimistot ja neuvottelu A-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_oe42gdyemosiok7nlhzltd6r",
+      "time": "2024-11-19T15:34:36+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Kone jää tuloilman asetuksestaan usealla asteella.",
+      "location_hint": "TK3 ravintola ja näyttelytila C-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_cw6jl54ky6e9psgu6pffa5up",
+      "time": "2024-09-19T13:05:16+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Poistokanavan CO2-mittaus näyttää todennäköisesti liian pientä lukemaa. Vain noin 350 ppm keskellä päivää. Anturin tarkastus ja vaihto? ei tosin osallistu ohjaukseen nyt, kun Smartti + IoT-anturit hoitavat säätöä kanavapaineille.",
+      "location_hint": "TK2 toimistot ja neuvottelu B-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_kyxn5mioyiwk2quzw32cio49",
+      "time": "2024-08-15T12:21:39+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Koneen poistopuhaltimen säätö pakotettu käsin 90%:iin, miksi näin? Voisiko olla automaatilla.",
+      "location_hint": "TK4 toimistot ja neuvottelutilat C-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_h7zt5s04cf0sw6fkbutuyu1y",
+      "time": "2024-07-24T14:35:05+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Koneiden puhaltimet pakotettuna 100% koska kiinteistön VJK rikki eikä jäähdytystä ole saatavilla.",
+      "location_hint": "Ilmanvaihto",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_s9h1drlzqhb1rwakgddif61v",
+      "time": "2024-07-03T15:40:37+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Smarttihavainto: TK2 ja TK1 IV-koneiden kylmän talteenotto toiminnossa ajoittain virhettä. Pitäisi tutkia ohjelmasta.",
+      "location_hint": "TK2 toimistot ja neuvottelu B-osa",
+      "hwid_type": "fault"
     }
   ]
 }
