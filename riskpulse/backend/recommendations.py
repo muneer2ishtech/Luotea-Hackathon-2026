@@ -13,7 +13,7 @@ def _priority(severity: str, score: float) -> str:
     return "P3 — Schedule"
 
 
-def recommend_for_lentokentankatu(data: dict[str, Any], analysis: dict[str, Any]) -> list[dict[str, Any]]:
+def recommend_for_alarm_site(data: dict[str, Any], analysis: dict[str, Any]) -> list[dict[str, Any]]:
     actions: list[dict[str, Any]] = []
     score = analysis.get("score", 0)
     signal_ids = {s["id"] for s in analysis.get("signals", [])}
@@ -118,7 +118,7 @@ def recommend_for_lentokentankatu(data: dict[str, Any], analysis: dict[str, Any]
     return actions[:5]
 
 
-def recommend_for_aurora(data: dict[str, Any], analysis: dict[str, Any]) -> list[dict[str, Any]]:
+def recommend_for_smartti_site(data: dict[str, Any], analysis: dict[str, Any]) -> list[dict[str, Any]]:
     actions: list[dict[str, Any]] = []
     score = analysis.get("score", 0)
 
@@ -184,7 +184,7 @@ def recommend_for_aurora(data: dict[str, Any], analysis: dict[str, Any]) -> list
 
 
 def generate_recommendations(data: dict[str, Any], analysis: dict[str, Any]) -> list[dict[str, Any]]:
-    building_id = data.get("building_id", "")
-    if building_id == "lentokentankatu_11":
-        return recommend_for_lentokentankatu(data, analysis)
-    return recommend_for_aurora(data, analysis)
+    profile = data.get("profile", "smartti")
+    if profile == "alarm":
+        return recommend_for_alarm_site(data, analysis)
+    return recommend_for_smartti_site(data, analysis)

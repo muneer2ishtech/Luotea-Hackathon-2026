@@ -133,6 +133,8 @@ def analyze_alarm_site(data: dict[str, Any]) -> dict[str, Any]:
             "baseline_median": round(baseline_median, 1),
             "baseline_mean": round(baseline_mean, 1),
             "upper_band": round(baseline_mean + 2 * (statistics.stdev(history) if len(history) > 1 else 0), 1),
+            "chart_type": "alarms",
+            "chart_label": "Alarms per week",
         },
         "reactive_summary": {
             "headline": "Reactive mode (today)",
@@ -157,7 +159,8 @@ def analyze_alarm_site(data: dict[str, Any]) -> dict[str, Any]:
 
 def analyze_climate_site(data: dict[str, Any]) -> dict[str, Any]:
     co2 = data.get("climate_daily", {}).get("interior_co2_ppm", [])
-    temp = data.get("climate_daily", {}).get("interior_temperature_C", [])
+    incident_weekly = data.get("incident_weekly", [])
+    kone_weekly = data.get("kone_weekly", [])
 
     signals: list[dict[str, Any]] = []
     deviations: list[float] = []
@@ -220,6 +223,24 @@ def analyze_climate_site(data: dict[str, Any]) -> dict[str, Any]:
             }
         )
 
+    # KONE occupancy load signal
+    if kone_weekly and len(kone_weekly) >= 4:
+        kone_counts = [w["count"] for w in kone_weekly]
+        kone_recent = kone_counts[-1]
+        kone_base = statistics.median(kone_counts[:-1]) if len(kone_counts) > 1 else kone_recent
+        if kone_recent > kone_base * 1.4 and kone_recent >= 5:
+            signals.append(
+                {
+                    "id": "kone_occupancy_peak",
+                    "title": "High elevator/occupancy load (KONE)",
+                    "detail": f"Recent peak index {kone_recent} vs baseline {kone_base:.1f} — stress on vertical transport",
+                    "severity": "medium",
+                    "metric": "kone_occupancy",
+                    "current": kone_recent,
+                    "baseline": round(kone_base, 1),
+                }
+            )
+
     if not signals:
         signals.append(
             {
@@ -239,27 +260,65 @@ def analyze_climate_site(data: dict[str, Any]) -> dict[str, Any]:
     )
     level = _risk_level(score)
 
-    # Build simple daily aggregate for chart (building-wide avg CO2)
+    # Build chart — prefer CO₂ daily; fall back to weekly incidents or KONE occupancy
     daily_co2: dict[str, list[float]] = {}
     for row in co2:
         daily_co2.setdefault(row["day"], []).append(row["avg"])
     days = sorted(daily_co2.keys())[-30:]
-    chart_co2 = [round(statistics.mean(daily_co2[d]), 1) for d in days]
-    co2_baseline = statistics.mean(chart_co2[:-7]) if len(chart_co2) > 7 else (statistics.mean(chart_co2) if chart_co2 else 800)
+
+    if len(days) >= 7:
+        chart_co2 = [round(statistics.mean(daily_co2[d]), 1) for d in days]
+        co2_baseline = statistics.mean(chart_co2[:-7]) if len(chart_co2) > 7 else statistics.mean(chart_co2)
+        weekly_chart = {
+            "weeks": days,
+            "counts": chart_co2,
+            "baseline_median": round(co2_baseline, 1),
+            "baseline_mean": round(co2_baseline, 1),
+            "upper_band": round(co2_baseline + 150, 1),
+            "chart_type": "co2",
+            "chart_label": "Avg CO₂ (ppm) — last 30 days",
+        }
+    elif incident_weekly:
+        inc_counts = [w["count"] for w in incident_weekly]
+        inc_base = statistics.median(inc_counts) if inc_counts else 0
+        weekly_chart = {
+            "weeks": [w["week_start"] for w in incident_weekly],
+            "counts": inc_counts,
+            "baseline_median": round(inc_base, 1),
+            "baseline_mean": round(statistics.mean(inc_counts) if inc_counts else 0, 1),
+            "upper_band": round(inc_base * 2 + 1, 1),
+            "chart_type": "incidents",
+            "chart_label": "Smartti incidents per week",
+        }
+    elif kone_weekly:
+        kc = [w["count"] for w in kone_weekly]
+        kb = statistics.median(kc) if kc else 0
+        weekly_chart = {
+            "weeks": [w["week_start"] for w in kone_weekly],
+            "counts": kc,
+            "baseline_median": round(kb, 1),
+            "baseline_mean": round(statistics.mean(kc) if kc else 0, 1),
+            "upper_band": round(kb * 1.5 + 1, 1),
+            "chart_type": "occupancy",
+            "chart_label": "KONE occupancy index (weekly avg peak)",
+        }
+    else:
+        weekly_chart = {
+            "weeks": [],
+            "counts": [],
+            "baseline_median": 0,
+            "baseline_mean": 0,
+            "upper_band": 0,
+            "chart_type": "co2",
+            "chart_label": "No chart data",
+        }
 
     return {
         "score": round(score, 1),
         "level": level,
         "label": _risk_label(level),
         "signals": signals,
-        "weekly_chart": {
-            "weeks": days,
-            "counts": chart_co2,
-            "baseline_median": round(co2_baseline, 1),
-            "baseline_mean": round(co2_baseline, 1),
-            "upper_band": round(co2_baseline + 150, 1),
-            "chart_label": "Avg CO₂ (ppm) — last 30 days",
-        },
+        "weekly_chart": weekly_chart,
         "reactive_summary": {
             "headline": "Reactive mode (today)",
             "points": [
@@ -282,13 +341,13 @@ def analyze_climate_site(data: dict[str, Any]) -> dict[str, Any]:
 
 
 def analyze_building(data: dict[str, Any]) -> dict[str, Any]:
-    building_id = data.get("building_id", "")
-    if building_id == "lentokentankatu_11":
+    profile = data.get("profile", "smartti")
+    if profile == "alarm":
         analysis = analyze_alarm_site(data)
     else:
         analysis = analyze_climate_site(data)
 
-    analysis["building_id"] = building_id
+    analysis["building_id"] = data.get("building_id", "")
     analysis["meta"] = data.get("meta", {})
     analysis["method"] = "stats"
     analysis["computed_at"] = datetime.now(timezone.utc).isoformat()

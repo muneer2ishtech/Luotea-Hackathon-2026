@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Callable
 
@@ -21,7 +22,7 @@ from risk_engine_ml import analyze_building_ml
 app = FastAPI(
     title="RiskPulse",
     description="Luotea Hackathon 2026 — reactive to predictive maintenance demo",
-    version="0.2.0",
+    version="0.2.1",
 )
 
 app.add_middleware(
@@ -50,9 +51,30 @@ def _load_building(building_id: str) -> dict:
     return data
 
 
+def _available_buildings() -> list[dict]:
+    """Buildings registered in config with processed JSON on disk."""
+    out = []
+    for bid, cfg in BUILDINGS.items():
+        if (DATA_DIR / f"{bid}.json").exists():
+            out.append({"id": bid, **cfg})
+    return out
+
+
+def _ensure_building_id(building_id: str) -> None:
+    if building_id not in BUILDINGS:
+        raise HTTPException(404, detail=f"Unknown building: {building_id}")
+    if not (DATA_DIR / f"{building_id}.json").exists():
+        raise HTTPException(
+            503,
+            detail=f"No processed data for {building_id}. Run: python preprocess.py",
+        )
+
+
 def _portfolio_for(analyze_fn: Callable[[dict], dict]) -> list[dict]:
     pairs: list[tuple[dict, dict]] = []
     for building_id in BUILDINGS:
+        if not (DATA_DIR / f"{building_id}.json").exists():
+            continue
         data = _load_building(building_id)
         pairs.append((data, analyze_fn(data)))
     return build_portfolio_summary(pairs)
@@ -63,6 +85,7 @@ def _analysis_payload(
     analyze_fn: Callable[[dict], dict],
     recommend_fn: Callable,
 ) -> dict:
+    _ensure_building_id(building_id)
     data = _load_building(building_id)
     analysis = analyze_fn(data)
     actions = recommend_fn(data, analysis)
@@ -88,14 +111,12 @@ def _register_mode_routes(
 ) -> None:
     @router.get("/buildings")
     def list_buildings():
-        index_path = DATA_DIR / "index.json"
-        if index_path.exists():
-            with open(index_path, encoding="utf-8") as f:
-                payload = json.load(f)
-        else:
-            payload = {"buildings": [{"id": k, **v} for k, v in BUILDINGS.items()]}
-        payload["mode"] = "ml" if analyze_fn is analyze_building_ml else "stats"
-        return payload
+        return {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "buildings": _available_buildings(),
+            "mode": "ml" if analyze_fn is analyze_building_ml else "stats",
+            "building_count": len(BUILDINGS),
+        }
 
     @router.get("/portfolio")
     def get_portfolio():
@@ -116,14 +137,11 @@ def _register_mode_routes(
 
     @router.get("/buildings/{building_id}/analysis")
     def get_analysis(building_id: str):
-        if building_id not in BUILDINGS:
-            raise HTTPException(404, "Unknown building")
         return _analysis_payload(building_id, analyze_fn, recommend_fn)
 
     @router.get("/buildings/{building_id}/chart")
     def get_chart(building_id: str):
-        if building_id not in BUILDINGS:
-            raise HTTPException(404, "Unknown building")
+        _ensure_building_id(building_id)
         data = _load_building(building_id)
         analysis = analyze_fn(data)
         return analysis.get("weekly_chart", {})
@@ -137,10 +155,22 @@ app.include_router(no_ml_router)
 app.include_router(ml_router)
 
 
+@app.on_event("startup")
+def startup_log():
+    available = _available_buildings()
+    print(f"RiskPulse: {len(BUILDINGS)} configured, {len(available)} with processed data")
+
+
 @app.get("/api/health")
 def health():
-    ready = (DATA_DIR / "index.json").exists()
-    return {"status": "ok" if ready else "needs_preprocess", "data_dir": str(DATA_DIR)}
+    available = _available_buildings()
+    return {
+        "status": "ok" if available else "needs_preprocess",
+        "data_dir": str(DATA_DIR),
+        "configured_buildings": len(BUILDINGS),
+        "available_buildings": len(available),
+        "building_ids": [b["id"] for b in available],
+    }
 
 
 @app.get("/")

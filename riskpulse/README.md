@@ -22,10 +22,17 @@ Click **Owner | Manager | Technician** in the header. Same data pipeline, differ
 | **Normal vs elevated risk** | Weekly alarm / CO₂ chart with baseline band + risk score |
 | **Automated actions** | P1/P2/P3 recommendations for owner, manager, technician |
 
-## Buildings included
+## Buildings included (all 7 hackathon sites)
 
-1. **Lentokentänkatu 11** — alarms + work orders + maintenance calendar (Valmet)
-2. **Aurora House** — Smartti CO₂/climate + incidents (NovaProp)
+| Site | Type | Data sources |
+|------|------|----------------|
+| **Lentokentänkatu 11** | Valmet office | Alarms, work orders, maintenance calendar |
+| **Venttiilitehdas** | Valmet factory | Alarms, work orders, maintenance, Smartti climate |
+| **Toimistotalo** | Valmet office | Alarms, work orders, maintenance calendar |
+| **STD tehdas** | Valmet factory | Alarms, work orders |
+| **Aurora House** | NovaProp | Smartti climate, incidents, KONE occupancy |
+| **Meridian Tower** | NovaProp | Smartti climate, incidents, KONE occupancy |
+| **Horizon Plaza** | NovaProp | Smartti climate, incidents, KONE occupancy |
 
 ## Quick start
 

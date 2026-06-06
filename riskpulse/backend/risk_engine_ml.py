@@ -9,6 +9,8 @@ import numpy as np
 from sklearn.ensemble import IsolationForest
 from sklearn.linear_model import LinearRegression
 
+import statistics
+
 from risk_engine import _risk_label, _risk_level, analyze_building
 
 
@@ -106,6 +108,9 @@ def analyze_alarm_site_ml(data: dict[str, Any], stats: dict[str, Any]) -> dict[s
     weekly = data.get("alarm_weekly", [])
     counts = [w["count"] for w in weekly]
     if not counts:
+        # Alarm sites with optional Smartti climate only
+        if data.get("climate_daily", {}).get("interior_co2_ppm"):
+            return analyze_climate_site_ml(data, stats)
         return stats
 
     anomaly = _run_isolation_forest(counts)
@@ -186,11 +191,46 @@ def analyze_alarm_site_ml(data: dict[str, Any], stats: dict[str, Any]) -> dict[s
 
 def analyze_climate_site_ml(data: dict[str, Any], stats: dict[str, Any]) -> dict[str, Any]:
     co2 = data.get("climate_daily", {}).get("interior_co2_ppm", [])
+    incident_weekly = data.get("incident_weekly", [])
     daily: dict[str, list[float]] = {}
     for row in co2:
         daily.setdefault(row["day"], []).append(row["avg"])
     days = sorted(daily.keys())
     values = [float(np.mean(daily[d])) for d in days]
+
+    if len(values) < 8 and incident_weekly:
+        counts = [w["count"] for w in incident_weekly]
+        anomaly = _run_isolation_forest(counts)
+        forecast = _forecast_next(counts, "next week (incidents)")
+        fail_prob = _failure_probability(anomaly, forecast, stats.get("score", 0))
+        ml_score = min(100, 0.45 * stats.get("score", 0) + 0.55 * anomaly.get("anomaly_risk", 0))
+        level = _risk_level(ml_score)
+        signals = list(stats.get("signals", []))
+        signals.insert(0, {
+            "id": "ml_incident_anomaly",
+            "title": "ML incident pattern anomaly",
+            "detail": anomaly.get("detail", ""),
+            "severity": "high" if anomaly.get("is_anomaly") else "low",
+            "metric": "ml_anomaly",
+            "current": anomaly.get("anomaly_score"),
+            "baseline": None,
+        })
+        stats.update({
+            "score": round(ml_score, 1),
+            "level": level,
+            "label": _risk_label(level),
+            "signals": signals,
+            "method": "ml",
+            "ml": {
+                "anomaly": anomaly,
+                "forecast": forecast,
+                "failure_probability_7d": fail_prob,
+                "failure_label": f"{int(fail_prob * 100)}% incident escalation risk (7 days)",
+                "models_used": ["IsolationForest", "LinearRegression"],
+                "explainability": "ML trained on weekly Smartti incident counts.",
+            },
+        })
+        return stats
 
     if len(values) < 8:
         stats["method"] = "ml"
@@ -301,12 +341,12 @@ def analyze_climate_site_ml(data: dict[str, Any], stats: dict[str, Any]) -> dict
 def analyze_building_ml(data: dict[str, Any]) -> dict[str, Any]:
     stats = analyze_building(data)
     stats["method"] = "stats"
-    building_id = data.get("building_id", "")
-    if building_id == "lentokentankatu_11":
+    profile = data.get("profile", "smartti")
+    if profile == "alarm":
         result = analyze_alarm_site_ml(data, stats)
     else:
         result = analyze_climate_site_ml(data, stats)
-    result["building_id"] = building_id
+    result["building_id"] = data.get("building_id", "")
     result["meta"] = data.get("meta", {})
     result["computed_at"] = datetime.now(timezone.utc).isoformat()
     return result

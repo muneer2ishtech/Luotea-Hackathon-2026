@@ -19,9 +19,34 @@ const ROLE_META = {
 };
 
 async function fetchJson(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(await res.text());
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`${res.status}: ${text.slice(0, 120)}`);
+  }
   return res.json();
+}
+
+function showLoadError(msg) {
+  let el = $("#load-error");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "load-error";
+    el.className = "load-error";
+    document.querySelector(".container")?.prepend(el);
+  }
+  el.textContent = msg;
+  el.hidden = false;
+}
+
+function hideLoadError() {
+  const el = $("#load-error");
+  if (el) el.hidden = true;
+}
+
+function updateActiveBuildingLabel(name) {
+  const el = $("#active-building");
+  if (el) el.textContent = name ? `Viewing: ${name}` : "";
 }
 
 function severityClass(sev) {
@@ -251,15 +276,17 @@ function renderTechnician(aud) {
 function renderChart(chartData, buildingId, analysis) {
   if (!chartData?.weeks?.length) return;
 
-  const isCo2 = buildingId === "aurora_house";
+  const chartType = chartData.chart_type || "alarms";
   const isMl = CONFIG.mode === "ml";
+  const typeLabels = {
+    alarms: "Weekly alarms vs baseline — spikes mean reallocate capacity.",
+    co2: "Daily average CO₂ vs baseline — act before comfort complaints.",
+    incidents: "Weekly Smartti incidents vs baseline.",
+    occupancy: "KONE occupancy load index (weekly).",
+  };
   $("#chart-desc").textContent = isMl
-    ? isCo2
-      ? "Daily CO₂ with ML forecast point — anomaly model on multi-sensor patterns."
-      : "Weekly alarms with ML forecast — Isolation Forest flags abnormal weeks."
-    : isCo2
-      ? "Daily average CO₂ vs baseline — act before comfort complaints."
-      : "Weekly alarms vs baseline — spikes mean reallocate capacity this week.";
+    ? `ML view: ${typeLabels[chartType] || typeLabels.alarms}`
+    : typeLabels[chartType] || typeLabels.alarms;
 
   const ctx = $("#risk-chart").getContext("2d");
   if (chartInstance) chartInstance.destroy();
@@ -268,9 +295,11 @@ function renderChart(chartData, buildingId, analysis) {
   const baseline = chartData.baseline_median;
   const upper = chartData.upper_band;
 
+  const yUnit = { alarms: "Count", co2: "ppm", incidents: "Count", occupancy: "Index" };
+
   const datasets = [
     {
-      label: isCo2 ? "Avg CO₂ (ppm)" : "Alarms / week",
+      label: chartData.chart_label || chartType,
       data: chartData.counts,
       borderColor: isMl ? "#6a4c93" : "#2d6a4f",
       backgroundColor: isMl ? "rgba(106, 76, 147, 0.12)" : "rgba(45, 106, 79, 0.12)",
@@ -316,8 +345,8 @@ function renderChart(chartData, buildingId, analysis) {
       plugins: { legend: { display: false } },
       scales: {
         y: {
-          beginAtZero: !isCo2,
-          title: { display: true, text: isCo2 ? "ppm" : "Count" },
+          beginAtZero: chartType !== "co2",
+          title: { display: true, text: yUnit[chartType] || "Value" },
         },
       },
     },
@@ -343,13 +372,21 @@ function renderAll(payload) {
 
 async function loadBuilding(buildingId) {
   document.body.classList.add("loading");
+  hideLoadError();
   try {
     const data = await fetchJson(`${CONFIG.apiPrefix}/buildings/${buildingId}/analysis`);
     currentBuilding = buildingId;
+    updateActiveBuildingLabel(data.analysis?.meta?.name || buildingId);
     renderAll(data);
   } catch (err) {
     console.error(err);
-    if ($("#risk-label")) $("#risk-label").textContent = "Error — run preprocess.py first";
+    showLoadError(
+      `Failed to load "${buildingId}". ${err.message}. ` +
+        `Your server may be outdated — stop old processes and run: ` +
+        `python -m uvicorn main:app --reload --port 8090 ` +
+        `then open http://localhost:8090${window.location.pathname}`
+    );
+    if ($("#risk-label")) $("#risk-label").textContent = "Load failed";
   } finally {
     document.body.classList.remove("loading");
   }

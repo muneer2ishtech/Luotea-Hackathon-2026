@@ -73,7 +73,7 @@ def generate_recommendations_ml(data: dict[str, Any], analysis: dict[str, Any]) 
         }
     )
 
-    if data.get("building_id") == "aurora_house" and anomaly.get("is_anomaly"):
+    if data.get("profile") == "smartti" and anomaly.get("is_anomaly"):
         ml_actions.append(
             {
                 "id": "ml_ventilation_tech",
