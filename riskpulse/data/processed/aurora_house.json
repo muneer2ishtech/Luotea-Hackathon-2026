@@ -823,9 +823,9 @@
         "day": "2026-04-07",
         "sensor_key": "TK1/null",
         "node_name": "TK1/null",
-        "avg": 20.79,
+        "avg": 20.76,
         "max": 21.1,
-        "samples": 28
+        "samples": 26
       },
       {
         "day": "2026-04-08",
@@ -1559,9 +1559,9 @@
         "day": "2026-04-07",
         "sensor_key": "TK3/null",
         "node_name": "TK3/null",
-        "avg": 20.86,
+        "avg": 20.87,
         "max": 22.1,
-        "samples": 35
+        "samples": 32
       },
       {
         "day": "2026-04-08",
@@ -2271,9 +2271,9 @@
         "day": "2026-04-07",
         "sensor_key": "TK5/null",
         "node_name": "TK5/null",
-        "avg": 19.65,
-        "max": 20.7,
-        "samples": 11
+        "avg": 19.54,
+        "max": 20.5,
+        "samples": 10
       },
       {
         "day": "2026-04-08",
@@ -2639,9 +2639,9 @@
         "day": "2026-04-07",
         "sensor_key": "TK6/null",
         "node_name": "TK6/null",
-        "avg": 20.57,
-        "max": 21.2,
-        "samples": 7
+        "avg": 20.47,
+        "max": 21.0,
+        "samples": 6
       },
       {
         "day": "2026-04-08",
@@ -3007,9 +3007,9 @@
         "day": "2026-04-07",
         "sensor_key": "TK7/null",
         "node_name": "TK7/null",
-        "avg": 20.01,
-        "max": 21.2,
-        "samples": 11
+        "avg": 19.77,
+        "max": 20.8,
+        "samples": 9
       },
       {
         "day": "2026-04-08",
@@ -3689,7 +3689,7 @@
         "node_name": "TK9/null",
         "avg": 11.07,
         "max": 12.6,
-        "samples": 228
+        "samples": 227
       },
       {
         "day": "2026-04-08",
