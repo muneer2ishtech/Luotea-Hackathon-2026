@@ -1,77 +1,66 @@
-# RiskPulse — Internal Team Demo
+# RiskPulse — Developer Guide
 
-**Luotea Hackathon 2026** prototype showing **reactive → predictive** maintenance using real hackathon data.
+Technical setup, run instructions, and API reference for the RiskPulse demo.
 
-No ML required — uses **statistics (z-scores, baselines)** and **rule-based recommendations**.
+**Project overview, pitch, and screenshots → [`../README.md`](../README.md)**
 
-## Three audiences — three views
+---
 
-Click **Owner | Manager | Technician** in the header. Same data pipeline, different language:
+## Prerequisites
 
-| Role | They care about | What they see |
-|------|-----------------|---------------|
-| **Owner / Investor** | Returns, ESG, portfolio comparability | Reliability index (A–D), portfolio table, ESG summary, decisions to approve |
-| **Property Manager** | Efficiency, situational awareness, cost | Risk chart, signals, SLA/reactive %, calendar vs risk, action queue |
-| **Field Technician** | Tasks, locations, checklists | Risk-ranked task cards, alarm context, step-by-step field instructions |
+| Requirement | Notes |
+|-------------|--------|
+| **Python 3.14+** | Local dev; Docker image uses `python:3.14-slim` |
+| **Organizer data** | Sibling folder `../../Luotea-Hackathon-2026/` (read-only) |
+| **Git Bash** (Windows) | Recommended terminal; `start.sh` provided |
+| **Docker Desktop** | Optional; easiest way to run without local Python setup |
 
-## What it demonstrates
+**Default port:** `8090`
 
-| Theme | How the demo shows it |
-|-------|----------------------|
-| **Reactive → Predictive** | Side-by-side comparison on each building |
-| **Normal vs elevated risk** | Weekly alarm / CO₂ chart with baseline band + risk score |
-| **Automated actions** | P1/P2/P3 recommendations for owner, manager, technician |
+---
 
-## Buildings included (all 7 hackathon sites)
+## Repository layout
 
-| Site | Type | Data sources |
-|------|------|----------------|
-| **Lentokentänkatu 11** | Valmet office | Alarms, work orders, maintenance calendar |
-| **Venttiilitehdas** | Valmet factory | Alarms, work orders, maintenance, Smartti climate |
-| **Toimistotalo** | Valmet office | Alarms, work orders, maintenance calendar |
-| **STD tehdas** | Valmet factory | Alarms, work orders |
-| **Aurora House** | NovaProp | Smartti climate, incidents, KONE occupancy |
-| **Meridian Tower** | NovaProp | Smartti climate, incidents, KONE occupancy |
-| **Horizon Plaza** | NovaProp | Smartti climate, incidents, KONE occupancy |
+```
+riskpulse/
+  backend/          # FastAPI, preprocess, risk engines, recommendations
+  frontend/         # Dashboard HTML/JS/CSS
+  data/processed/   # Generated locally (gitignored — run preprocess.py)
+  Dockerfile
+  docker-compose.yml
+  start.sh          # Git Bash
+  start.ps1         # PowerShell
+  requirements.txt
+```
 
-## Quick start
+---
 
-Organizer datasets live in `../Luotea-Hackathon-2026/` (read-only). Team code lives in `lh2026/riskpulse/`.
-
-**Default port: `8090`** · **Python: 3.14+** (latest stable; Docker image uses `python:3.14-slim`)
+## Quick start (local)
 
 ```bash
-cd /d/Practice/Luotea_Hackathon_2026/lh2026/riskpulse
+cd lh2026/riskpulse
 pip install -r requirements.txt
 
-# Step 1: preprocess hackathon data (~30 sec first time)
+# 1. Build processed JSON from hackathon datasets (~30 sec)
 cd backend
 python preprocess.py
 
-# Step 2: start demo server (default port 8090)
+# 2. Start server (default port 8090)
 cd ..
 ./start.sh
 ```
 
 Open:
 
-- **http://localhost:8090/riskpulse-no-ml** — statistics, baselines, rules
-- **http://localhost:8090/riskpulse-ml** — Isolation Forest + forecast + escalation probability
-
-| URL | Engine |
-|-----|--------|
-| `/riskpulse-no-ml` | Z-scores, baselines, rules — explainable, no trained models |
-| `/riskpulse-ml` | Isolation Forest anomaly detection + linear forecast + escalation probability |
+- http://localhost:8090/riskpulse-no-ml — statistics, baselines, rules
+- http://localhost:8090/riskpulse-ml — Isolation Forest + forecast + escalation probability
 
 ### Custom port
 
-If `8090` is busy, pick any free port:
-
 ```bash
-# Git Bash — helper script
 PORT=9000 ./start.sh
 
-# Git Bash — manual
+# or manually
 cd backend
 python -m uvicorn main:app --reload --port 9000
 
@@ -79,45 +68,38 @@ python -m uvicorn main:app --reload --port 9000
 $env:PORT=9000; .\start.ps1
 ```
 
-Then open `http://localhost:<your-port>/riskpulse-no-ml` (or `/riskpulse-ml`).
-
 ### Stop the server
 
-In the terminal where it runs: **Ctrl+C**
+**Ctrl+C** in the terminal where it runs.
 
-If the port stays stuck on Windows:
+If port 8090 stays stuck on Windows:
 
 ```bash
 netstat -ano | grep :8090
 taskkill //PID <pid> //F
 ```
 
-### Docker
+---
 
-Requires [Docker Desktop](https://www.docker.com/products/docker-desktop/) and the organizer data folder at `../../Luotea-Hackathon-2026` (relative to `riskpulse/`).
+## Docker
 
-**Stop the local Python server first** if it is running on port 8090 (`Ctrl+C` in that terminal, or see [Stop the server](#stop-the-server) above). Docker needs the port free.
+Requires organizer data at `../../Luotea-Hackathon-2026` relative to `riskpulse/`.
+
+**Stop any local server on 8090 first** — Docker needs the port free.
 
 ```bash
-cd /d/Practice/Luotea_Hackathon_2026/lh2026/riskpulse
+cd lh2026/riskpulse
 
-# Foreground (logs in terminal) — preprocess runs automatically on start
+# Foreground
 docker compose up --build
 
 # Background
 docker compose up --build -d
-docker compose logs -f    # follow logs
-docker compose down       # stop and remove container
+docker compose logs -f
+docker compose down
 ```
 
-Open **http://localhost:8090/riskpulse-no-ml** (or `/riskpulse-ml`).
-
-Custom host port:
-
-```bash
-PORT=9000 docker compose up --build
-# → http://localhost:9000/riskpulse-no-ml
-```
+Custom port: `PORT=9000 docker compose up --build`
 
 Verify:
 
@@ -126,66 +108,83 @@ curl http://localhost:8090/api/health
 # expect: "available_buildings": 7
 ```
 
-Build/run without compose:
+Without compose:
 
 ```bash
 docker build -t riskpulse .
 docker run --rm -p 8090:8090 \
-  -v /d/Practice/Luotea_Hackathon_2026/Luotea-Hackathon-2026:/data/hackathon:ro \
+  -v /path/to/Luotea-Hackathon-2026:/data/hackathon:ro \
   -e HACKATHON_DATA=/data/hackathon \
   riskpulse
 ```
 
-## Team pitch flow (10 min internal)
+---
 
-1. **Problem** (1 min) — maintenance driven by calendar; faults visible only after alarms
-2. **Live demo** (5 min) — switch buildings, show risk score, chart spike vs baseline, read 2–3 actions
-3. **Architecture** (2 min) — data → signals → decisions; your team can extend rules/API
-4. **Next steps** (2 min) — LLM tech instructions, mobile view, room utilization signal
+## Buildings (API ids)
 
-## Project structure
+| ID | Site | Profile |
+|----|------|---------|
+| `lentokentankatu_11` | Lentokentänkatu 11 | alarm |
+| `venttiilitehdas` | Venttiilitehdas | alarm + Smartti |
+| `toimistotalo` | Toimistotalo | alarm |
+| `std_tehdas` | STD tehdas | alarm |
+| `meridian_tower` | Meridian Tower | smartti + KONE |
+| `aurora_house` | Aurora House | smartti + KONE |
+| `horizon_plaza` | Horizon Plaza | smartti + KONE |
 
-```
-riskpulse/
-  backend/
-    preprocess.py           # Reads CSV/JSON from organizer repo → compact JSON
-    config.py               # 7 buildings, data paths
-    risk_engine.py          # Baseline + z-score risk scoring
-    risk_engine_ml.py       # ML layer
-    recommendations.py      # Rule-based action cards
-    audiences.py            # Owner / manager / technician views
-    main.py                 # FastAPI API + serves frontend
-  frontend/
-    riskpulse-no-ml.html    # Stats demo dashboard
-    riskpulse-ml.html       # ML demo dashboard
-    app.js, styles.css
-  data/processed/           # Generated locally (not in git — run preprocess.py)
-  Dockerfile, docker-compose.yml
-  start.sh                  # Git Bash starter (default port 8090)
-  start.ps1                 # PowerShell starter
-```
+Configured in `backend/config.py`. Data paths point at the organizer repo via `HACKATHON_DATA` (env var) or default sibling path.
+
+---
 
 ## API endpoints
 
-Both modes share the same paths under their prefix:
+| Method | Path | Description |
+|--------|------|-------------|
+| `GET` | `/api/health` | Preprocess status, building count |
+| `GET` | `/api/riskpulse-no-ml/buildings` | List buildings (stats mode) |
+| `GET` | `/api/riskpulse-no-ml/buildings/{id}/analysis` | Risk + recommendations + audiences |
+| `GET` | `/api/riskpulse-ml/buildings/{id}/analysis` | ML analysis + recommendations |
+| `GET` | `/api/riskpulse-no-ml/portfolio` | Cross-building owner summary |
+| `GET` | `/api/riskpulse-ml/portfolio` | Same, ML mode |
 
-- `GET /api/riskpulse-no-ml/buildings` — list buildings (stats mode)
-- `GET /api/riskpulse-no-ml/buildings/{id}/analysis` — risk + recommendations
-- `GET /api/riskpulse-ml/buildings/{id}/analysis` — ML analysis
-- `GET /api/health` — preprocess status and building count
+---
 
-## Extending (for your 4 techs)
+## Backend modules
 
-| Person | Task |
-|--------|------|
-| Backend | Wire OpenAI for Finnish alarm → technician checklist |
+| File | Role |
+|------|------|
+| `preprocess.py` | CSV/JSON from organizer repo → `data/processed/*.json` |
+| `config.py` | Building registry, data paths |
+| `risk_engine.py` | Baselines, z-scores, risk scoring |
+| `risk_engine_ml.py` | Isolation Forest, forecast, escalation probability |
+| `recommendations.py` | Rule-based P1/P2/P3 action cards |
+| `recommendations_ml.py` | ML-aware recommendations |
+| `audiences.py` | Owner / manager / technician view builders |
+| `main.py` | FastAPI app, dual routers, static frontend |
+
+---
+
+## Extending
+
+| Area | Idea |
+|------|------|
+| Backend | OpenAI: Finnish alarm text → technician checklist |
 | Frontend | Mobile-friendly technician layout |
 | Data | Room utilization → cleaning risk signal |
-| ML | Tune models per building profile |
+| ML | Per-building profile tuning |
 
-## Notes
+---
 
-- First run **must** execute `preprocess.py` (reads from `Luotea-Hackathon-2026/` datasets)
-- `data/processed/*.json` is gitignored — each developer generates it locally
-- Risk scoring is intentionally simple and explainable for judges
-- Finnish alarm/incident text is preserved — good for authenticity in pitch
+## Developer notes
+
+- First run **must** run `python preprocess.py` (or let Docker entrypoint do it).
+- `data/processed/*.json` is **gitignored** — each machine generates its own copy.
+- Do **not** commit to the organizer `Luotea-Hackathon-2026` repo; team work stays in `lh2026`.
+- Scoring is intentionally simple and explainable for demo and jury questions.
+- Finnish alarm/incident text is preserved in processed data.
+
+---
+
+<p align="center">
+  <a href="../README.md">← Back to project overview</a>
+</p>
