@@ -1,8 +1,10 @@
+import os
 from pathlib import Path
 
 # lh2026/riskpulse/backend → team repo is lh2026; organizer data is sibling folder
 TEAM_ROOT = Path(__file__).resolve().parents[2]
-HACKATHON_DATA = TEAM_ROOT.parent / "Luotea-Hackathon-2026"
+_DEFAULT_HACKATHON_DATA = TEAM_ROOT.parent / "Luotea-Hackathon-2026"
+HACKATHON_DATA = Path(os.environ.get("HACKATHON_DATA", _DEFAULT_HACKATHON_DATA))
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data" / "processed"
 

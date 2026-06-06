@@ -92,6 +92,32 @@ netstat -ano | grep :8090
 taskkill //PID <pid> //F
 ```
 
+### Docker
+
+Requires Docker Desktop and the organizer data folder at `../../Luotea-Hackathon-2026` (relative to `riskpulse/`).
+
+```bash
+cd /d/Practice/Luotea_Hackathon_2026/lh2026/riskpulse
+
+# Default port 8090 — preprocess runs automatically on container start
+docker compose up --build
+
+# Custom host port
+PORT=9000 docker compose up --build
+```
+
+Open **http://localhost:8090/riskpulse-no-ml** (or your chosen port).
+
+Build/run without compose:
+
+```bash
+docker build -t riskpulse .
+docker run --rm -p 8090:8090 \
+  -v /d/Practice/Luotea_Hackathon_2026/Luotea-Hackathon-2026:/data/hackathon:ro \
+  -e HACKATHON_DATA=/data/hackathon \
+  riskpulse
+```
+
 ## Team pitch flow (10 min internal)
 
 1. **Problem** (1 min) — maintenance driven by calendar; faults visible only after alarms
@@ -116,6 +142,7 @@ riskpulse/
     riskpulse-ml.html       # ML demo dashboard
     app.js, styles.css
   data/processed/           # Generated locally (not in git — run preprocess.py)
+  Dockerfile, docker-compose.yml
   start.sh                  # Git Bash starter (default port 8090)
   start.ps1                 # PowerShell starter
 ```

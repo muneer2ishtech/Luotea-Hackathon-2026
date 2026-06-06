@@ -1,0 +1,11 @@
+services:
+  riskpulse:
+    build: .
+    ports:
+      - "${PORT:-8090}:${PORT:-8090}"
+    volumes:
+      # Organizer datasets (read-only). Adjust if your clone layout differs.
+      - ../../Luotea-Hackathon-2026:/data/hackathon:ro
+    environment:
+      HACKATHON_DATA: /data/hackathon
+      PORT: ${PORT:-8090}
