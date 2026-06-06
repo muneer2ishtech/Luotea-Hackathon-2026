@@ -1,0 +1,6231 @@
+{
+  "building_id": "horizon_plaza",
+  "profile": "smartti",
+  "meta": {
+    "name": "Horizon Plaza",
+    "customer": "NovaProp (anonymized)",
+    "address": "Central Square 26, Lakeside",
+    "profile": "smartti",
+    "site_match": "Horizon Plaza",
+    "sources": [
+      "smartti_climate",
+      "smartti_incidents",
+      "kone_occupancy"
+    ],
+    "smartti_json": "horizon_plaza.json",
+    "kone_json": "Horizon_Plaza_2026-05-27_124034-normalized.json"
+  },
+  "climate_daily": {
+    "interior_co2_ppm": [
+      {
+        "day": "2026-04-07",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 500.0,
+        "max": 500.0,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-08",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 601.5,
+        "max": 726.0,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 544.5,
+        "max": 597.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 569.0,
+        "max": 627.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 595.0,
+        "max": 648.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-15",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 636.0,
+        "max": 691.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 624.12,
+        "max": 821.0,
+        "samples": 8
+      },
+      {
+        "day": "2026-04-17",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 556.0,
+        "max": 620.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-20",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 573.0,
+        "max": 624.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 592.2,
+        "max": 689.0,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-22",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 552.0,
+        "max": 608.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-23",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 546.0,
+        "max": 601.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-24",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 579.5,
+        "max": 632.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 600.5,
+        "max": 651.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 579.2,
+        "max": 677.0,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-29",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 574.33,
+        "max": 650.0,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 587.0,
+        "max": 652.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-04",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 596.5,
+        "max": 657.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 593.0,
+        "max": 648.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 943.0,
+        "max": 1560.0,
+        "samples": 9
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 603.0,
+        "max": 657.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-13",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 609.0,
+        "max": 670.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-14",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 674.0,
+        "max": 674.0,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-15",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 560.0,
+        "max": 560.0,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-16",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 886.25,
+        "max": 1095.0,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-17",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 1422.0,
+        "max": 1671.0,
+        "samples": 9
+      },
+      {
+        "day": "2026-05-18",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 722.5,
+        "max": 1038.0,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 657.33,
+        "max": 738.0,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-20",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 631.0,
+        "max": 700.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 586.5,
+        "max": 667.0,
+        "samples": 2
+      }
+    ],
+    "interior_temperature_C": [
+      {
+        "day": "2026-04-07",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.28,
+        "max": 21.8,
+        "samples": 13
+      },
+      {
+        "day": "2026-04-08",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.09,
+        "max": 22.0,
+        "samples": 30
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.21,
+        "max": 21.9,
+        "samples": 14
+      },
+      {
+        "day": "2026-04-12",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.28,
+        "max": 21.3,
+        "samples": 9
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.93,
+        "max": 22.2,
+        "samples": 28
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.07,
+        "max": 22.1,
+        "samples": 25
+      },
+      {
+        "day": "2026-04-15",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.57,
+        "max": 22.0,
+        "samples": 23
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.7,
+        "max": 22.1,
+        "samples": 22
+      },
+      {
+        "day": "2026-04-17",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.81,
+        "max": 22.2,
+        "samples": 23
+      },
+      {
+        "day": "2026-04-18",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 19.5,
+        "max": 19.7,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-19",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 19.25,
+        "max": 19.5,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-20",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.92,
+        "max": 22.2,
+        "samples": 25
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.94,
+        "max": 22.2,
+        "samples": 25
+      },
+      {
+        "day": "2026-04-22",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.85,
+        "max": 22.2,
+        "samples": 26
+      },
+      {
+        "day": "2026-04-23",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.68,
+        "max": 22.1,
+        "samples": 26
+      },
+      {
+        "day": "2026-04-24",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.68,
+        "max": 22.2,
+        "samples": 25
+      },
+      {
+        "day": "2026-04-25",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 18.9,
+        "max": 19.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.43,
+        "max": 22.2,
+        "samples": 29
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 17.05,
+        "max": 22.1,
+        "samples": 41
+      },
+      {
+        "day": "2026-04-29",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.48,
+        "max": 22.1,
+        "samples": 26
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.66,
+        "max": 22.1,
+        "samples": 27
+      },
+      {
+        "day": "2026-05-01",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 19.87,
+        "max": 20.1,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-03",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.0,
+        "max": 20.1,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-04",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 21.12,
+        "max": 22.6,
+        "samples": 24
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.88,
+        "max": 22.2,
+        "samples": 25
+      },
+      {
+        "day": "2026-05-06",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 21.05,
+        "max": 22.2,
+        "samples": 29
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.99,
+        "max": 22.1,
+        "samples": 27
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.64,
+        "max": 22.0,
+        "samples": 22
+      },
+      {
+        "day": "2026-05-09",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 19.85,
+        "max": 20.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-10",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.2,
+        "max": 20.2,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-11",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 21.29,
+        "max": 22.4,
+        "samples": 20
+      },
+      {
+        "day": "2026-05-12",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 21.1,
+        "max": 22.2,
+        "samples": 24
+      },
+      {
+        "day": "2026-05-13",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.76,
+        "max": 21.9,
+        "samples": 21
+      },
+      {
+        "day": "2026-05-14",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 19.62,
+        "max": 19.9,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-15",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.93,
+        "max": 22.2,
+        "samples": 21
+      },
+      {
+        "day": "2026-05-16",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.0,
+        "max": 20.0,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-17",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 20.2,
+        "max": 20.2,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-18",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 21.18,
+        "max": 22.4,
+        "samples": 22
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 21.11,
+        "max": 22.2,
+        "samples": 18
+      },
+      {
+        "day": "2026-05-20",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 21.12,
+        "max": 22.2,
+        "samples": 18
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 18.94,
+        "max": 22.1,
+        "samples": 21
+      },
+      {
+        "day": "2026-05-22",
+        "sensor_key": "TK301/null",
+        "node_name": "TK301/null",
+        "avg": 21.1,
+        "max": 22.0,
+        "samples": 11
+      },
+      {
+        "day": "2026-04-07",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 20.64,
+        "max": 21.88,
+        "samples": 12
+      },
+      {
+        "day": "2026-04-08",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 20.97,
+        "max": 22.32,
+        "samples": 29
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.15,
+        "max": 22.12,
+        "samples": 18
+      },
+      {
+        "day": "2026-04-10",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.88,
+        "max": 22.25,
+        "samples": 7
+      },
+      {
+        "day": "2026-04-11",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.04,
+        "max": 22.27,
+        "samples": 24
+      },
+      {
+        "day": "2026-04-12",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.33,
+        "max": 22.28,
+        "samples": 6
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.36,
+        "max": 22.34,
+        "samples": 27
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.44,
+        "max": 22.2,
+        "samples": 31
+      },
+      {
+        "day": "2026-04-15",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.28,
+        "max": 22.2,
+        "samples": 27
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.27,
+        "max": 22.1,
+        "samples": 27
+      },
+      {
+        "day": "2026-04-17",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.44,
+        "max": 22.2,
+        "samples": 26
+      },
+      {
+        "day": "2026-04-18",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.38,
+        "max": 22.6,
+        "samples": 21
+      },
+      {
+        "day": "2026-04-19",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.87,
+        "max": 22.52,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-20",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.57,
+        "max": 22.4,
+        "samples": 27
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.45,
+        "max": 22.4,
+        "samples": 26
+      },
+      {
+        "day": "2026-04-22",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.18,
+        "max": 22.32,
+        "samples": 19
+      },
+      {
+        "day": "2026-04-23",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.24,
+        "max": 22.2,
+        "samples": 24
+      },
+      {
+        "day": "2026-04-24",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.2,
+        "max": 22.2,
+        "samples": 23
+      },
+      {
+        "day": "2026-04-25",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.2,
+        "max": 22.1,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-26",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 22.1,
+        "max": 22.3,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.16,
+        "max": 22.34,
+        "samples": 30
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 18.56,
+        "max": 22.18,
+        "samples": 46
+      },
+      {
+        "day": "2026-04-29",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 20.95,
+        "max": 22.14,
+        "samples": 27
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.2,
+        "max": 22.16,
+        "samples": 24
+      },
+      {
+        "day": "2026-05-01",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.57,
+        "max": 22.81,
+        "samples": 8
+      },
+      {
+        "day": "2026-05-02",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.71,
+        "max": 22.8,
+        "samples": 25
+      },
+      {
+        "day": "2026-05-03",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 22.02,
+        "max": 22.61,
+        "samples": 5
+      },
+      {
+        "day": "2026-05-04",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.55,
+        "max": 22.2,
+        "samples": 22
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.47,
+        "max": 22.4,
+        "samples": 23
+      },
+      {
+        "day": "2026-05-06",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.4,
+        "max": 22.41,
+        "samples": 19
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.27,
+        "max": 22.2,
+        "samples": 28
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.3,
+        "max": 22.2,
+        "samples": 25
+      },
+      {
+        "day": "2026-05-09",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.97,
+        "max": 22.6,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-10",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 22.29,
+        "max": 22.39,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-11",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.37,
+        "max": 22.18,
+        "samples": 20
+      },
+      {
+        "day": "2026-05-12",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.33,
+        "max": 22.1,
+        "samples": 16
+      },
+      {
+        "day": "2026-05-13",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.1,
+        "max": 21.9,
+        "samples": 21
+      },
+      {
+        "day": "2026-05-14",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.19,
+        "max": 22.37,
+        "samples": 37
+      },
+      {
+        "day": "2026-05-15",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.5,
+        "max": 22.2,
+        "samples": 26
+      },
+      {
+        "day": "2026-05-16",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.16,
+        "max": 22.37,
+        "samples": 9
+      },
+      {
+        "day": "2026-05-17",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.81,
+        "max": 22.59,
+        "samples": 7
+      },
+      {
+        "day": "2026-05-18",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.57,
+        "max": 22.16,
+        "samples": 23
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.43,
+        "max": 22.16,
+        "samples": 20
+      },
+      {
+        "day": "2026-05-20",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.6,
+        "max": 22.35,
+        "samples": 20
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 19.56,
+        "max": 22.14,
+        "samples": 25
+      },
+      {
+        "day": "2026-05-22",
+        "sensor_key": "TK302/null",
+        "node_name": "TK302/null",
+        "avg": 21.37,
+        "max": 22.0,
+        "samples": 11
+      },
+      {
+        "day": "2026-04-07",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.6,
+        "max": 21.6,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-08",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.75,
+        "max": 22.1,
+        "samples": 6
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.58,
+        "max": 21.9,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-10",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 17.88,
+        "max": 21.7,
+        "samples": 6
+      },
+      {
+        "day": "2026-04-11",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.4,
+        "max": 21.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-12",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.4,
+        "max": 21.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.5,
+        "max": 21.7,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 17.24,
+        "max": 21.7,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-15",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.75,
+        "max": 21.9,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.75,
+        "max": 21.9,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-17",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.75,
+        "max": 22.1,
+        "samples": 6
+      },
+      {
+        "day": "2026-04-18",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.5,
+        "max": 21.6,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-19",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.6,
+        "max": 21.6,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-20",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.47,
+        "max": 21.6,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.63,
+        "max": 21.8,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-22",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.85,
+        "max": 22.2,
+        "samples": 6
+      },
+      {
+        "day": "2026-04-23",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.65,
+        "max": 21.8,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-24",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 22.14,
+        "max": 22.5,
+        "samples": 9
+      },
+      {
+        "day": "2026-04-25",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.5,
+        "max": 21.5,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-26",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.6,
+        "max": 21.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.6,
+        "max": 21.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 13.18,
+        "max": 21.7,
+        "samples": 13
+      },
+      {
+        "day": "2026-04-29",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.5,
+        "max": 21.7,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.46,
+        "max": 21.7,
+        "samples": 5
+      },
+      {
+        "day": "2026-05-01",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 20.33,
+        "max": 21.0,
+        "samples": 7
+      },
+      {
+        "day": "2026-05-02",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.39,
+        "max": 22.2,
+        "samples": 10
+      },
+      {
+        "day": "2026-05-04",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.5,
+        "max": 21.5,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.97,
+        "max": 22.2,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-06",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.77,
+        "max": 22.0,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.6,
+        "max": 21.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.37,
+        "max": 21.5,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-09",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.4,
+        "max": 21.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-11",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.4,
+        "max": 21.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-12",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-13",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.75,
+        "max": 22.0,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-14",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 20.94,
+        "max": 22.0,
+        "samples": 10
+      },
+      {
+        "day": "2026-05-15",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.24,
+        "max": 22.2,
+        "samples": 12
+      },
+      {
+        "day": "2026-05-16",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.75,
+        "max": 22.0,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-17",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.77,
+        "max": 22.0,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-18",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.0,
+        "max": 21.7,
+        "samples": 12
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.5,
+        "max": 21.7,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 18.23,
+        "max": 22.4,
+        "samples": 12
+      },
+      {
+        "day": "2026-05-22",
+        "sensor_key": "TK303/null",
+        "node_name": "TK303/null",
+        "avg": 21.88,
+        "max": 22.4,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-07",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.6,
+        "max": 21.6,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-08",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.47,
+        "max": 21.6,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.1,
+        "max": 21.1,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-10",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 15.9,
+        "max": 21.4,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.12,
+        "max": 21.4,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 15.88,
+        "max": 21.4,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-15",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-17",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-18",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-19",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.2,
+        "max": 21.2,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-20",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.4,
+        "max": 21.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.37,
+        "max": 21.5,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-22",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.4,
+        "max": 21.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-23",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.4,
+        "max": 21.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.4,
+        "max": 21.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 10.6,
+        "max": 21.2,
+        "samples": 10
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-01",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.6,
+        "max": 21.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-02",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.5,
+        "max": 21.7,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-03",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.4,
+        "max": 21.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-04",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.4,
+        "max": 21.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.4,
+        "max": 21.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-06",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.4,
+        "max": 21.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.27,
+        "max": 21.5,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-09",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-10",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.13,
+        "max": 21.2,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-11",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.07,
+        "max": 21.2,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-12",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 20.9,
+        "max": 21.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-13",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-14",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.33,
+        "max": 21.5,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-15",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.4,
+        "max": 21.7,
+        "samples": 5
+      },
+      {
+        "day": "2026-05-16",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.12,
+        "max": 21.2,
+        "samples": 5
+      },
+      {
+        "day": "2026-05-17",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.07,
+        "max": 21.2,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-18",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.24,
+        "max": 21.5,
+        "samples": 5
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-20",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 15.85,
+        "max": 21.2,
+        "samples": 8
+      },
+      {
+        "day": "2026-05-22",
+        "sensor_key": "TK304/null",
+        "node_name": "TK304/null",
+        "avg": 21.0,
+        "max": 21.0,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-07",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 19.78,
+        "max": 20.3,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-08",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 19.82,
+        "max": 20.7,
+        "samples": 25
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.17,
+        "max": 20.7,
+        "samples": 13
+      },
+      {
+        "day": "2026-04-10",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.0,
+        "max": 20.6,
+        "samples": 6
+      },
+      {
+        "day": "2026-04-11",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 19.53,
+        "max": 19.6,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-12",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 19.63,
+        "max": 19.9,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.46,
+        "max": 21.1,
+        "samples": 23
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 19.52,
+        "max": 21.1,
+        "samples": 27
+      },
+      {
+        "day": "2026-04-15",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.43,
+        "max": 21.2,
+        "samples": 18
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.44,
+        "max": 21.0,
+        "samples": 14
+      },
+      {
+        "day": "2026-04-17",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.29,
+        "max": 21.2,
+        "samples": 29
+      },
+      {
+        "day": "2026-04-18",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 19.91,
+        "max": 20.2,
+        "samples": 15
+      },
+      {
+        "day": "2026-04-19",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 19.64,
+        "max": 20.0,
+        "samples": 22
+      },
+      {
+        "day": "2026-04-20",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.24,
+        "max": 21.3,
+        "samples": 25
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.33,
+        "max": 21.2,
+        "samples": 41
+      },
+      {
+        "day": "2026-04-22",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.42,
+        "max": 21.0,
+        "samples": 22
+      },
+      {
+        "day": "2026-04-23",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.21,
+        "max": 21.0,
+        "samples": 27
+      },
+      {
+        "day": "2026-04-24",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.25,
+        "max": 21.0,
+        "samples": 44
+      },
+      {
+        "day": "2026-04-25",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 19.9,
+        "max": 21.0,
+        "samples": 19
+      },
+      {
+        "day": "2026-04-26",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 19.2,
+        "max": 19.2,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.24,
+        "max": 21.2,
+        "samples": 21
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 16.18,
+        "max": 20.7,
+        "samples": 28
+      },
+      {
+        "day": "2026-04-29",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.05,
+        "max": 20.7,
+        "samples": 14
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.15,
+        "max": 20.7,
+        "samples": 21
+      },
+      {
+        "day": "2026-05-01",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.1,
+        "max": 20.2,
+        "samples": 6
+      },
+      {
+        "day": "2026-05-03",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.4,
+        "max": 20.5,
+        "samples": 12
+      },
+      {
+        "day": "2026-05-04",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.53,
+        "max": 21.2,
+        "samples": 17
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.45,
+        "max": 21.1,
+        "samples": 11
+      },
+      {
+        "day": "2026-05-06",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.28,
+        "max": 21.1,
+        "samples": 36
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.44,
+        "max": 21.1,
+        "samples": 24
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.2,
+        "max": 21.1,
+        "samples": 33
+      },
+      {
+        "day": "2026-05-09",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.03,
+        "max": 20.4,
+        "samples": 15
+      },
+      {
+        "day": "2026-05-10",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.25,
+        "max": 20.4,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-11",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.62,
+        "max": 21.5,
+        "samples": 29
+      },
+      {
+        "day": "2026-05-12",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.18,
+        "max": 21.1,
+        "samples": 33
+      },
+      {
+        "day": "2026-05-13",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.31,
+        "max": 20.9,
+        "samples": 18
+      },
+      {
+        "day": "2026-05-14",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.1,
+        "max": 20.1,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-15",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.39,
+        "max": 21.1,
+        "samples": 19
+      },
+      {
+        "day": "2026-05-16",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.01,
+        "max": 20.1,
+        "samples": 11
+      },
+      {
+        "day": "2026-05-17",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.3,
+        "max": 20.4,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-18",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.64,
+        "max": 21.4,
+        "samples": 19
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.54,
+        "max": 21.1,
+        "samples": 17
+      },
+      {
+        "day": "2026-05-20",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.75,
+        "max": 21.2,
+        "samples": 12
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 16.92,
+        "max": 21.0,
+        "samples": 11
+      },
+      {
+        "day": "2026-05-22",
+        "sensor_key": "TK305/null",
+        "node_name": "TK305/null",
+        "avg": 20.75,
+        "max": 21.1,
+        "samples": 6
+      },
+      {
+        "day": "2026-04-07",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 19.9,
+        "max": 21.3,
+        "samples": 12
+      },
+      {
+        "day": "2026-04-08",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.05,
+        "max": 22.1,
+        "samples": 33
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.14,
+        "max": 21.9,
+        "samples": 18
+      },
+      {
+        "day": "2026-04-10",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 19.02,
+        "max": 19.3,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-11",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 19.1,
+        "max": 19.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-12",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 19.6,
+        "max": 19.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.95,
+        "max": 22.2,
+        "samples": 26
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.2,
+        "max": 22.2,
+        "samples": 28
+      },
+      {
+        "day": "2026-04-15",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.75,
+        "max": 21.7,
+        "samples": 22
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.86,
+        "max": 22.2,
+        "samples": 28
+      },
+      {
+        "day": "2026-04-17",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.92,
+        "max": 22.2,
+        "samples": 31
+      },
+      {
+        "day": "2026-04-18",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 19.42,
+        "max": 19.9,
+        "samples": 6
+      },
+      {
+        "day": "2026-04-19",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 19.32,
+        "max": 19.6,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-20",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 21.03,
+        "max": 22.4,
+        "samples": 27
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 21.08,
+        "max": 22.4,
+        "samples": 26
+      },
+      {
+        "day": "2026-04-22",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.64,
+        "max": 21.9,
+        "samples": 22
+      },
+      {
+        "day": "2026-04-23",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.65,
+        "max": 22.2,
+        "samples": 31
+      },
+      {
+        "day": "2026-04-24",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.63,
+        "max": 22.2,
+        "samples": 32
+      },
+      {
+        "day": "2026-04-25",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.25,
+        "max": 21.7,
+        "samples": 24
+      },
+      {
+        "day": "2026-04-26",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 19.0,
+        "max": 19.0,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.51,
+        "max": 22.2,
+        "samples": 36
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 17.59,
+        "max": 22.0,
+        "samples": 44
+      },
+      {
+        "day": "2026-04-29",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.38,
+        "max": 22.4,
+        "samples": 34
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.79,
+        "max": 22.2,
+        "samples": 23
+      },
+      {
+        "day": "2026-05-01",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.23,
+        "max": 20.5,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-02",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.4,
+        "max": 20.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-03",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.3,
+        "max": 20.3,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-04",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.93,
+        "max": 22.0,
+        "samples": 22
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.81,
+        "max": 22.0,
+        "samples": 28
+      },
+      {
+        "day": "2026-05-06",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.62,
+        "max": 22.2,
+        "samples": 29
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.79,
+        "max": 22.2,
+        "samples": 29
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.91,
+        "max": 22.2,
+        "samples": 27
+      },
+      {
+        "day": "2026-05-09",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 19.97,
+        "max": 20.2,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-10",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.23,
+        "max": 20.5,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-11",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 21.12,
+        "max": 22.0,
+        "samples": 23
+      },
+      {
+        "day": "2026-05-12",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.8,
+        "max": 21.7,
+        "samples": 24
+      },
+      {
+        "day": "2026-05-13",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.74,
+        "max": 21.7,
+        "samples": 22
+      },
+      {
+        "day": "2026-05-14",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 19.85,
+        "max": 20.2,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-15",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.86,
+        "max": 22.0,
+        "samples": 22
+      },
+      {
+        "day": "2026-05-16",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.1,
+        "max": 20.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-17",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 20.5,
+        "max": 20.5,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-18",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 21.49,
+        "max": 22.7,
+        "samples": 25
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 21.02,
+        "max": 21.8,
+        "samples": 18
+      },
+      {
+        "day": "2026-05-20",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 21.21,
+        "max": 22.0,
+        "samples": 18
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 19.29,
+        "max": 22.0,
+        "samples": 23
+      },
+      {
+        "day": "2026-05-22",
+        "sensor_key": "TK306/null",
+        "node_name": "TK306/null",
+        "avg": 21.08,
+        "max": 21.7,
+        "samples": 9
+      },
+      {
+        "day": "2026-04-07",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.09,
+        "max": 21.15,
+        "samples": 12
+      },
+      {
+        "day": "2026-04-08",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.67,
+        "max": 21.7,
+        "samples": 24
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.87,
+        "max": 21.5,
+        "samples": 14
+      },
+      {
+        "day": "2026-04-10",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.48,
+        "max": 21.5,
+        "samples": 25
+      },
+      {
+        "day": "2026-04-11",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.88,
+        "max": 21.5,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-12",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.86,
+        "max": 21.52,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.83,
+        "max": 21.6,
+        "samples": 22
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 19.79,
+        "max": 21.7,
+        "samples": 20
+      },
+      {
+        "day": "2026-04-15",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.98,
+        "max": 22.2,
+        "samples": 35
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.7,
+        "max": 21.51,
+        "samples": 18
+      },
+      {
+        "day": "2026-04-17",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.77,
+        "max": 21.51,
+        "samples": 17
+      },
+      {
+        "day": "2026-04-18",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.78,
+        "max": 21.76,
+        "samples": 7
+      },
+      {
+        "day": "2026-04-19",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.52,
+        "max": 21.54,
+        "samples": 6
+      },
+      {
+        "day": "2026-04-20",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.96,
+        "max": 21.7,
+        "samples": 22
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.95,
+        "max": 21.7,
+        "samples": 20
+      },
+      {
+        "day": "2026-04-22",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.56,
+        "max": 21.61,
+        "samples": 18
+      },
+      {
+        "day": "2026-04-23",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.57,
+        "max": 21.7,
+        "samples": 22
+      },
+      {
+        "day": "2026-04-24",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.57,
+        "max": 21.62,
+        "samples": 23
+      },
+      {
+        "day": "2026-04-25",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.11,
+        "max": 21.42,
+        "samples": 8
+      },
+      {
+        "day": "2026-04-26",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.16,
+        "max": 21.2,
+        "samples": 6
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.23,
+        "max": 21.7,
+        "samples": 29
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 17.17,
+        "max": 21.6,
+        "samples": 43
+      },
+      {
+        "day": "2026-04-29",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.33,
+        "max": 21.6,
+        "samples": 29
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.41,
+        "max": 21.43,
+        "samples": 19
+      },
+      {
+        "day": "2026-05-01",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 21.23,
+        "max": 22.06,
+        "samples": 6
+      },
+      {
+        "day": "2026-05-02",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 21.55,
+        "max": 22.05,
+        "samples": 5
+      },
+      {
+        "day": "2026-05-03",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 21.12,
+        "max": 21.83,
+        "samples": 5
+      },
+      {
+        "day": "2026-05-04",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.9,
+        "max": 21.65,
+        "samples": 14
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.78,
+        "max": 21.5,
+        "samples": 21
+      },
+      {
+        "day": "2026-05-06",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.73,
+        "max": 21.5,
+        "samples": 19
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.86,
+        "max": 21.62,
+        "samples": 20
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.76,
+        "max": 21.62,
+        "samples": 14
+      },
+      {
+        "day": "2026-05-09",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.94,
+        "max": 21.62,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-10",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 21.13,
+        "max": 21.83,
+        "samples": 5
+      },
+      {
+        "day": "2026-05-11",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 21.08,
+        "max": 21.7,
+        "samples": 15
+      },
+      {
+        "day": "2026-05-12",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.89,
+        "max": 21.63,
+        "samples": 18
+      },
+      {
+        "day": "2026-05-13",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.94,
+        "max": 21.65,
+        "samples": 19
+      },
+      {
+        "day": "2026-05-14",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.0,
+        "max": 20.2,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-15",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.78,
+        "max": 21.65,
+        "samples": 19
+      },
+      {
+        "day": "2026-05-16",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.2,
+        "max": 20.2,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-17",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 21.64,
+        "max": 21.64,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-18",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 21.26,
+        "max": 21.65,
+        "samples": 20
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 21.04,
+        "max": 21.85,
+        "samples": 16
+      },
+      {
+        "day": "2026-05-20",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 21.19,
+        "max": 21.86,
+        "samples": 17
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 19.39,
+        "max": 21.8,
+        "samples": 23
+      },
+      {
+        "day": "2026-05-22",
+        "sensor_key": "TK311/null",
+        "node_name": "TK311/null",
+        "avg": 20.98,
+        "max": 21.48,
+        "samples": 7
+      },
+      {
+        "day": "2026-04-07",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 19.99,
+        "max": 21.26,
+        "samples": 13
+      },
+      {
+        "day": "2026-04-08",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.4,
+        "max": 21.7,
+        "samples": 33
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.26,
+        "max": 21.7,
+        "samples": 35
+      },
+      {
+        "day": "2026-04-10",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.88,
+        "max": 21.9,
+        "samples": 26
+      },
+      {
+        "day": "2026-04-11",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.95,
+        "max": 21.62,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-12",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.52,
+        "max": 21.83,
+        "samples": 6
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.88,
+        "max": 21.81,
+        "samples": 28
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.09,
+        "max": 22.1,
+        "samples": 26
+      },
+      {
+        "day": "2026-04-15",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.81,
+        "max": 22.01,
+        "samples": 37
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.78,
+        "max": 22.02,
+        "samples": 26
+      },
+      {
+        "day": "2026-04-17",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.86,
+        "max": 21.81,
+        "samples": 21
+      },
+      {
+        "day": "2026-04-18",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.83,
+        "max": 21.61,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-19",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.23,
+        "max": 21.82,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-20",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.94,
+        "max": 21.84,
+        "samples": 36
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.92,
+        "max": 22.17,
+        "samples": 28
+      },
+      {
+        "day": "2026-04-22",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.71,
+        "max": 21.96,
+        "samples": 24
+      },
+      {
+        "day": "2026-04-23",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.59,
+        "max": 21.75,
+        "samples": 27
+      },
+      {
+        "day": "2026-04-24",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.78,
+        "max": 21.99,
+        "samples": 27
+      },
+      {
+        "day": "2026-04-25",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 19.68,
+        "max": 21.35,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-26",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.52,
+        "max": 21.33,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.25,
+        "max": 21.7,
+        "samples": 35
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 17.41,
+        "max": 21.6,
+        "samples": 48
+      },
+      {
+        "day": "2026-04-29",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.44,
+        "max": 21.92,
+        "samples": 47
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.53,
+        "max": 21.73,
+        "samples": 26
+      },
+      {
+        "day": "2026-05-01",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.21,
+        "max": 22.12,
+        "samples": 8
+      },
+      {
+        "day": "2026-05-02",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.55,
+        "max": 22.13,
+        "samples": 7
+      },
+      {
+        "day": "2026-05-03",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.39,
+        "max": 21.93,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-04",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.92,
+        "max": 21.72,
+        "samples": 20
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.81,
+        "max": 21.71,
+        "samples": 20
+      },
+      {
+        "day": "2026-05-06",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.91,
+        "max": 21.94,
+        "samples": 23
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.81,
+        "max": 21.97,
+        "samples": 24
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.0,
+        "max": 21.97,
+        "samples": 21
+      },
+      {
+        "day": "2026-05-09",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.43,
+        "max": 21.97,
+        "samples": 5
+      },
+      {
+        "day": "2026-05-10",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.5,
+        "max": 21.98,
+        "samples": 5
+      },
+      {
+        "day": "2026-05-11",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.99,
+        "max": 21.76,
+        "samples": 15
+      },
+      {
+        "day": "2026-05-12",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.87,
+        "max": 21.93,
+        "samples": 18
+      },
+      {
+        "day": "2026-05-13",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.94,
+        "max": 21.94,
+        "samples": 20
+      },
+      {
+        "day": "2026-05-14",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.41,
+        "max": 21.73,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-15",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.82,
+        "max": 21.74,
+        "samples": 15
+      },
+      {
+        "day": "2026-05-16",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.63,
+        "max": 21.74,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-17",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.38,
+        "max": 21.94,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-18",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.11,
+        "max": 21.74,
+        "samples": 18
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 20.98,
+        "max": 21.94,
+        "samples": 13
+      },
+      {
+        "day": "2026-05-20",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.09,
+        "max": 21.94,
+        "samples": 16
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 19.34,
+        "max": 22.16,
+        "samples": 23
+      },
+      {
+        "day": "2026-05-22",
+        "sensor_key": "TK312/null",
+        "node_name": "TK312/null",
+        "avg": 21.2,
+        "max": 21.74,
+        "samples": 8
+      },
+      {
+        "day": "2026-04-07",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.4,
+        "max": 20.4,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-08",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.5,
+        "max": 20.6,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.5,
+        "max": 20.6,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-10",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 15.25,
+        "max": 20.5,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-11",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.5,
+        "max": 20.5,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-12",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.4,
+        "max": 20.5,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.6,
+        "max": 20.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 13.83,
+        "max": 20.8,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-15",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.6,
+        "max": 20.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.57,
+        "max": 20.7,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-17",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.6,
+        "max": 20.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-18",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.6,
+        "max": 20.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-19",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.7,
+        "max": 20.7,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-20",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.57,
+        "max": 20.7,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.75,
+        "max": 20.8,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-23",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.6,
+        "max": 20.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-24",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.57,
+        "max": 20.7,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-25",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.3,
+        "max": 20.3,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.5,
+        "max": 20.7,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 12.74,
+        "max": 20.7,
+        "samples": 16
+      },
+      {
+        "day": "2026-04-29",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.5,
+        "max": 20.5,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.7,
+        "max": 20.7,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-01",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.73,
+        "max": 21.0,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-02",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.9,
+        "max": 21.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-03",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.8,
+        "max": 20.8,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.5,
+        "max": 20.5,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-06",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.6,
+        "max": 20.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.6,
+        "max": 20.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.7,
+        "max": 20.7,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-12",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.5,
+        "max": 20.5,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-13",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.7,
+        "max": 20.7,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 21.0,
+        "max": 21.0,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-20",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 13.97,
+        "max": 21.0,
+        "samples": 6
+      },
+      {
+        "day": "2026-05-22",
+        "sensor_key": "TK313/null",
+        "node_name": "TK313/null",
+        "avg": 20.8,
+        "max": 20.8,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.5,
+        "max": 20.6,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-10",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 13.73,
+        "max": 20.7,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-11",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.6,
+        "max": 20.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-12",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.6,
+        "max": 20.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.9,
+        "max": 21.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 15.75,
+        "max": 21.1,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.75,
+        "max": 20.9,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-19",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.75,
+        "max": 20.9,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-20",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.0,
+        "max": 21.1,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.07,
+        "max": 21.2,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-22",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-23",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.9,
+        "max": 21.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-24",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.87,
+        "max": 21.0,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-25",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.5,
+        "max": 20.5,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.6,
+        "max": 20.7,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 12.27,
+        "max": 20.7,
+        "samples": 15
+      },
+      {
+        "day": "2026-04-29",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.5,
+        "max": 20.7,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.7,
+        "max": 20.7,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-01",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-02",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-03",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.07,
+        "max": 21.2,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-04",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.9,
+        "max": 21.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.9,
+        "max": 21.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-06",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.9,
+        "max": 21.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.9,
+        "max": 21.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.9,
+        "max": 21.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-09",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.2,
+        "max": 21.2,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-10",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-11",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.07,
+        "max": 21.2,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-12",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.87,
+        "max": 21.0,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-13",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.07,
+        "max": 21.2,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-15",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.9,
+        "max": 21.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-16",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 20.9,
+        "max": 21.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-17",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.0,
+        "max": 21.2,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.0,
+        "max": 21.2,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-20",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 14.13,
+        "max": 21.3,
+        "samples": 6
+      },
+      {
+        "day": "2026-05-22",
+        "sensor_key": "TK314/null",
+        "node_name": "TK314/null",
+        "avg": 21.0,
+        "max": 21.0,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-07",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 20.96,
+        "max": 21.5,
+        "samples": 7
+      },
+      {
+        "day": "2026-04-08",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.06,
+        "max": 22.0,
+        "samples": 24
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 20.99,
+        "max": 21.9,
+        "samples": 21
+      },
+      {
+        "day": "2026-04-10",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 19.86,
+        "max": 21.68,
+        "samples": 19
+      },
+      {
+        "day": "2026-04-11",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.15,
+        "max": 21.68,
+        "samples": 6
+      },
+      {
+        "day": "2026-04-12",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.37,
+        "max": 21.7,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.28,
+        "max": 21.9,
+        "samples": 15
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 20.32,
+        "max": 21.9,
+        "samples": 22
+      },
+      {
+        "day": "2026-04-15",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.21,
+        "max": 21.7,
+        "samples": 18
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.37,
+        "max": 21.72,
+        "samples": 15
+      },
+      {
+        "day": "2026-04-17",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.19,
+        "max": 21.73,
+        "samples": 18
+      },
+      {
+        "day": "2026-04-18",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.12,
+        "max": 21.72,
+        "samples": 12
+      },
+      {
+        "day": "2026-04-19",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.26,
+        "max": 21.93,
+        "samples": 22
+      },
+      {
+        "day": "2026-04-20",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.23,
+        "max": 21.72,
+        "samples": 14
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.46,
+        "max": 22.0,
+        "samples": 27
+      },
+      {
+        "day": "2026-04-22",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.34,
+        "max": 22.0,
+        "samples": 16
+      },
+      {
+        "day": "2026-04-23",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.25,
+        "max": 21.75,
+        "samples": 18
+      },
+      {
+        "day": "2026-04-24",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.13,
+        "max": 21.7,
+        "samples": 16
+      },
+      {
+        "day": "2026-04-25",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.16,
+        "max": 21.55,
+        "samples": 9
+      },
+      {
+        "day": "2026-04-26",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.05,
+        "max": 21.5,
+        "samples": 10
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.11,
+        "max": 21.7,
+        "samples": 12
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 18.87,
+        "max": 22.0,
+        "samples": 40
+      },
+      {
+        "day": "2026-04-29",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.05,
+        "max": 21.7,
+        "samples": 18
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.11,
+        "max": 21.7,
+        "samples": 16
+      },
+      {
+        "day": "2026-05-01",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.42,
+        "max": 22.03,
+        "samples": 6
+      },
+      {
+        "day": "2026-05-02",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.82,
+        "max": 22.03,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-03",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.17,
+        "max": 21.8,
+        "samples": 13
+      },
+      {
+        "day": "2026-05-04",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.17,
+        "max": 21.9,
+        "samples": 16
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.5,
+        "max": 22.0,
+        "samples": 23
+      },
+      {
+        "day": "2026-05-06",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.4,
+        "max": 22.05,
+        "samples": 22
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.13,
+        "max": 21.83,
+        "samples": 24
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.33,
+        "max": 21.9,
+        "samples": 27
+      },
+      {
+        "day": "2026-05-09",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.29,
+        "max": 22.24,
+        "samples": 14
+      },
+      {
+        "day": "2026-05-10",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.51,
+        "max": 22.02,
+        "samples": 3
+      },
+      {
+        "day": "2026-05-11",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.23,
+        "max": 21.81,
+        "samples": 14
+      },
+      {
+        "day": "2026-05-12",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.02,
+        "max": 21.7,
+        "samples": 19
+      },
+      {
+        "day": "2026-05-13",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 20.97,
+        "max": 21.7,
+        "samples": 19
+      },
+      {
+        "day": "2026-05-14",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 20.81,
+        "max": 21.8,
+        "samples": 14
+      },
+      {
+        "day": "2026-05-15",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.16,
+        "max": 21.6,
+        "samples": 22
+      },
+      {
+        "day": "2026-05-16",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 20.89,
+        "max": 21.78,
+        "samples": 16
+      },
+      {
+        "day": "2026-05-17",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.36,
+        "max": 22.22,
+        "samples": 20
+      },
+      {
+        "day": "2026-05-18",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.12,
+        "max": 21.9,
+        "samples": 29
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.16,
+        "max": 22.2,
+        "samples": 25
+      },
+      {
+        "day": "2026-05-20",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.28,
+        "max": 22.2,
+        "samples": 19
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 19.62,
+        "max": 22.06,
+        "samples": 26
+      },
+      {
+        "day": "2026-05-22",
+        "sensor_key": "TK321/null",
+        "node_name": "TK321/null",
+        "avg": 21.31,
+        "max": 21.85,
+        "samples": 9
+      },
+      {
+        "day": "2026-04-07",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.66,
+        "max": 21.58,
+        "samples": 8
+      },
+      {
+        "day": "2026-04-08",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.76,
+        "max": 21.7,
+        "samples": 16
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.01,
+        "max": 21.7,
+        "samples": 11
+      },
+      {
+        "day": "2026-04-10",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.95,
+        "max": 21.75,
+        "samples": 20
+      },
+      {
+        "day": "2026-04-11",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.64,
+        "max": 21.76,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-12",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.82,
+        "max": 21.75,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.05,
+        "max": 21.9,
+        "samples": 21
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.21,
+        "max": 21.9,
+        "samples": 24
+      },
+      {
+        "day": "2026-04-15",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.85,
+        "max": 21.68,
+        "samples": 16
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.01,
+        "max": 21.88,
+        "samples": 20
+      },
+      {
+        "day": "2026-04-17",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.93,
+        "max": 21.68,
+        "samples": 18
+      },
+      {
+        "day": "2026-04-18",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.48,
+        "max": 21.9,
+        "samples": 5
+      },
+      {
+        "day": "2026-04-19",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.23,
+        "max": 21.91,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-20",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.14,
+        "max": 21.9,
+        "samples": 22
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.17,
+        "max": 21.99,
+        "samples": 25
+      },
+      {
+        "day": "2026-04-22",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.01,
+        "max": 21.9,
+        "samples": 17
+      },
+      {
+        "day": "2026-04-23",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.99,
+        "max": 21.9,
+        "samples": 19
+      },
+      {
+        "day": "2026-04-24",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.87,
+        "max": 21.91,
+        "samples": 18
+      },
+      {
+        "day": "2026-04-25",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.7,
+        "max": 21.91,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-26",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.5,
+        "max": 21.72,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.93,
+        "max": 21.7,
+        "samples": 22
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 18.14,
+        "max": 21.83,
+        "samples": 39
+      },
+      {
+        "day": "2026-04-29",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.81,
+        "max": 21.7,
+        "samples": 17
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.95,
+        "max": 21.66,
+        "samples": 19
+      },
+      {
+        "day": "2026-05-01",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.79,
+        "max": 22.07,
+        "samples": 5
+      },
+      {
+        "day": "2026-05-02",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.03,
+        "max": 22.06,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-03",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.92,
+        "max": 21.85,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-04",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.91,
+        "max": 21.84,
+        "samples": 17
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.9,
+        "max": 22.06,
+        "samples": 18
+      },
+      {
+        "day": "2026-05-06",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.94,
+        "max": 21.85,
+        "samples": 20
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.04,
+        "max": 22.07,
+        "samples": 23
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.09,
+        "max": 22.07,
+        "samples": 21
+      },
+      {
+        "day": "2026-05-09",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.97,
+        "max": 22.07,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-10",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.24,
+        "max": 22.27,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-11",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.08,
+        "max": 22.06,
+        "samples": 15
+      },
+      {
+        "day": "2026-05-12",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.67,
+        "max": 21.85,
+        "samples": 21
+      },
+      {
+        "day": "2026-05-13",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.06,
+        "max": 22.05,
+        "samples": 23
+      },
+      {
+        "day": "2026-05-15",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.0,
+        "max": 22.03,
+        "samples": 22
+      },
+      {
+        "day": "2026-05-17",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.34,
+        "max": 22.45,
+        "samples": 5
+      },
+      {
+        "day": "2026-05-18",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.0,
+        "max": 22.01,
+        "samples": 21
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 20.98,
+        "max": 22.24,
+        "samples": 17
+      },
+      {
+        "day": "2026-05-20",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.13,
+        "max": 22.2,
+        "samples": 22
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 19.45,
+        "max": 22.25,
+        "samples": 24
+      },
+      {
+        "day": "2026-05-22",
+        "sensor_key": "TK322/null",
+        "node_name": "TK322/null",
+        "avg": 21.0,
+        "max": 22.04,
+        "samples": 11
+      },
+      {
+        "day": "2026-04-07",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.0,
+        "max": 21.0,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-09",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 20.87,
+        "max": 21.0,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-10",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 13.93,
+        "max": 21.0,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-13",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-14",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 15.8,
+        "max": 21.2,
+        "samples": 4
+      },
+      {
+        "day": "2026-04-15",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.0,
+        "max": 21.1,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-16",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.0,
+        "max": 21.1,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-17",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.0,
+        "max": 21.1,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-18",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.1,
+        "max": 21.1,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-21",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.2,
+        "max": 21.2,
+        "samples": 1
+      },
+      {
+        "day": "2026-04-24",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.07,
+        "max": 21.2,
+        "samples": 3
+      },
+      {
+        "day": "2026-04-27",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-28",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 10.48,
+        "max": 21.0,
+        "samples": 10
+      },
+      {
+        "day": "2026-04-29",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-04-30",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-01",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.2,
+        "max": 21.2,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-03",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.0,
+        "max": 21.0,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-04",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-05",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-06",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-07",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-08",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-09",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.2,
+        "max": 21.2,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-11",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.0,
+        "max": 21.0,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-12",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 20.9,
+        "max": 21.0,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-17",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 4
+      },
+      {
+        "day": "2026-05-18",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-19",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.2,
+        "max": 21.2,
+        "samples": 1
+      },
+      {
+        "day": "2026-05-20",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.1,
+        "max": 21.2,
+        "samples": 2
+      },
+      {
+        "day": "2026-05-21",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 14.1,
+        "max": 21.2,
+        "samples": 6
+      },
+      {
+        "day": "2026-05-22",
+        "sensor_key": "TK323/null",
+        "node_name": "TK323/null",
+        "avg": 21.0,
+        "max": 21.0,
+        "samples": 1
+      }
+    ]
+  },
+  "incident_weekly": [
+    {
+      "week_start": "2025-07-28",
+      "count": 3
+    },
+    {
+      "week_start": "2025-08-25",
+      "count": 1
+    },
+    {
+      "week_start": "2025-09-15",
+      "count": 4
+    },
+    {
+      "week_start": "2025-09-29",
+      "count": 5
+    },
+    {
+      "week_start": "2025-10-06",
+      "count": 2
+    },
+    {
+      "week_start": "2025-10-13",
+      "count": 1
+    },
+    {
+      "week_start": "2025-10-20",
+      "count": 2
+    },
+    {
+      "week_start": "2025-10-27",
+      "count": 1
+    },
+    {
+      "week_start": "2025-11-03",
+      "count": 3
+    },
+    {
+      "week_start": "2025-11-10",
+      "count": 4
+    },
+    {
+      "week_start": "2025-11-17",
+      "count": 1
+    },
+    {
+      "week_start": "2025-11-24",
+      "count": 1
+    },
+    {
+      "week_start": "2025-12-01",
+      "count": 2
+    },
+    {
+      "week_start": "2025-12-08",
+      "count": 2
+    },
+    {
+      "week_start": "2025-12-15",
+      "count": 3
+    },
+    {
+      "week_start": "2026-01-26",
+      "count": 2
+    },
+    {
+      "week_start": "2026-02-02",
+      "count": 2
+    },
+    {
+      "week_start": "2026-02-09",
+      "count": 1
+    },
+    {
+      "week_start": "2026-03-02",
+      "count": 1
+    },
+    {
+      "week_start": "2026-03-09",
+      "count": 2
+    },
+    {
+      "week_start": "2026-03-16",
+      "count": 1
+    },
+    {
+      "week_start": "2026-04-13",
+      "count": 2
+    },
+    {
+      "week_start": "2026-04-20",
+      "count": 1
+    },
+    {
+      "week_start": "2026-04-27",
+      "count": 1
+    },
+    {
+      "week_start": "2026-05-04",
+      "count": 1
+    },
+    {
+      "week_start": "2026-05-18",
+      "count": 4
+    }
+  ],
+  "kone_weekly": [
+    {
+      "week_start": "2026-03-W3",
+      "count": 5.3
+    },
+    {
+      "week_start": "2026-03-W4",
+      "count": 6.2
+    },
+    {
+      "week_start": "2026-03-W5",
+      "count": 4.9
+    },
+    {
+      "week_start": "2026-03-W6",
+      "count": 1.1
+    },
+    {
+      "week_start": "2026-03-W7",
+      "count": 0.6
+    },
+    {
+      "week_start": "2026-04-W1",
+      "count": 5.8
+    },
+    {
+      "week_start": "2026-04-W2",
+      "count": 5.4
+    },
+    {
+      "week_start": "2026-04-W3",
+      "count": 5.3
+    },
+    {
+      "week_start": "2026-04-W4",
+      "count": 5.5
+    },
+    {
+      "week_start": "2026-04-W5",
+      "count": 5.6
+    },
+    {
+      "week_start": "2026-04-W6",
+      "count": 0.4
+    },
+    {
+      "week_start": "2026-04-W7",
+      "count": 0.2
+    },
+    {
+      "week_start": "2026-05-W1",
+      "count": 5.9
+    },
+    {
+      "week_start": "2026-05-W2",
+      "count": 5.8
+    },
+    {
+      "week_start": "2026-05-W3",
+      "count": 5.2
+    },
+    {
+      "week_start": "2026-05-W4",
+      "count": 5.5
+    },
+    {
+      "week_start": "2026-05-W5",
+      "count": 5.5
+    },
+    {
+      "week_start": "2026-05-W6",
+      "count": 1.0
+    },
+    {
+      "week_start": "2026-05-W7",
+      "count": 0.4
+    },
+    {
+      "week_start": "2026-12-W1",
+      "count": 5.2
+    },
+    {
+      "week_start": "2026-12-W2",
+      "count": 5.1
+    },
+    {
+      "week_start": "2026-12-W3",
+      "count": 5.8
+    },
+    {
+      "week_start": "2026-12-W4",
+      "count": 5.2
+    },
+    {
+      "week_start": "2026-12-W5",
+      "count": 4.6
+    },
+    {
+      "week_start": "2026-12-W6",
+      "count": 0.5
+    },
+    {
+      "week_start": "2026-12-W7",
+      "count": 0.2
+    }
+  ],
+  "incidents_total": 153,
+  "incidents_fault": 66,
+  "recent_incidents": [
+    {
+      "id": "incident_t7ndvfs3f72it02kbk6oshlm",
+      "time": "2026-05-22T08:50:41+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Poikkeutukset pois klo 15 saakka, TK301, TK302, TK311, TK312 ja TK313.",
+      "node_name": "TK301 2-8 krs"
+    },
+    {
+      "id": "incident_uxowou6j4y9krz5a321t6izo",
+      "time": "2026-05-21T14:40:26+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "awaiting_review",
+      "description": "Käyty läpi tyhjien tilojen listaus, laitettu tyhjistä tiloista jäähdytysventtiilit käsin kiinni ja säätimiltä, joilla lämmitys, asetus +18 'C. Tilalistaus liitteenä",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_upa10s608gkaqp1jqy73m9mn",
+      "time": "2026-05-19T14:16:49+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Tehty aikaohjelmaa muutoksia AK A-talon osalta TK-306 klo 19.15 asti ilta tilaisuuden johdosta.  B-talon osalta TK-311 ja TK-312 osalta 3krs ja 9 krs muutettu klo 20 asti ilta tilaisuuden johdosta. Palautetaan seuraavana arkipäivänä normaaliin    T.Are/ Jari",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_jndemxabkfu938ikwdv5ytuh",
+      "time": "2026-05-19T12:17:52+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "awaiting_review",
+      "description": "UPM tiloista 5 krs. palautetta vedon tunteesta. Huonemittaukset 22-23 'C välillä ja koneen poistossa n. 22 'C, tuloilma 16,6 'C. Smartti haluaa laskea nyt tuloilmaa kun talossa niin lämmintä, muokattu tulo minimi 16 'C -> 17 'C, ei puhaltaisi niin viileää",
+      "node_name": "TK322 Toimistotilat 2-8 krs"
+    },
+    {
+      "id": "incident_niecquu4vcwbraa74uj6ml4n",
+      "time": "2026-05-04T14:31:56+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "IV:n aikaohjelmaa muutettu Tk-306 osalta 5.5.26 klo 19.30 asti ja 6.5.26 Tk-322 osalta klo 19.00 asti,palautetaan seuraavana arkipäivänä normaaliin.  T Are/ Jari",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_w343c0e9wku22196s2q4izk3",
+      "time": "2026-04-30T12:31:09+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "awaiting_review",
+      "description": "Koneen toiminnassa jotain outoa. Raitisilma tulee koneelle 12,5C asteisena, mutta silti kaukojäähdytysventtiili auki tuloilman asetuksen ollessa 17-18C. Vuotaako jokin lämmitysventtiili nyt läpi?",
+      "node_name": "TK301 2-8 krs"
+    },
+    {
+      "id": "incident_a79ypi68vkxb334s4f8v38v7",
+      "time": "2026-04-23T13:11:22+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Aikaohjelmaa muutettu 27.4.26 TK-306 osalta klo21.15 asti ilta ohjelman takia. Palautetaan seuraavana arkipäivänä takaisin.           T.MaintCo / Jari Siirilä",
+      "node_name": "TK306 Pääaula"
+    },
+    {
+      "id": "incident_r8ygz6gesxyhp292dlbrgs4w",
+      "time": "2026-04-14T14:58:59+00:00",
+      "event_type": "Kiinteistönhoitajan kontaktointi",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Sulanapidoista täytyisi tutkia ohjauksia tarkemmin, mutta näitä ei näe automaatiosta, sillä Deviregillä on oma säädin. Pystyisikö kiinteistönhoitaja käydä katsomassa millaiset asetusarvot säätimellä on ja ottaa niistä valokuvat.",
+      "node_name": "Erillispisteet"
+    },
+    {
+      "id": "incident_cvm1h1b6iqz0napuxfy0spsc",
+      "time": "2026-04-14T14:55:40+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "significant",
+      "status": "pending",
+      "description": "Ulkovaloisuuden LUX-mittarissa XE00.1 mahdollisesti vikaa. Voisiko TL käydä tsekkaamassa?",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_qfqe091kajg77v2ee2866wg7",
+      "time": "2026-03-16T15:53:37+00:00",
+      "event_type": "Asetusarvomuutos",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "7. krs neukkarista 744 tullut tunkkaisuuspalautetta. Automaatiosta peltien avautumisraja 700 ppm -> 600 ppm.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_aerpwoduhpzcge4yavdc2oyt",
+      "time": "2026-03-11T08:56:39+00:00",
+      "event_type": "Aikaohjelmien tarkastus",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "TL:n pyynnöstä TK321 ja TK322 4. kerroksen aikaohjelma aikaistettu ma-pe 7:05 -> 5:30. Ensimmäiset työntekijät tulevat töihin jo kuuteen. TL ohjeistaa käyttäjille lisäaikapainikkeen käytön satunnaista iltakäyttöä varten.",
+      "node_name": "TK321 Toimistotilat 2-8 krs"
+    },
+    {
+      "id": "incident_kf35guwp30yvujmcywp1usbb",
+      "time": "2026-03-09T09:31:51+00:00",
+      "event_type": "Aikaohjelmien tarkastus",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "\"Muutettu aikaohjelmaa Pe 13.3.26 B-talon 9krs TK- 311 ja TK-312 osalta klo 02 asti ilta ohjelman takia,palautetaan normaaliksi seuraavana arkipäivänä.  T.Are/Jari\"",
+      "node_name": "TK311 2-10 krs"
+    },
+    {
+      "id": "incident_sqr9h0m2lqhh4ymo5lg7lhc1",
+      "time": "2026-03-04T15:12:49+00:00",
+      "event_type": "Asetusarvomuutos",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Asiakkaalta tullut palautetta että ilmanvaihto puhaltaa aamuisin liian kylmää. Nostettu tulominimiä asteella.",
+      "node_name": "TK322 Toimistotilat 2-8 krs"
+    },
+    {
+      "id": "incident_d45ap61wml9hmq1t4nrx4h2r",
+      "time": "2026-02-12T08:12:30+00:00",
+      "event_type": "Asetusarvomuutos",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Sensuksen min ennakointi 3 -> 5 TK311 ja TK312. 2. krs on useamman mittauksen mukaan alle +20°C. Lisätty TK311 2. krs automaation mittaus myös optimointeihin mukaan. TK312 tuo oli jo.",
+      "node_name": "TK312 2-10 krs"
+    },
+    {
+      "id": "incident_nfxthwmqoiw56xxclfzpouwc",
+      "time": "2026-02-04T15:31:03+00:00",
+      "event_type": "Energiansäästötoimenpide",
+      "category": "optimization",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "A-talon ja b-talon huonesäätimissä joissakin 22,5C käsikäyttöjä satunnaisilla alueilla. Voisikohan vapauttaa automaatille, jotta toimivat normaalin 21,5C lämmitystavoitteen mukaisesti?",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_lc94md67o3ug6kw1hfvj2ghl",
+      "time": "2026-02-02T08:38:14+00:00",
+      "event_type": "Sisäolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Keittiön koneelta tullut kylmyys valitus, tuloilman lämpötila 12,2 'C, ohjeistettu TL käymään kohteella tarkastamassa LTO:n ja LPV:n kunto. LTO:n hyötysuhde vain 32% ja lämmityspatterin venttiili 100% auki mutta ei lämmitä.",
+      "node_name": "TK305 Keittiö"
+    },
+    {
+      "id": "incident_pauepl56sibx6gs1akmkq955",
+      "time": "2026-01-29T10:58:35+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "C-talossa tullut kylmyys valitusta, 4. ja 5. kerroksessa näpit jääty. TL nostanut asetusarvoja 22 'C,  IV-verkosto säteilijä-verkosto C-osa menoveden lämpötila 48 'C.",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_uxc1rs8lq8a726v8r1hovvmn",
+      "time": "2026-01-28T09:31:07+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "3. krs Avokonttori, koillisen lämpötila mittaukset ovat normaalia matalempia. Ovatko tilat yhä tyhjillään?",
+      "node_name": "C-osa"
+    },
+    {
+      "id": "incident_xyl4qxsb4dmg2uj0gre2j647",
+      "time": "2025-12-19T11:12:26+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Kohteelle tehty aikaisemmin IV-koneille ja valaistukselle arkipyhäaikaohjelmat. Lisätty TK305 keittiön koneelle vielä poikkeusaikaohjelma 2.1.2026, ravintola tuolloin kiinni. TK306 palvelualueella ravintolan lisäksi pääaula.",
+      "node_name": "Ilmanvaihto"
+    },
+    {
+      "id": "incident_mp7nuh5kxyuvcwz4s95okklx",
+      "time": "2025-12-17T09:49:20+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Ja TK322 tarpeenmukaistukset otettu mittausten ajaksi pois käytöstä.",
+      "node_name": "TK321 Toimistotilat 2-8 krs"
+    },
+    {
+      "id": "incident_cxon0az22whxpg7h1nkflpj3",
+      "time": "2025-12-15T11:52:46+00:00",
+      "event_type": "Aikaohjelmien tarkastus",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "MaintCo: Muutettu aikaohjelmaan Tk-305ja Tk-306 osalta 19.12.25 klo 23.30 asti iltatapahtuman johdosta. Palautetaan seuraavana arkipäivänä takaisin normaaliin.",
+      "node_name": "Ilmanvaihto"
+    },
+    {
+      "id": "incident_o0l34otdc1drgaolgjs82e9u",
+      "time": "2025-12-11T09:53:17+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "TK301 ja TK302 tarpeenmukaistukset otettu pois täksi päiväksi (0,5 -> 1,0), kohteella ilmamäärämittauksia",
+      "node_name": "Ilmanvaihto"
+    },
+    {
+      "id": "incident_bvkz8y4fsymyueidbs8bjtyy",
+      "time": "2025-12-08T08:19:31+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Muutettu aikaohjelmaan iltatilaisuuden takia TK-305 ja TK-306 osalta 12.12.25 klo.23.30 asti. Palautetaan normaaliksi seuraavana arkipäivänä.  T.Are/ Siirilä Jari",
+      "node_name": "Ilmanvaihto"
+    },
+    {
+      "id": "incident_jv089ihkwwmsj0wrug3i6v7a",
+      "time": "2025-12-03T14:01:53+00:00",
+      "event_type": "Asetusarvomuutos",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Ongelmatiloissa sovitusti korkeampi asetus huonesäätimillä. Mittaukset katonrajassa. Asiakas ollut tyytyväinen nyt.",
+      "node_name": "A-osa"
+    },
+    {
+      "id": "incident_j1iq63zyjzqi3opw5m14iag0",
+      "time": "2025-12-01T09:45:53+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Ajastettu TK-305 ja TK-306 Perj.5.12.25  iltatilaisuuden takia klo 19.30 asti.Palautetaan seuraavana arkipäivänä takaisin. T.Are/Siirilä Jari",
+      "node_name": "Ilmanvaihto"
+    },
+    {
+      "id": "incident_pzi7aw8pgsypiey3grat037f",
+      "time": "2025-11-24T15:15:06+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Tehty aikaohjelmaan muutos 28.11.25 iltatilaisuuden johdosta B-Talo 9 krs Tk-11 ja Tk-12 klo 02.00 asti,palautetaan seuraavana arkipäivänä takaisin. T.ARE/ Siirilä Jari",
+      "node_name": "Ilmanvaihto"
+    },
+    {
+      "id": "incident_yhfw839dk47yav2phekli3bv",
+      "time": "2025-11-23T20:38:48+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "pending",
+      "description": "Koko asemakeskuksen huonelämpötilamittaukset katonrajassa (pl. TE+CO2), otettava huomioon säätimien asetuksissa.",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_inm3d9b6zcn52ts89qatihso",
+      "time": "2025-11-13T12:39:42+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Huolto ilmoitti, että huonesäätimien säätävät anturit ovat katonrajassa ja vääristävät. Nostettu täten huonesäätimistä lämmitysasetus 21C -> 21,5C.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_nnb67uquyj43yviy5d97xu9q",
+      "time": "2025-11-10T11:41:14+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Avokonttorin Iot anturin 01FEC599 lukemat ovat reilusti normaalia viileämpiä, mutta automaation mukaan lämpötilat ok. Kumpi mittaus väärä? ",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_m88w5dl8bxljaqgbz6qltq2f",
+      "time": "2025-11-10T11:16:29+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Airwitsissä A8-4 toimitila anturi linkitetty eri ID anturiin kun connected insight.",
+      "node_name": "A-osa"
+    },
+    {
+      "id": "incident_f50ke9y5uky2otd7dh03b1f1",
+      "time": "2025-11-10T10:59:26+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "IV-kone on käy lisäaika tilassa. 8.krs lisäaikapainikkeet ovat päällä, onko tämä tarkoituksella?",
+      "node_name": "TK312 2-10 krs"
+    },
+    {
+      "id": "incident_hjftgt29m4tmzxnn76rj9mel",
+      "time": "2025-11-07T11:35:38+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Koneen alueella ilmamäärämittauksia. Ajastettu tarpeenmukaistukset pois tänään loppupäiväksi.",
+      "node_name": "TK322 Toimistotilat 2-8 krs"
+    },
+    {
+      "id": "incident_dc3jlwrfpvomv05ax4dytwnm",
+      "time": "2025-11-04T11:06:31+00:00",
+      "event_type": "Aikaohjelmien tarkastus",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Asiakkaan pyynnöstä mainosvalot nyt\n24/7 aikaohjelmalla ja täysin lux\nohjauksen varassa. ",
+      "node_name": "Erillispisteet"
+    },
+    {
+      "id": "incident_a3zhgv836az6chg3g7cnx9a3",
+      "time": "2025-11-03T08:33:28+00:00",
+      "event_type": "Aikaohjelmien tarkastus",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Huomenta,muokkasi aikaohjelmaan La 8.11.25 14.00-21.00 Ravintola salin ja pääaulan osalta.Palautetaan seuraavana arkipäivänä takaisin. T. Are/Jari Siirilä",
+      "node_name": "TK306 Pääaula"
+    },
+    {
+      "id": "incident_ujl485qub5y9hg8hsmt2ug5b",
+      "time": "2025-10-29T12:18:18+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "6. krs kylmyys palautetta. Huonesäätimien mukaan tiloissa lämpötilat 21-23 'C välillä, poikkeuksena tila C674, jossa mittaus 20,2 'C. Toimistotilojen IV-koneiden TK321 ja TK3222 sisäänpuhalluslämpötilat 19 'C ja poistoissa 21 'C. Palautteesta ei käynyt ilmi yksittäisiä tiloja, joissa kylmä. Tilojen ",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_uj9rky2nykednw2nmmir8jau",
+      "time": "2025-10-24T14:37:54+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "6. kerroksesta tullut kylmyysvalituksia. Kiinteistön lämmitystavoite 21C. Lämpötilat joka huonesäätimessä 21-23C. Todettu lämpötilojen olevan normaalilla tasolla, joten ei muutoksia säätöihin.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_fyelwlgtctqd59naz8cglyzc",
+      "time": "2025-10-22T12:01:09+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "pending",
+      "description": "Indikoinnit eivät ole vastannut todellisuutta joten niiden perusteella IV-koneet olisivat käyneet 1.10.-21.10. mutta näin ei todellisuudessa ole.",
+      "node_name": "A-osa"
+    },
+    {
+      "id": "incident_rirw7k3ouxbsvk5x7tlbb7g3",
+      "time": "2025-10-17T12:05:51+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Asetettu pyynnöstä koneet maksimipaineille täksi iltapäiväksi (klo 16 saakka). Ilmamäärämittauksia kohteella.",
+      "node_name": "TK321 Toimistotilat 2-8 krs"
+    },
+    {
+      "id": "incident_lo0iyuv41m4ljco9z2suvk6o",
+      "time": "2025-10-10T08:52:01+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "IV-koneella paine mittauksia, otettu tarpeenmukaistus pois käytöstä. Soittaa kun saa palauttaa.",
+      "node_name": "TK322 Toimistotilat 2-8 krs"
+    },
+    {
+      "id": "incident_qp4ymapkaeltq9kxdgx22vm3",
+      "time": "2025-10-06T12:50:24+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Otettu Smartista tarpeenmukaistus pois tälle päivälle, kohteella ilmamäärämittauksia",
+      "node_name": "TK304 Sos.tila"
+    },
+    {
+      "id": "incident_u8cbufiebqs1ygywgqlb6pgq",
+      "time": "2025-10-01T15:18:24+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Kaikkien osien kaikki IV-koneet laitettu käymään ensi yöksi. Kohteella ollut tulipalo, jonka seurauksena koneen käynnistymisissä ollu ongelmaa ja haluttu yöksi lisä tuuletusta. ",
+      "node_name": "A-osa"
+    },
+    {
+      "id": "incident_eiisx9a9x2y8afy8auww7zci",
+      "time": "2025-09-29T12:51:10+00:00",
+      "event_type": "Energiansäästötoimenpide",
+      "category": "optimization",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Tyhjät tilat liitteenä. RAU:sta\njäähdytysventtiilit kiinni ja jos\nsäätimillä lämmitys niin asetus\n+18°C.",
+      "node_name": "C-osa"
+    },
+    {
+      "id": "incident_xsvtxsgfbvfm9r1l5q3zcuif",
+      "time": "2025-09-29T12:50:43+00:00",
+      "event_type": "Energiansäästötoimenpide",
+      "category": "optimization",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Tyhjät tilat liitteenä. RAU:sta\njäähdytysventtiilit kiinni ja jos\nsäätimillä lämmitys niin asetus\n+18°C.",
+      "node_name": "B-osa"
+    },
+    {
+      "id": "incident_olk3o2nwc649pvccuq8x9ehu",
+      "time": "2025-09-29T12:49:57+00:00",
+      "event_type": "Energiansäästötoimenpide",
+      "category": "optimization",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Tyhjät tilat liitteenä. RAU:sta jäähdytysventtiilit kiinni ja jos säätimillä lämmitys niin asetus +18°C.",
+      "node_name": "A-osa"
+    },
+    {
+      "id": "incident_k5tz62v01m0rhf51q07xevgu",
+      "time": "2025-09-29T09:55:46+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Aikaohjelmaan muutoksia LA 4.10 olevaan tapahtumaan Asemakeskukselle klo 7.00-17.00, (TK 301,302,305,306,311,312,321 ja 322) palautetaan normaaliksi seuraavana arkipäivänä.   T. ARE/ Jari Siirilä",
+      "node_name": "Ilmanvaihto"
+    },
+    {
+      "id": "incident_hzotukumxcrde5kgtrepagjr",
+      "time": "2025-09-19T15:11:45+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "A385 huonesäädin hälyttää väylävikaa.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_t7sac3n57m23kq6hbdm1rmcx",
+      "time": "2025-09-19T12:42:42+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Otettu tarpeenmukaistukset pois ilmamäärämittausten ajaksi. Huolto soittaa kun tarpeenmukaistukset voi palauttaa",
+      "node_name": "TK311 2-10 krs"
+    },
+    {
+      "id": "incident_jauc003kfzr03jhp4dgn94za",
+      "time": "2025-09-19T12:23:08+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "in_progress",
+      "description": "MaintCon mukaan kohteessa ollut kesällä jäähdytyksen riittävyydessä ongelmaa kostealla kelillä kun kastepisterajoitus rajoittaa sensus-paneelijäähdytyksen toimintaa rajusti.",
+      "node_name": "IV-säteilijaverkosto"
+    },
+    {
+      "id": "incident_vwequz6fw3ce4qj90mdt2kzn",
+      "time": "2025-09-16T15:13:12+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "awaiting_review",
+      "description": "Verkoston menoveden asetus on käsikäytöllä 11C. Energiayhtiön mukaan kaukokylmän paluulämpötila on liian matala. Voisikohan asetuksen vapauttaa automaatille, jotta paluulämpötila hieman nousisi?",
+      "node_name": "PKN-verkosto"
+    },
+    {
+      "id": "incident_oli4dfnzhcxaq1ec5xp0a136",
+      "time": "2025-08-28T13:01:59+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "TK322 aikaohjelmaa jatkettu ma 1.9 klo 20 asti, palautetaan tilaisuuden jälkeen. -Viljanen ",
+      "node_name": "TK322 Toimistotilat 2-8 krs"
+    },
+    {
+      "id": "incident_xeha4vi60kvpiqwrtlwf2zjr",
+      "time": "2025-07-31T13:55:40+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Kohteessa kuumuusongelmia. Automaatiosta näytti puuttuvan aamujäähdytyksen aikaohjelma kokonaan asetteluista. Aseteltu aamujäähdytyksen aikaohjelmaan klo 4 - 8. Huoneraja 23C ja ulkoraja 15C.",
+      "node_name": "TK311 2-10 krs"
+    },
+    {
+      "id": "incident_twf52ko4subw3xrpxci49d8b",
+      "time": "2025-07-29T10:03:45+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "significant",
+      "status": "resolved",
+      "description": "Verkoston-käyrän alin asetusarvo on tällä hetkellä 11 C, tällä hetkellä kondenssivaara. Tätä asetusarvoa tulisi nostaa 11->15, koska asetuksen tulisi olla 1-2C yli kastepisteen aina, jos on palkit tai säteilijät verkossa.",
+      "node_name": "IV-säteilijaverkosto"
+    },
+    {
+      "id": "incident_a2h9m7334ui1pq0i99ccrw7f",
+      "time": "2025-07-29T09:57:01+00:00",
+      "event_type": "Kiinteistönhoitajan kontaktointi",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Kohteen 7.krs tullut valituksia kuumasta. TL pyysi laskemaan jäähdytysverkoston lämpötilaa. Toimenpidettä ei suoritettu, koska sensusverkosto ekpertin kanssa käydyssä palaverissa kiellettiin laskemasta verkoston lämpötilaa.",
+      "node_name": "A-osa"
+    },
+    {
+      "id": "incident_zlmwwd556xhf8bec46vmtm6o",
+      "time": "2025-07-17T14:52:46+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "23 - 25.7 kaukolämpökatko, tiedoksi.",
+      "node_name": "A-osa"
+    },
+    {
+      "id": "incident_t7ran71f6k54zghxmwsbjegz",
+      "time": "2025-06-23T12:35:53+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "A-talo huone 780 CO2-mittaus rikki, näyttää jatkuvasti lukemaa 1262 ppm. Tilaan viety IoT-anturi VARA4 (01FFB922) ja tällä hetkellä tyhjässä tilassa lukema n. 400 ppm. Tilasta tullut vasta palautetta riittämättömästä ilmanvaihdosta, seurataan nyt tilannetta IoT-anturin avulla.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_iukegta6nhulj19z02gosl1d",
+      "time": "2025-06-19T14:02:52+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Iltatilaisuus AK 2krs. Ke 25.6  TK306 ajastettu klo 20 asti. Palautetaan tilaisuuden jälkeen. -Viljanen/Are",
+      "node_name": "TK306 Pääaula"
+    },
+    {
+      "id": "incident_vyzdl43aji1cw0796lb1q9s0",
+      "time": "2025-06-12T12:36:56+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Lauantaina 14.6 klo 8-15 asti muutettu aika ohjelmaa TK-322 osalta,palautetaan seuraavana arkipäivänä takaisin. Ti 17.6.25 ilta tilaisuuden osalta muutettu aika ohjelmaa TK-306 osalta klo 16-20 asti.Palautetaan seuraavana arkipäivänä takaisin",
+      "node_name": "A-osa"
+    },
+    {
+      "id": "incident_v1en3y8x3di8l83p5ayap36n",
+      "time": "2025-06-06T08:30:36+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Horizon Plaza Iv-koneiden painesuhteet --> Grafiikalle merkitty mustalla paine-arvot. Nämä eivät täsmää Pesosen toimittamia arvoja. Grafiikalla olevat arvot ei ole oikeat. --> Grafiikan arvot olisi hyvä muuttaa nykyisyyttä vastaavaksi. --> Fidelix pitää tehdä muutos, koska muutos pitää tehdä myös pi",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_jrgx4a7ro442o5pwrs3q98w6",
+      "time": "2025-05-27T08:37:24+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Kohteessa osassa tiloja palautteen mukaan liian kylmä. Parametroitu smartista sensus-verkoston menoveden säädöstä enemmän painotusta kylmille huoneille. Huonesäätimissä 21C lämmitysasetus ennallaan.",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_iw9c02z04765ltr1rlwnonaw",
+      "time": "2025-05-27T07:53:51+00:00",
+      "event_type": "Energiansäästötoimenpide",
+      "category": "optimization",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Muutettu infotiskin lattialämmityksen minimiä 20/20 -> 15/20C. Vältetään turhaa kesäajan lämmitystä. Alle 10C ulkolämpötiloissa käyrä pidetty ennallaan.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_k9pzjyr52pnk3mbyey8r8089",
+      "time": "2025-05-27T07:42:39+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Joitakin huonesäätimiä jostain syystä käsikäytöllä. Laitettu automaatille, jotta ulkokompensointikäyrä lämmityksen asetukseen toimisi.",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_lns232h3jeufujdh9u8glphp",
+      "time": "2025-05-26T14:27:28+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Muutettu aikaohjelmaa TL:n toimesta: 31.5.25 AK ravintolasalin osalta( TK-306) päälle 9.30 ja pois 18.15 juhlatilaisuuden vuoksi. Palautetaan normaaliksi seuraavana arkipäivänä 2.6.25  ",
+      "node_name": "A-osa"
+    },
+    {
+      "id": "incident_hv8b9l988vjw919f8qeoocfu",
+      "time": "2025-05-21T10:52:55+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "MaintCo Jari Siirilä soitti, että 6 kerroksen labratiloissa A615 kuuma. Käy katsomassa tilan konvektorin voiko olla toiminnassa. RAU:n mukaan JPV 100% ja puhallinkonvektorin säätöviesti 100%.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_pomlu26ct1j38bmq270oxx7p",
+      "time": "2025-05-14T14:26:00+00:00",
+      "event_type": "Asetusarvomuutos",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Liitteen tilat (A3-3) otettu käyttöön. Vapautettu huonesäätimiltä jäähdytykset ja lämmitysasetukset automaatille.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_abtuwky7qj9tmm5cls4bfczf",
+      "time": "2025-05-13T15:34:42+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Max SS -6 -> -2. Ulkoanturiin paistaa aurinko.",
+      "node_name": "Lämmitys A-, B-, C-osa"
+    },
+    {
+      "id": "incident_pxbvaxyto66iv38xur49dda8",
+      "time": "2025-05-12T10:47:54+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": " Viimeksi muokattu IV-koneen aikaohjelma seuraavanlaiseksi:  Ma-Su 04.00-23.59. Kone käy tästä huolimatta 24/7, tämä muokkaus trensien mukaan tehty 12.12.24. Voiko aikaohjelman palauttaa 04.00-23.59?",
+      "node_name": "TK304 Sos.tila"
+    },
+    {
+      "id": "incident_lcgx8wk5einenvt7eevnx5km",
+      "time": "2025-05-12T10:35:55+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "6.krs huoneissa esiintyy normaalia lämpimämpiä lämpötiloja, kyseessä huoneet: A614, A635, A641, A642, A643, A644, A645 ja A646. Huoneiden jäähdytyksien säädöt 100%, tästä huolimatta listattujen huoneiden lämpötilat ovat korkeampia muihin kerroksen huoneisiin verrattuna.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_ayiao1ykdw8rahg3qslm30gw",
+      "time": "2025-05-12T10:02:15+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "2.krs huonesäätimien mittauksissa esiintyy normaalia korkeampia arvoja. Huoneet: A241 ja A243 kaikki 6 anturia mittaa yli 25C. Automaation mukaan jäähdytyksen säätö huonesäätimillä on 100%. Onko huonesäätimien ohjaukset ristissä?",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_yzx8xy1fqon6ho7qgp48x7p3",
+      "time": "2025-05-05T15:56:07+00:00",
+      "event_type": "Kiinteistönhoitajan kontaktointi",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "TL: 402 PKN A303.01 kerrosjakamon jäähdytyskonvektorin asetusarvo laskettu 24=>22'C 3.krs muuttaneen uuden asiakkaan johdosta. ",
+      "node_name": "Puhallin- ja jäähdytyskonvektorit"
+    },
+    {
+      "id": "incident_fim560bspdkgl924ieye5a77",
+      "time": "2025-05-02T08:33:01+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Aikaohjelma muutos tehty 7.5.2025 TK-306 iltaohjelman johdosta klo 20.15 asti,palautetaan normaaliksi seuraavana arkipäivänä. Are/Siirilä",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_ybfmdx76a3razh4wccfhidr5",
+      "time": "2025-05-02T08:32:04+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Ma 5.5.2025 osalta TK-306 ja TK-322 klo 19.15 asti, palautetaan seuraavana arkipäivänä takaisin normaaliksi. Are/ Siirilä",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_y5weau3gi5svdebfnpoyhdvr",
+      "time": "2025-04-24T14:10:33+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "TL: Muutettu aikaohjelmasta TK-306 käyntiä pidemmäksi iltatilaisuuden 24.4.25 takia,palautetaan normaaliksi seuraavana arkipäivänä. ",
+      "node_name": "TK306 Pääaula"
+    },
+    {
+      "id": "incident_w5q86gwx1hvs2q8tze1kry2f",
+      "time": "2025-04-17T11:26:41+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "in_progress",
+      "description": "Jotkin yksittäiset huonesäätimet jäähdyttävät vaikka huonelämpötila on selvästi alle jäähdytysasetuksen (lämmitysasetus 21,0C + kuollut alue 2,0C). Mistähän johtuu? Eikö kaikki säätimet tottele kuollutta aluetta? Liitteenä esimerkkinä tila A277. Samanaikaisesti muut säätimet ko. RAU-kuvassa vaikutta",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_sil0s4za4tz0olsudt9t0ovp",
+      "time": "2025-03-21T11:17:59+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Palopellit B-osa (6-8krs) TK314 palopelti 314PP17.B801 palopellin laukeamishälytys aktiivisena, hälyttänyt tänään aamuyöstä. Tämä ilmeisesti työn alla kun hälytys kuitattuna?",
+      "node_name": "Palopellit"
+    },
+    {
+      "id": "incident_ahjucoa59gtlbctj9ja2zlqg",
+      "time": "2025-03-21T10:32:28+00:00",
+      "event_type": "Muu huomio",
+      "category": "administrative",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Autohalli puhallin 307PF03 käsin seis, puhaltimella kommunikaatio hälytys aktiivisena, liittyykö käsikäyttö tähän?",
+      "node_name": "Erillispoistot"
+    },
+    {
+      "id": "incident_vur7wulfcqmcn1oqumqrm8ib",
+      "time": "2025-03-19T14:39:06+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Huonesäätimien lämmitysasetusta pääsee muokkaamaan massana suoraan vakista. Ko. massmuokkausarvopistettä ei webvisionissa näy.",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_p3we3wwjbs2nb1z1ecz18qrr",
+      "time": "2025-03-12T13:41:18+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "C-osan 3.krs Peltokadunpuolelta tiloista on tullut valituksia huonosta ilmasta, muokattu tarpeenmukaistuksen minimi 0,5->0,6. Tarvitaanko tiloihin lisää anturointia tai vanhojen antureiden siirtoa?",
+      "node_name": "TK322 Toimistotilat 2-8 krs"
+    },
+    {
+      "id": "incident_oog9c7kqq2zowoxc3balnyd3",
+      "time": "2025-02-20T09:54:13+00:00",
+      "event_type": "Energiansäästötoimenpide",
+      "category": "optimization",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Huonesäätimistä otettu poikkeutusmahdollisuus pois käytöstä asiakkaan pyynnöstä. Lämmitysasetus nyt 21,5C ja jäähdytys 22,5C. Muutetaan vielä viikon päästä lämmitysasetus 21,5C -> 21C.",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_v18jhw9zypqxizxfev3fmddc",
+      "time": "2025-02-20T08:40:29+00:00",
+      "event_type": "Energiansäästötoimenpide",
+      "category": "optimization",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Olosuhdetavoite Smartista +21,5 -> +21°C Technopoliksen pyynnöstä.",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_l3dnwja3wk7519qe0cm7r437",
+      "time": "2025-02-17T15:16:28+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "B-talon 5.krs huoneesta B524 on tullut valituksia tunkkaisesta ilmasta. Kerroksen CO2-tarpeenmukaistus ohjautuu yhden anturin mukaan, joka on sijoitettu käytävälle. Ehdotettu asiakkaalle anturin sijainnin vaihtoa tai lisä anturointia. Tarpeenmukaistuksen minimi nostettu väliaikaisesti 50%->70%.",
+      "node_name": "TK312 2-10 krs"
+    }
+  ],
+  "fault_incidents": [
+    {
+      "id": "incident_w343c0e9wku22196s2q4izk3",
+      "time": "2026-04-30T12:31:09+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "awaiting_review",
+      "description": "Koneen toiminnassa jotain outoa. Raitisilma tulee koneelle 12,5C asteisena, mutta silti kaukojäähdytysventtiili auki tuloilman asetuksen ollessa 17-18C. Vuotaako jokin lämmitysventtiili nyt läpi?",
+      "node_name": "TK301 2-8 krs"
+    },
+    {
+      "id": "incident_a79ypi68vkxb334s4f8v38v7",
+      "time": "2026-04-23T13:11:22+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Aikaohjelmaa muutettu 27.4.26 TK-306 osalta klo21.15 asti ilta ohjelman takia. Palautetaan seuraavana arkipäivänä takaisin.           T.MaintCo / Jari Siirilä",
+      "node_name": "TK306 Pääaula"
+    },
+    {
+      "id": "incident_cvm1h1b6iqz0napuxfy0spsc",
+      "time": "2026-04-14T14:55:40+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "significant",
+      "status": "pending",
+      "description": "Ulkovaloisuuden LUX-mittarissa XE00.1 mahdollisesti vikaa. Voisiko TL käydä tsekkaamassa?",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_pauepl56sibx6gs1akmkq955",
+      "time": "2026-01-29T10:58:35+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "C-talossa tullut kylmyys valitusta, 4. ja 5. kerroksessa näpit jääty. TL nostanut asetusarvoja 22 'C,  IV-verkosto säteilijä-verkosto C-osa menoveden lämpötila 48 'C.",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_uxc1rs8lq8a726v8r1hovvmn",
+      "time": "2026-01-28T09:31:07+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "3. krs Avokonttori, koillisen lämpötila mittaukset ovat normaalia matalempia. Ovatko tilat yhä tyhjillään?",
+      "node_name": "C-osa"
+    },
+    {
+      "id": "incident_mp7nuh5kxyuvcwz4s95okklx",
+      "time": "2025-12-17T09:49:20+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Ja TK322 tarpeenmukaistukset otettu mittausten ajaksi pois käytöstä.",
+      "node_name": "TK321 Toimistotilat 2-8 krs"
+    },
+    {
+      "id": "incident_j1iq63zyjzqi3opw5m14iag0",
+      "time": "2025-12-01T09:45:53+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Ajastettu TK-305 ja TK-306 Perj.5.12.25  iltatilaisuuden takia klo 19.30 asti.Palautetaan seuraavana arkipäivänä takaisin. T.Are/Siirilä Jari",
+      "node_name": "Ilmanvaihto"
+    },
+    {
+      "id": "incident_nnb67uquyj43yviy5d97xu9q",
+      "time": "2025-11-10T11:41:14+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Avokonttorin Iot anturin 01FEC599 lukemat ovat reilusti normaalia viileämpiä, mutta automaation mukaan lämpötilat ok. Kumpi mittaus väärä? ",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_m88w5dl8bxljaqgbz6qltq2f",
+      "time": "2025-11-10T11:16:29+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Airwitsissä A8-4 toimitila anturi linkitetty eri ID anturiin kun connected insight.",
+      "node_name": "A-osa"
+    },
+    {
+      "id": "incident_f50ke9y5uky2otd7dh03b1f1",
+      "time": "2025-11-10T10:59:26+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "IV-kone on käy lisäaika tilassa. 8.krs lisäaikapainikkeet ovat päällä, onko tämä tarkoituksella?",
+      "node_name": "TK312 2-10 krs"
+    },
+    {
+      "id": "incident_lo0iyuv41m4ljco9z2suvk6o",
+      "time": "2025-10-10T08:52:01+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "IV-koneella paine mittauksia, otettu tarpeenmukaistus pois käytöstä. Soittaa kun saa palauttaa.",
+      "node_name": "TK322 Toimistotilat 2-8 krs"
+    },
+    {
+      "id": "incident_u8cbufiebqs1ygywgqlb6pgq",
+      "time": "2025-10-01T15:18:24+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Kaikkien osien kaikki IV-koneet laitettu käymään ensi yöksi. Kohteella ollut tulipalo, jonka seurauksena koneen käynnistymisissä ollu ongelmaa ja haluttu yöksi lisä tuuletusta. ",
+      "node_name": "A-osa"
+    },
+    {
+      "id": "incident_hzotukumxcrde5kgtrepagjr",
+      "time": "2025-09-19T15:11:45+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "A385 huonesäädin hälyttää väylävikaa.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_vwequz6fw3ce4qj90mdt2kzn",
+      "time": "2025-09-16T15:13:12+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "awaiting_review",
+      "description": "Verkoston menoveden asetus on käsikäytöllä 11C. Energiayhtiön mukaan kaukokylmän paluulämpötila on liian matala. Voisikohan asetuksen vapauttaa automaatille, jotta paluulämpötila hieman nousisi?",
+      "node_name": "PKN-verkosto"
+    },
+    {
+      "id": "incident_twf52ko4subw3xrpxci49d8b",
+      "time": "2025-07-29T10:03:45+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "significant",
+      "status": "resolved",
+      "description": "Verkoston-käyrän alin asetusarvo on tällä hetkellä 11 C, tällä hetkellä kondenssivaara. Tätä asetusarvoa tulisi nostaa 11->15, koska asetuksen tulisi olla 1-2C yli kastepisteen aina, jos on palkit tai säteilijät verkossa.",
+      "node_name": "IV-säteilijaverkosto"
+    },
+    {
+      "id": "incident_t7ran71f6k54zghxmwsbjegz",
+      "time": "2025-06-23T12:35:53+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "A-talo huone 780 CO2-mittaus rikki, näyttää jatkuvasti lukemaa 1262 ppm. Tilaan viety IoT-anturi VARA4 (01FFB922) ja tällä hetkellä tyhjässä tilassa lukema n. 400 ppm. Tilasta tullut vasta palautetta riittämättömästä ilmanvaihdosta, seurataan nyt tilannetta IoT-anturin avulla.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_iukegta6nhulj19z02gosl1d",
+      "time": "2025-06-19T14:02:52+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Iltatilaisuus AK 2krs. Ke 25.6  TK306 ajastettu klo 20 asti. Palautetaan tilaisuuden jälkeen. -Viljanen/Are",
+      "node_name": "TK306 Pääaula"
+    },
+    {
+      "id": "incident_vyzdl43aji1cw0796lb1q9s0",
+      "time": "2025-06-12T12:36:56+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Lauantaina 14.6 klo 8-15 asti muutettu aika ohjelmaa TK-322 osalta,palautetaan seuraavana arkipäivänä takaisin. Ti 17.6.25 ilta tilaisuuden osalta muutettu aika ohjelmaa TK-306 osalta klo 16-20 asti.Palautetaan seuraavana arkipäivänä takaisin",
+      "node_name": "A-osa"
+    },
+    {
+      "id": "incident_v1en3y8x3di8l83p5ayap36n",
+      "time": "2025-06-06T08:30:36+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Horizon Plaza Iv-koneiden painesuhteet --> Grafiikalle merkitty mustalla paine-arvot. Nämä eivät täsmää Pesosen toimittamia arvoja. Grafiikalla olevat arvot ei ole oikeat. --> Grafiikan arvot olisi hyvä muuttaa nykyisyyttä vastaavaksi. --> Fidelix pitää tehdä muutos, koska muutos pitää tehdä myös pi",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_lns232h3jeufujdh9u8glphp",
+      "time": "2025-05-26T14:27:28+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Muutettu aikaohjelmaa TL:n toimesta: 31.5.25 AK ravintolasalin osalta( TK-306) päälle 9.30 ja pois 18.15 juhlatilaisuuden vuoksi. Palautetaan normaaliksi seuraavana arkipäivänä 2.6.25  ",
+      "node_name": "A-osa"
+    },
+    {
+      "id": "incident_hv8b9l988vjw919f8qeoocfu",
+      "time": "2025-05-21T10:52:55+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "MaintCo Jari Siirilä soitti, että 6 kerroksen labratiloissa A615 kuuma. Käy katsomassa tilan konvektorin voiko olla toiminnassa. RAU:n mukaan JPV 100% ja puhallinkonvektorin säätöviesti 100%.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_abtuwky7qj9tmm5cls4bfczf",
+      "time": "2025-05-13T15:34:42+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Max SS -6 -> -2. Ulkoanturiin paistaa aurinko.",
+      "node_name": "Lämmitys A-, B-, C-osa"
+    },
+    {
+      "id": "incident_pxbvaxyto66iv38xur49dda8",
+      "time": "2025-05-12T10:47:54+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": " Viimeksi muokattu IV-koneen aikaohjelma seuraavanlaiseksi:  Ma-Su 04.00-23.59. Kone käy tästä huolimatta 24/7, tämä muokkaus trensien mukaan tehty 12.12.24. Voiko aikaohjelman palauttaa 04.00-23.59?",
+      "node_name": "TK304 Sos.tila"
+    },
+    {
+      "id": "incident_lcgx8wk5einenvt7eevnx5km",
+      "time": "2025-05-12T10:35:55+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "6.krs huoneissa esiintyy normaalia lämpimämpiä lämpötiloja, kyseessä huoneet: A614, A635, A641, A642, A643, A644, A645 ja A646. Huoneiden jäähdytyksien säädöt 100%, tästä huolimatta listattujen huoneiden lämpötilat ovat korkeampia muihin kerroksen huoneisiin verrattuna.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_ayiao1ykdw8rahg3qslm30gw",
+      "time": "2025-05-12T10:02:15+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "2.krs huonesäätimien mittauksissa esiintyy normaalia korkeampia arvoja. Huoneet: A241 ja A243 kaikki 6 anturia mittaa yli 25C. Automaation mukaan jäähdytyksen säätö huonesäätimillä on 100%. Onko huonesäätimien ohjaukset ristissä?",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_w5q86gwx1hvs2q8tze1kry2f",
+      "time": "2025-04-17T11:26:41+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "in_progress",
+      "description": "Jotkin yksittäiset huonesäätimet jäähdyttävät vaikka huonelämpötila on selvästi alle jäähdytysasetuksen (lämmitysasetus 21,0C + kuollut alue 2,0C). Mistähän johtuu? Eikö kaikki säätimet tottele kuollutta aluetta? Liitteenä esimerkkinä tila A277. Samanaikaisesti muut säätimet ko. RAU-kuvassa vaikutta",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_sil0s4za4tz0olsudt9t0ovp",
+      "time": "2025-03-21T11:17:59+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Palopellit B-osa (6-8krs) TK314 palopelti 314PP17.B801 palopellin laukeamishälytys aktiivisena, hälyttänyt tänään aamuyöstä. Tämä ilmeisesti työn alla kun hälytys kuitattuna?",
+      "node_name": "Palopellit"
+    },
+    {
+      "id": "incident_p3we3wwjbs2nb1z1ecz18qrr",
+      "time": "2025-03-12T13:41:18+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "C-osan 3.krs Peltokadunpuolelta tiloista on tullut valituksia huonosta ilmasta, muokattu tarpeenmukaistuksen minimi 0,5->0,6. Tarvitaanko tiloihin lisää anturointia tai vanhojen antureiden siirtoa?",
+      "node_name": "TK322 Toimistotilat 2-8 krs"
+    },
+    {
+      "id": "incident_l3dnwja3wk7519qe0cm7r437",
+      "time": "2025-02-17T15:16:28+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "B-talon 5.krs huoneesta B524 on tullut valituksia tunkkaisesta ilmasta. Kerroksen CO2-tarpeenmukaistus ohjautuu yhden anturin mukaan, joka on sijoitettu käytävälle. Ehdotettu asiakkaalle anturin sijainnin vaihtoa tai lisä anturointia. Tarpeenmukaistuksen minimi nostettu väliaikaisesti 50%->70%.",
+      "node_name": "TK312 2-10 krs"
+    },
+    {
+      "id": "incident_a2dnjvul25mv5zejo425tscx",
+      "time": "2024-12-13T14:23:48+00:00",
+      "event_type": "Vikailmoitus",
+      "category": "fault",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Iltatilaisuus Horizon Plaza A-talo Keittiö ja Ravintola/Aula(TK-305 ja TK-306) aikaohjelmaa muutettu 19.12.24 klo 23.59 asti,muutetaan normaaliksi seuraavana arkipäivänä.  T. Are/Jari Siirilä",
+      "node_name": "TK305 Keittiö"
+    }
+  ],
+  "condition_incidents": [
+    {
+      "id": "incident_lc94md67o3ug6kw1hfvj2ghl",
+      "time": "2026-02-02T08:38:14+00:00",
+      "event_type": "Sisäolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Keittiön koneelta tullut kylmyys valitus, tuloilman lämpötila 12,2 'C, ohjeistettu TL käymään kohteella tarkastamassa LTO:n ja LPV:n kunto. LTO:n hyötysuhde vain 32% ja lämmityspatterin venttiili 100% auki mutta ei lämmitä.",
+      "node_name": "TK305 Keittiö"
+    },
+    {
+      "id": "incident_yhfw839dk47yav2phekli3bv",
+      "time": "2025-11-23T20:38:48+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "pending",
+      "description": "Koko asemakeskuksen huonelämpötilamittaukset katonrajassa (pl. TE+CO2), otettava huomioon säätimien asetuksissa.",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_inm3d9b6zcn52ts89qatihso",
+      "time": "2025-11-13T12:39:42+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Huolto ilmoitti, että huonesäätimien säätävät anturit ovat katonrajassa ja vääristävät. Nostettu täten huonesäätimistä lämmitysasetus 21C -> 21,5C.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_uj9rky2nykednw2nmmir8jau",
+      "time": "2025-10-24T14:37:54+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "6. kerroksesta tullut kylmyysvalituksia. Kiinteistön lämmitystavoite 21C. Lämpötilat joka huonesäätimessä 21-23C. Todettu lämpötilojen olevan normaalilla tasolla, joten ei muutoksia säätöihin.",
+      "node_name": "Huonesäätimet"
+    },
+    {
+      "id": "incident_jauc003kfzr03jhp4dgn94za",
+      "time": "2025-09-19T12:23:08+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "in_progress",
+      "description": "MaintCon mukaan kohteessa ollut kesällä jäähdytyksen riittävyydessä ongelmaa kostealla kelillä kun kastepisterajoitus rajoittaa sensus-paneelijäähdytyksen toimintaa rajusti.",
+      "node_name": "IV-säteilijaverkosto"
+    },
+    {
+      "id": "incident_xeha4vi60kvpiqwrtlwf2zjr",
+      "time": "2025-07-31T13:55:40+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Kohteessa kuumuusongelmia. Automaatiosta näytti puuttuvan aamujäähdytyksen aikaohjelma kokonaan asetteluista. Aseteltu aamujäähdytyksen aikaohjelmaan klo 4 - 8. Huoneraja 23C ja ulkoraja 15C.",
+      "node_name": "TK311 2-10 krs"
+    },
+    {
+      "id": "incident_jrgx4a7ro442o5pwrs3q98w6",
+      "time": "2025-05-27T08:37:24+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Kohteessa osassa tiloja palautteen mukaan liian kylmä. Parametroitu smartista sensus-verkoston menoveden säädöstä enemmän painotusta kylmille huoneille. Huonesäätimissä 21C lämmitysasetus ennallaan.",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_vur7wulfcqmcn1oqumqrm8ib",
+      "time": "2025-03-19T14:39:06+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "Huonesäätimien lämmitysasetusta pääsee muokkaamaan massana suoraan vakista. Ko. massmuokkausarvopistettä ei webvisionissa näy.",
+      "node_name": "Rakennusautomaatio"
+    },
+    {
+      "id": "incident_mtsj13xvpcap937cexkncb4h",
+      "time": "2023-10-11T13:44:50+00:00",
+      "event_type": "Lämpötilaolosuhteet",
+      "category": "conditions_deviation",
+      "priority": "according_to_agreement",
+      "status": "resolved",
+      "description": "A814-tilan huonelämpötila yli 30C. Onkohan huonesäätimen anturi hajalla vai tila jossani erikoiskäytössä?",
+      "node_name": "Huonesäätimet"
+    }
+  ],
+  "recent_alarms": [
+    {
+      "id": "incident_w343c0e9wku22196s2q4izk3",
+      "time": "2026-04-30T12:31:09+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Koneen toiminnassa jotain outoa. Raitisilma tulee koneelle 12,5C asteisena, mutta silti kaukojäähdytysventtiili auki tuloilman asetuksen ollessa 17-18C. Vuotaako jokin lämmitysventtiili nyt läpi?",
+      "location_hint": "TK301 2-8 krs",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_a79ypi68vkxb334s4f8v38v7",
+      "time": "2026-04-23T13:11:22+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Aikaohjelmaa muutettu 27.4.26 TK-306 osalta klo21.15 asti ilta ohjelman takia. Palautetaan seuraavana arkipäivänä takaisin.           T.MaintCo / Jari Siirilä",
+      "location_hint": "TK306 Pääaula",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_cvm1h1b6iqz0napuxfy0spsc",
+      "time": "2026-04-14T14:55:40+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Ulkovaloisuuden LUX-mittarissa XE00.1 mahdollisesti vikaa. Voisiko TL käydä tsekkaamassa?",
+      "location_hint": "Rakennusautomaatio",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_lc94md67o3ug6kw1hfvj2ghl",
+      "time": "2026-02-02T08:38:14+00:00",
+      "priority": 50,
+      "alert_type": "Sisäolosuhteet",
+      "description": "Keittiön koneelta tullut kylmyys valitus, tuloilman lämpötila 12,2 'C, ohjeistettu TL käymään kohteella tarkastamassa LTO:n ja LPV:n kunto. LTO:n hyötysuhde vain 32% ja lämmityspatterin venttiili 100% auki mutta ei lämmitä.",
+      "location_hint": "TK305 Keittiö",
+      "hwid_type": "conditions_deviation"
+    },
+    {
+      "id": "incident_pauepl56sibx6gs1akmkq955",
+      "time": "2026-01-29T10:58:35+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "C-talossa tullut kylmyys valitusta, 4. ja 5. kerroksessa näpit jääty. TL nostanut asetusarvoja 22 'C,  IV-verkosto säteilijä-verkosto C-osa menoveden lämpötila 48 'C.",
+      "location_hint": "Rakennusautomaatio",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_uxc1rs8lq8a726v8r1hovvmn",
+      "time": "2026-01-28T09:31:07+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "3. krs Avokonttori, koillisen lämpötila mittaukset ovat normaalia matalempia. Ovatko tilat yhä tyhjillään?",
+      "location_hint": "C-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_mp7nuh5kxyuvcwz4s95okklx",
+      "time": "2025-12-17T09:49:20+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Ja TK322 tarpeenmukaistukset otettu mittausten ajaksi pois käytöstä.",
+      "location_hint": "TK321 Toimistotilat 2-8 krs",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_j1iq63zyjzqi3opw5m14iag0",
+      "time": "2025-12-01T09:45:53+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Ajastettu TK-305 ja TK-306 Perj.5.12.25  iltatilaisuuden takia klo 19.30 asti.Palautetaan seuraavana arkipäivänä takaisin. T.Are/Siirilä Jari",
+      "location_hint": "Ilmanvaihto",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_yhfw839dk47yav2phekli3bv",
+      "time": "2025-11-23T20:38:48+00:00",
+      "priority": 50,
+      "alert_type": "Lämpötilaolosuhteet",
+      "description": "Koko asemakeskuksen huonelämpötilamittaukset katonrajassa (pl. TE+CO2), otettava huomioon säätimien asetuksissa.",
+      "location_hint": "Rakennusautomaatio",
+      "hwid_type": "conditions_deviation"
+    },
+    {
+      "id": "incident_inm3d9b6zcn52ts89qatihso",
+      "time": "2025-11-13T12:39:42+00:00",
+      "priority": 50,
+      "alert_type": "Lämpötilaolosuhteet",
+      "description": "Huolto ilmoitti, että huonesäätimien säätävät anturit ovat katonrajassa ja vääristävät. Nostettu täten huonesäätimistä lämmitysasetus 21C -> 21,5C.",
+      "location_hint": "Huonesäätimet",
+      "hwid_type": "conditions_deviation"
+    },
+    {
+      "id": "incident_nnb67uquyj43yviy5d97xu9q",
+      "time": "2025-11-10T11:41:14+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Avokonttorin Iot anturin 01FEC599 lukemat ovat reilusti normaalia viileämpiä, mutta automaation mukaan lämpötilat ok. Kumpi mittaus väärä? ",
+      "location_hint": "Huonesäätimet",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_m88w5dl8bxljaqgbz6qltq2f",
+      "time": "2025-11-10T11:16:29+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Airwitsissä A8-4 toimitila anturi linkitetty eri ID anturiin kun connected insight.",
+      "location_hint": "A-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_f50ke9y5uky2otd7dh03b1f1",
+      "time": "2025-11-10T10:59:26+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "IV-kone on käy lisäaika tilassa. 8.krs lisäaikapainikkeet ovat päällä, onko tämä tarkoituksella?",
+      "location_hint": "TK312 2-10 krs",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_uj9rky2nykednw2nmmir8jau",
+      "time": "2025-10-24T14:37:54+00:00",
+      "priority": 50,
+      "alert_type": "Lämpötilaolosuhteet",
+      "description": "6. kerroksesta tullut kylmyysvalituksia. Kiinteistön lämmitystavoite 21C. Lämpötilat joka huonesäätimessä 21-23C. Todettu lämpötilojen olevan normaalilla tasolla, joten ei muutoksia säätöihin.",
+      "location_hint": "Huonesäätimet",
+      "hwid_type": "conditions_deviation"
+    },
+    {
+      "id": "incident_lo0iyuv41m4ljco9z2suvk6o",
+      "time": "2025-10-10T08:52:01+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "IV-koneella paine mittauksia, otettu tarpeenmukaistus pois käytöstä. Soittaa kun saa palauttaa.",
+      "location_hint": "TK322 Toimistotilat 2-8 krs",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_u8cbufiebqs1ygywgqlb6pgq",
+      "time": "2025-10-01T15:18:24+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Kaikkien osien kaikki IV-koneet laitettu käymään ensi yöksi. Kohteella ollut tulipalo, jonka seurauksena koneen käynnistymisissä ollu ongelmaa ja haluttu yöksi lisä tuuletusta. ",
+      "location_hint": "A-osa",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_hzotukumxcrde5kgtrepagjr",
+      "time": "2025-09-19T15:11:45+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "A385 huonesäädin hälyttää väylävikaa.",
+      "location_hint": "Huonesäätimet",
+      "hwid_type": "fault"
+    },
+    {
+      "id": "incident_jauc003kfzr03jhp4dgn94za",
+      "time": "2025-09-19T12:23:08+00:00",
+      "priority": 50,
+      "alert_type": "Lämpötilaolosuhteet",
+      "description": "MaintCon mukaan kohteessa ollut kesällä jäähdytyksen riittävyydessä ongelmaa kostealla kelillä kun kastepisterajoitus rajoittaa sensus-paneelijäähdytyksen toimintaa rajusti.",
+      "location_hint": "IV-säteilijaverkosto",
+      "hwid_type": "conditions_deviation"
+    },
+    {
+      "id": "incident_vwequz6fw3ce4qj90mdt2kzn",
+      "time": "2025-09-16T15:13:12+00:00",
+      "priority": 50,
+      "alert_type": "Vikailmoitus",
+      "description": "Verkoston menoveden asetus on käsikäytöllä 11C. Energiayhtiön mukaan kaukokylmän paluulämpötila on liian matala. Voisikohan asetuksen vapauttaa automaatille, jotta paluulämpötila hieman nousisi?",
+      "location_hint": "PKN-verkosto",
+      "hwid_type": "fault"
+    }
+  ]
+}

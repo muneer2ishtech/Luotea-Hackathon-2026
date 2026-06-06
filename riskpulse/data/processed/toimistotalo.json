@@ -1,0 +1,2054 @@
+{
+  "building_id": "toimistotalo",
+  "profile": "alarm",
+  "meta": {
+    "name": "Toimistotalo",
+    "customer": "Valmet Flow Control Oy",
+    "address": "Vanha Porvoontie 229, Vantaa (Hakkila)",
+    "profile": "alarm",
+    "site_match": "Toimistotalo",
+    "sources": [
+      "alarms",
+      "work_orders",
+      "maintenance_schedule"
+    ]
+  },
+  "alarm_weekly": [
+    {
+      "week_start": "2025-01-26",
+      "count": 100
+    },
+    {
+      "week_start": "2025-02-02",
+      "count": 60
+    },
+    {
+      "week_start": "2025-02-16",
+      "count": 260
+    },
+    {
+      "week_start": "2025-02-23",
+      "count": 290
+    },
+    {
+      "week_start": "2025-03-02",
+      "count": 350
+    },
+    {
+      "week_start": "2025-03-09",
+      "count": 230
+    },
+    {
+      "week_start": "2025-03-16",
+      "count": 40
+    },
+    {
+      "week_start": "2025-03-23",
+      "count": 120
+    },
+    {
+      "week_start": "2025-03-30",
+      "count": 300
+    },
+    {
+      "week_start": "2025-04-06",
+      "count": 580
+    },
+    {
+      "week_start": "2025-04-20",
+      "count": 290
+    },
+    {
+      "week_start": "2025-04-27",
+      "count": 120
+    },
+    {
+      "week_start": "2025-05-11",
+      "count": 90
+    },
+    {
+      "week_start": "2025-05-18",
+      "count": 330
+    },
+    {
+      "week_start": "2025-05-25",
+      "count": 150
+    },
+    {
+      "week_start": "2025-06-01",
+      "count": 570
+    },
+    {
+      "week_start": "2025-06-08",
+      "count": 460
+    },
+    {
+      "week_start": "2025-06-15",
+      "count": 660
+    },
+    {
+      "week_start": "2025-06-22",
+      "count": 1120
+    },
+    {
+      "week_start": "2025-06-29",
+      "count": 1180
+    },
+    {
+      "week_start": "2025-07-06",
+      "count": 560
+    },
+    {
+      "week_start": "2025-07-13",
+      "count": 800
+    },
+    {
+      "week_start": "2025-07-20",
+      "count": 280
+    },
+    {
+      "week_start": "2025-07-27",
+      "count": 20
+    },
+    {
+      "week_start": "2025-08-10",
+      "count": 670
+    },
+    {
+      "week_start": "2025-08-17",
+      "count": 780
+    },
+    {
+      "week_start": "2025-08-24",
+      "count": 540
+    },
+    {
+      "week_start": "2025-08-31",
+      "count": 40
+    },
+    {
+      "week_start": "2025-09-07",
+      "count": 50
+    },
+    {
+      "week_start": "2025-09-14",
+      "count": 120
+    },
+    {
+      "week_start": "2025-09-28",
+      "count": 60
+    },
+    {
+      "week_start": "2025-10-05",
+      "count": 200
+    },
+    {
+      "week_start": "2025-10-19",
+      "count": 40
+    },
+    {
+      "week_start": "2025-11-16",
+      "count": 40
+    },
+    {
+      "week_start": "2025-11-23",
+      "count": 20
+    },
+    {
+      "week_start": "2025-11-30",
+      "count": 180
+    },
+    {
+      "week_start": "2025-12-07",
+      "count": 70
+    },
+    {
+      "week_start": "2025-12-28",
+      "count": 40
+    },
+    {
+      "week_start": "2026-01-18",
+      "count": 70
+    },
+    {
+      "week_start": "2026-02-01",
+      "count": 100
+    },
+    {
+      "week_start": "2026-03-01",
+      "count": 110
+    },
+    {
+      "week_start": "2026-03-15",
+      "count": 40
+    },
+    {
+      "week_start": "2026-03-22",
+      "count": 150
+    },
+    {
+      "week_start": "2026-03-29",
+      "count": 0
+    },
+    {
+      "week_start": "2026-04-05",
+      "count": 40
+    },
+    {
+      "week_start": "2026-04-12",
+      "count": 0
+    },
+    {
+      "week_start": "2026-04-19",
+      "count": 10
+    },
+    {
+      "week_start": "2026-04-26",
+      "count": 40
+    },
+    {
+      "week_start": "2026-05-03",
+      "count": 140
+    },
+    {
+      "week_start": "2026-05-10",
+      "count": 520
+    },
+    {
+      "week_start": "2026-05-17",
+      "count": 100
+    },
+    {
+      "week_start": "2026-05-24",
+      "count": 180
+    }
+  ],
+  "recent_alarms": [
+    {
+      "id": 629905,
+      "time": "2026-05-21T16:51:13+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:42:30 Poistunut KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629904,
+      "time": "2026-05-21T16:51:13+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:42:30 Poistunut KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629903,
+      "time": "2026-05-21T16:51:13+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:42:30 Poistunut KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629902,
+      "time": "2026-05-21T16:51:13+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:42:30 Poistunut KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629901,
+      "time": "2026-05-21T16:51:13+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:42:30 Poistunut KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629900,
+      "time": "2026-05-21T16:51:13+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:42:30 Poistunut KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629899,
+      "time": "2026-05-21T16:51:13+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:42:30 Poistunut KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629898,
+      "time": "2026-05-21T16:51:13+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:42:30 Poistunut KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629897,
+      "time": "2026-05-21T16:51:13+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:42:30 Poistunut KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629896,
+      "time": "2026-05-21T16:51:13+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:42:30 Poistunut KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629880,
+      "time": "2026-05-21T16:50:41+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:41:58 H{lytys KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629876,
+      "time": "2026-05-21T16:50:41+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:41:58 H{lytys KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629877,
+      "time": "2026-05-21T16:50:41+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:41:58 H{lytys KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629878,
+      "time": "2026-05-21T16:50:41+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:41:58 H{lytys KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629879,
+      "time": "2026-05-21T16:50:41+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:41:58 H{lytys KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629882,
+      "time": "2026-05-21T16:50:41+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:41:58 H{lytys KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629881,
+      "time": "2026-05-21T16:50:41+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:41:58 H{lytys KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629883,
+      "time": "2026-05-21T16:50:41+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:41:58 H{lytys KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629884,
+      "time": "2026-05-21T16:50:41+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:41:58 H{lytys KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629885,
+      "time": "2026-05-21T16:50:41+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Atmostech, Sponda Vanha Porvoontie 229, Vantaa: Linjavalvonta: 21.05.26 16:41:58 H{lytys KOy Vantaan Honkatalo F.P302-PU02",
+      "location_hint": "Atmostech",
+      "hwid_type": "Alerta"
+    },
+    {
+      "id": 629867,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629875,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629874,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629873,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629872,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629871,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629870,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629869,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629868,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629866,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629857,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629865,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629864,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629863,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629862,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629861,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629860,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629859,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629858,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629856,
+      "time": "2026-05-21T09:20:59+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: 21-May-26 9:20:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)MHV03FireAlm(EA101)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629843,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakenn",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629842,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakenn",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629841,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakenn",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629836,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakenn",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629840,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakenn",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629839,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakenn",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629838,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakenn",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629845,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakenn",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629844,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakenn",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629852,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629846,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629847,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629848,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629850,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629851,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629853,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629854,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629855,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629849,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629837,
+      "time": "2026-05-21T09:20:53+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timestamp: 21-May-26 9:20:04 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakenn",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DryVlvFireAlm(V900-EA99)_Timest",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629831,
+      "time": "2026-05-21T09:15:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629827,
+      "time": "2026-05-21T09:15:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629829,
+      "time": "2026-05-21T09:15:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629830,
+      "time": "2026-05-21T09:15:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629826,
+      "time": "2026-05-21T09:15:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629832,
+      "time": "2026-05-21T09:15:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629833,
+      "time": "2026-05-21T09:15:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629834,
+      "time": "2026-05-21T09:15:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629828,
+      "time": "2026-05-21T09:15:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629835,
+      "time": "2026-05-21T09:15:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629816,
+      "time": "2026-05-21T09:03:01+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629825,
+      "time": "2026-05-21T09:03:01+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629817,
+      "time": "2026-05-21T09:03:01+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629818,
+      "time": "2026-05-21T09:03:01+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629819,
+      "time": "2026-05-21T09:03:01+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629820,
+      "time": "2026-05-21T09:03:01+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629821,
+      "time": "2026-05-21T09:03:01+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629824,
+      "time": "2026-05-21T09:03:01+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629822,
+      "time": "2026-05-21T09:03:01+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629823,
+      "time": "2026-05-21T09:03:01+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629792,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629791,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629790,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629789,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629788,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629787,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629786,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629795,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629794,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629814,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629815,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629804,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629793,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp: 21-May-26 9:02:31 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)ElCmdFlt(V720-SPR01)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629797,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629796,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629798,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629799,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629800,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629802,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629803,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629801,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629805,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_H",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629807,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629808,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629809,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629810,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629811,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629806,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629812,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629813,
+      "time": "2026-05-21T09:02:58+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp: 21-May-26 9:02:28 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)Fdr(1)Flt(V720-MHV2)_Timestamp:",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629770,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pr",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629772,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pr",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629771,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pr",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629766,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pr",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629769,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pr",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629767,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pr",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629774,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pr",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629773,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pr",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629768,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pr",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629775,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pr",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629781,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629785,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629776,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629784,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629782,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629783,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629780,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629777,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629779,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629778,
+      "time": "2026-05-21T09:00:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21-May-26 9:00:00 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)FdrFlt(V720-MHV1)_Timestamp: 21",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629759,
+      "time": "2026-05-21T08:56:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629757,
+      "time": "2026-05-21T08:56:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629758,
+      "time": "2026-05-21T08:56:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629756,
+      "time": "2026-05-21T08:56:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629760,
+      "time": "2026-05-21T08:56:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629761,
+      "time": "2026-05-21T08:56:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629762,
+      "time": "2026-05-21T08:56:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629763,
+      "time": "2026-05-21T08:56:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629764,
+      "time": "2026-05-21T08:56:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629765,
+      "time": "2026-05-21T08:56:50+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Priori",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629744,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629736,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629737,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629738,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629739,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629740,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629741,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629742,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629743,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629750,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629745,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May-26 8:28:26 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629746,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629747,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629748,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629749,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629751,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629752,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629753,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629755,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 629754,
+      "time": "2026-05-21T08:28:56+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May-26 8:28:14 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_Pri",
+      "location_hint": "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 21-May",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779339,
+      "time": "2026-05-13T07:31:49+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779338,
+      "time": "2026-05-13T07:31:49+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779337,
+      "time": "2026-05-13T07:31:49+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779336,
+      "time": "2026-05-13T07:31:49+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779335,
+      "time": "2026-05-13T07:31:49+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779334,
+      "time": "2026-05-13T07:31:49+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779333,
+      "time": "2026-05-13T07:31:49+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779332,
+      "time": "2026-05-13T07:31:49+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779331,
+      "time": "2026-05-13T07:31:49+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779330,
+      "time": "2026-05-13T07:31:49+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779306,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779309,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779314,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779313,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779312,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779311,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779310,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779302,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779308,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779307,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779305,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779303,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779316,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779315,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779321,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779317,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779318,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779319,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779320,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779300,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779322,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779323,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779324,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779325,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779326,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779327,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779328,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779329,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:30:40 AM EEST_State: Offnormal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_Hi",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779301,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 779304,
+      "time": "2026-05-13T07:31:43+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: 13-May-26 7:31:10 AM EEST_State: Normal / Unacked_Priority: 255_Alarm Class: VPT229_Varastorakennus_High_",
+      "location_hint": "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ",
+      "hwid_type": "Sähköpostihälytys"
+    }
+  ],
+  "alarm_type_counts": {
+    "LVIS": 1090,
+    "PALOVIK": 60,
+    "PALO": 40
+  },
+  "alarm_location_counts": {
+    "Atmostech": 100,
+    "Source: VAK23_BAAhu(V309)HclFrPrtMon(V309-TSA01)_Timestamp: ": 90,
+    "/Palolaitevika": 60,
+    "Source: VAK22_BAAhu322HclFrPrtMon_Timestamp: 06-May-26 11:27": 60,
+    "Source: VAK22_BAAhu316HclFrPrtMon(301TZA04)_Timestamp: 06-Ma": 60,
+    "/Palohälytys": 40,
+    "Source: VAK23_BAAhu(V314)HclFrPrtMon(V314-TSA01)_Timestamp: ": 40,
+    "Source: VAK23_BAAhu(V315)HclFrPrtMon(V315-TSA01)_Timestamp: ": 40,
+    "Source: VAK23_BFSpr(V720-721)DslFlt(SPR02)_Timestamp: 24-Feb": 30,
+    "Source: VAK23_BFSpr(V720-721)DslFlt(SPR01)_Timestamp: 24-Feb": 30
+  },
+  "work_orders": {
+    "total_all_time": 151,
+    "last_12_months": 11,
+    "on_demand": 11,
+    "scheduled_pm": 0,
+    "sla_violations": 0
+  },
+  "repeat_issues": [],
+  "maintenance_calendar": []
+}

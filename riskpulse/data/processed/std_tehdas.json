@@ -1,0 +1,288 @@
+{
+  "building_id": "std_tehdas",
+  "profile": "alarm",
+  "meta": {
+    "name": "STD tehdas",
+    "customer": "Valmet Flow Control Oy",
+    "address": "Vanha Porvoontie 229, Vantaa (Hakkila)",
+    "profile": "alarm",
+    "site_match": "STD tehdas",
+    "sources": [
+      "alarms",
+      "work_orders"
+    ]
+  },
+  "alarm_weekly": [
+    {
+      "week_start": "2025-03-30",
+      "count": 4
+    },
+    {
+      "week_start": "2025-05-18",
+      "count": 2
+    },
+    {
+      "week_start": "2025-06-01",
+      "count": 4
+    },
+    {
+      "week_start": "2025-06-08",
+      "count": 2
+    },
+    {
+      "week_start": "2025-06-15",
+      "count": 8
+    },
+    {
+      "week_start": "2025-06-22",
+      "count": 34
+    },
+    {
+      "week_start": "2025-06-29",
+      "count": 10
+    },
+    {
+      "week_start": "2025-07-06",
+      "count": 8
+    },
+    {
+      "week_start": "2025-07-13",
+      "count": 12
+    },
+    {
+      "week_start": "2025-07-20",
+      "count": 6
+    },
+    {
+      "week_start": "2025-08-10",
+      "count": 6
+    },
+    {
+      "week_start": "2025-08-17",
+      "count": 10
+    },
+    {
+      "week_start": "2025-08-24",
+      "count": 6
+    },
+    {
+      "week_start": "2025-09-07",
+      "count": 12
+    },
+    {
+      "week_start": "2025-09-28",
+      "count": 8
+    },
+    {
+      "week_start": "2025-10-26",
+      "count": 10
+    },
+    {
+      "week_start": "2025-11-02",
+      "count": 8
+    },
+    {
+      "week_start": "2025-11-16",
+      "count": 2
+    },
+    {
+      "week_start": "2025-11-23",
+      "count": 12
+    },
+    {
+      "week_start": "2025-11-30",
+      "count": 12
+    },
+    {
+      "week_start": "2025-12-07",
+      "count": 6
+    },
+    {
+      "week_start": "2025-12-14",
+      "count": 8
+    },
+    {
+      "week_start": "2025-12-21",
+      "count": 8
+    },
+    {
+      "week_start": "2026-01-18",
+      "count": 20
+    },
+    {
+      "week_start": "2026-02-01",
+      "count": 6
+    },
+    {
+      "week_start": "2026-03-22",
+      "count": 0
+    },
+    {
+      "week_start": "2026-03-29",
+      "count": 0
+    },
+    {
+      "week_start": "2026-04-05",
+      "count": 0
+    },
+    {
+      "week_start": "2026-04-12",
+      "count": 2
+    },
+    {
+      "week_start": "2026-04-19",
+      "count": 2
+    },
+    {
+      "week_start": "2026-04-26",
+      "count": 0
+    },
+    {
+      "week_start": "2026-05-03",
+      "count": 4
+    },
+    {
+      "week_start": "2026-05-10",
+      "count": 0
+    },
+    {
+      "week_start": "2026-05-17",
+      "count": 4
+    }
+  ],
+  "recent_alarms": [
+    {
+      "id": 393247,
+      "time": "2026-05-12T13:10:07+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Valmet standard factory_Lähde: T610_PIL_PALO_H . Paloilmoitinkeskus palohälytys_Aika: 12.touko.2026 12:28:40 EEST_Kuvaus: Paluu normaaliin",
+      "location_hint": "Valmet standard factory_Lähde: T610_PIL_PALO_H . Paloilmoiti",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 393248,
+      "time": "2026-05-12T13:10:07+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Valmet standard factory_Lähde: T610_PIL_PALO_H . Paloilmoitinkeskus palohälytys_Aika: 12.touko.2026 12:28:40 EEST_Kuvaus: Paluu normaaliin",
+      "location_hint": "Valmet standard factory_Lähde: T610_PIL_PALO_H . Paloilmoiti",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 393245,
+      "time": "2026-05-12T13:01:12+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Valmet standard factory_Lähde: T610_PIL_PALO_H . Paloilmoitinkeskus palohälytys_Aika: 12.touko.2026 12:28:40 EEST_Kuvaus: Hälytys",
+      "location_hint": "Valmet standard factory_Lähde: T610_PIL_PALO_H . Paloilmoiti",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 393246,
+      "time": "2026-05-12T13:01:12+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Valmet standard factory_Lähde: T610_PIL_PALO_H . Paloilmoitinkeskus palohälytys_Aika: 12.touko.2026 12:28:40 EEST_Kuvaus: Hälytys",
+      "location_hint": "Valmet standard factory_Lähde: T610_PIL_PALO_H . Paloilmoiti",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 569120,
+      "time": "2026-05-01T11:16:02+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoitinkeskus vika_Aika: 1.touko.2026 09:46:02 EEST_Kuvaus: Paluu normaaliin",
+      "location_hint": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoiti",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 569121,
+      "time": "2026-05-01T11:16:02+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoitinkeskus vika_Aika: 1.touko.2026 09:46:02 EEST_Kuvaus: Paluu normaaliin",
+      "location_hint": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoiti",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 569118,
+      "time": "2026-05-01T10:18:05+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoitinkeskus vika_Aika: 1.touko.2026 09:46:02 EEST_Kuvaus: Hälytys",
+      "location_hint": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoiti",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 569119,
+      "time": "2026-05-01T10:18:05+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoitinkeskus vika_Aika: 1.touko.2026 09:46:02 EEST_Kuvaus: Hälytys",
+      "location_hint": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoiti",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 318450,
+      "time": "2026-04-13T08:58:17+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoitinkeskus vika_Aika: 1.huhti.2026 10:47:47 EEST_Kuvaus: Paluu normaaliin",
+      "location_hint": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoiti",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 318451,
+      "time": "2026-04-13T08:58:17+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoitinkeskus vika_Aika: 1.huhti.2026 10:47:47 EEST_Kuvaus: Paluu normaaliin",
+      "location_hint": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoiti",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 518910,
+      "time": "2026-04-08T01:19:41+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoitinkeskus vika_Aika: 1.huhti.2026 10:47:47 EEST_Kuvaus: Paluu normaaliin",
+      "location_hint": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoiti",
+      "hwid_type": "Sähköpostihälytys"
+    },
+    {
+      "id": 518911,
+      "time": "2026-04-08T01:19:41+00:00",
+      "priority": 60,
+      "alert_type": "LVIS",
+      "description": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoitinkeskus vika_Aika: 1.huhti.2026 10:47:47 EEST_Kuvaus: Paluu normaaliin",
+      "location_hint": "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoiti",
+      "hwid_type": "Sähköpostihälytys"
+    }
+  ],
+  "alarm_type_counts": {
+    "LVIS": 12
+  },
+  "alarm_location_counts": {
+    "Valmet standard factory_Lähde: T610_PIL_VIKA_H . Paloilmoiti": 8,
+    "Valmet standard factory_Lähde: T610_PIL_PALO_H . Paloilmoiti": 4
+  },
+  "work_orders": {
+    "total_all_time": 40,
+    "last_12_months": 27,
+    "on_demand": 27,
+    "scheduled_pm": 0,
+    "sla_violations": 4
+  },
+  "repeat_issues": [
+    {
+      "topic": "Tuuraus",
+      "count": 6
+    },
+    {
+      "topic": "Perehdytys",
+      "count": 2
+    }
+  ],
+  "maintenance_calendar": []
+}
