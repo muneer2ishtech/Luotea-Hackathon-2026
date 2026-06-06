@@ -58,7 +58,7 @@ Click **Owner · Manager · Technician** in the live demo.
 
 ## Screenshots
 
-Add captures to [`docs/screenshots/`](docs/screenshots/) and they will render here.
+Captured from the statistics demo (`/riskpulse-no-ml`) on port **8090**.
 
 | View | Description |
 |------|-------------|
@@ -66,11 +66,9 @@ Add captures to [`docs/screenshots/`](docs/screenshots/) and they will render he
 | Manager dashboard | Risk chart with baseline band + recommended actions |
 | Technician view | Prioritised field tasks with instructions |
 
-<!-- Replace paths when screenshots are added:
 ![Owner view](docs/screenshots/owner-dashboard.png)
 ![Manager view](docs/screenshots/manager-dashboard.png)
 ![Technician view](docs/screenshots/technician-tasks.png)
--->
 
 ---
 
