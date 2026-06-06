@@ -90,11 +90,11 @@ docker compose up --build
 # → http://localhost:8090/riskpulse-no-ml
 ```
 
-| Branch | Purpose |
-|--------|---------|
-| [`dev`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/tree/dev) | Latest work |
-| [`main`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/tree/main) | Stable releases |
-| [Releases](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/releases) | Version tags (`v0.4.0` latest) |
+| Branch / tag | Purpose |
+|--------------|---------|
+| [`dev`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/tree/dev) | Ongoing work |
+| [`main`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/tree/main) | Tested & integrated |
+| [Releases / tags](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/releases) | Stable releases (latest [`v0.4.0`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/releases/tag/v0.4.0)) |
 
 ---
 
@@ -107,9 +107,11 @@ docker compose up --build
 
 ---
 
-## Team
+## Team Inventix
 
 Luotea Hackathon 2026 — backend-focused team building a credible internal demo first, then jury pitch.
+
+**Team Inventix:** Mahmood Akhtar · [Muneer Syed](https://github.com/muneer2ishtech) · Vinay · Saad Mahmood · Afzal
 
 **Roadmap:** Finnish alarm → technician checklists (LLM), mobile technician UI, cleaning risk from room utilization.
 
