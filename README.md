@@ -108,11 +108,7 @@ docker compose up --build
 
 ## Team Inventix
 
-Luotea Hackathon 2026 — backend-focused team building a credible internal demo first, then jury pitch.
-
-**Team Inventix:** Mahmood Akhtar · [Muneer Syed](https://github.com/muneer2ishtech) · Vinay · Saad Mahmood · Afzal
-
-**Roadmap:** Finnish alarm → technician checklists (LLM), mobile technician UI, cleaning risk from room utilization.
+Mahmood Akhtar · [Muneer Syed](https://github.com/muneer2ishtech) · Vinay · Saad Mahmood · Afzal
 
 ---
 
