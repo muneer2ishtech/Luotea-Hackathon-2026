@@ -380,11 +380,12 @@ async function loadBuilding(buildingId) {
     renderAll(data);
   } catch (err) {
     console.error(err);
+    const port = window.location.port || "8090";
     showLoadError(
       `Failed to load "${buildingId}". ${err.message}. ` +
-        `Your server may be outdated — stop old processes and run: ` +
-        `python -m uvicorn main:app --reload --port 8090 ` +
-        `then open http://localhost:8090${window.location.pathname}`
+        `Stop old server processes, then from backend/: ` +
+        `python -m uvicorn main:app --reload --port ${port} ` +
+        `(or PORT=${port} ../start.sh) and open http://localhost:${port}${window.location.pathname}`
     );
     if ($("#risk-label")) $("#risk-label").textContent = "Load failed";
   } finally {

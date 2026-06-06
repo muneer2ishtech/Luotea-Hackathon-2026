@@ -36,65 +36,111 @@ Click **Owner | Manager | Technician** in the header. Same data pipeline, differ
 
 ## Quick start
 
-Organizer datasets live in `../Luotea-Hackathon-2026/` (unchanged). Our code lives in `lh2026/riskpulse/`.
+Organizer datasets live in `../Luotea-Hackathon-2026/` (read-only). Team code lives in `lh2026/riskpulse/`.
 
-```powershell
-cd D:\Practice\Luotea_Hackathon_2026\lh2026\riskpulse
+**Default port: `8090`**
+
+```bash
+cd /d/Practice/Luotea_Hackathon_2026/lh2026/riskpulse
 pip install -r requirements.txt
 
 # Step 1: preprocess hackathon data (~30 sec first time)
 cd backend
 python preprocess.py
 
-# Step 2: start demo server
-python -m uvicorn main:app --reload --port 8080
+# Step 2: start demo server (default port 8090)
+cd ..
+./start.sh
 ```
 
-Open **http://localhost:8080/riskpulse-no-ml** (statistics) or **http://localhost:8080/riskpulse-ml** (ML models).
+Open:
+
+- **http://localhost:8090/riskpulse-no-ml** — statistics, baselines, rules
+- **http://localhost:8090/riskpulse-ml** — Isolation Forest + forecast + escalation probability
 
 | URL | Engine |
 |-----|--------|
 | `/riskpulse-no-ml` | Z-scores, baselines, rules — explainable, no trained models |
 | `/riskpulse-ml` | Isolation Forest anomaly detection + linear forecast + escalation probability |
 
+### Custom port
+
+If `8090` is busy, pick any free port:
+
+```bash
+# Git Bash — helper script
+PORT=9000 ./start.sh
+
+# Git Bash — manual
+cd backend
+python -m uvicorn main:app --reload --port 9000
+
+# PowerShell
+$env:PORT=9000; .\start.ps1
+```
+
+Then open `http://localhost:<your-port>/riskpulse-no-ml` (or `/riskpulse-ml`).
+
+### Stop the server
+
+In the terminal where it runs: **Ctrl+C**
+
+If the port stays stuck on Windows:
+
+```bash
+netstat -ano | grep :8090
+taskkill //PID <pid> //F
+```
+
 ## Team pitch flow (10 min internal)
 
 1. **Problem** (1 min) — maintenance driven by calendar; faults visible only after alarms
 2. **Live demo** (5 min) — switch buildings, show risk score, chart spike vs baseline, read 2–3 actions
 3. **Architecture** (2 min) — data → signals → decisions; your team can extend rules/API
-4. **Next steps** (2 min) — add KONE elevator data, LLM tech instructions, mobile view
+4. **Next steps** (2 min) — LLM tech instructions, mobile view, room utilization signal
 
 ## Project structure
 
 ```
 riskpulse/
   backend/
-    preprocess.py      # Reads CSV/JSON from repo root → compact JSON
-    risk_engine.py     # Baseline + z-score risk scoring
-    recommendations.py # Rule-based action cards
-    main.py            # FastAPI API + serves frontend
+    preprocess.py           # Reads CSV/JSON from organizer repo → compact JSON
+    config.py               # 7 buildings, data paths
+    risk_engine.py          # Baseline + z-score risk scoring
+    risk_engine_ml.py       # ML layer
+    recommendations.py      # Rule-based action cards
+    audiences.py            # Owner / manager / technician views
+    main.py                 # FastAPI API + serves frontend
   frontend/
-    index.html         # Demo dashboard
-  data/processed/      # Generated (gitignore optional)
+    riskpulse-no-ml.html    # Stats demo dashboard
+    riskpulse-ml.html       # ML demo dashboard
+    app.js, styles.css
+  data/processed/           # Generated locally (not in git — run preprocess.py)
+  start.sh                  # Git Bash starter (default port 8090)
+  start.ps1                 # PowerShell starter
 ```
 
 ## API endpoints
 
-- `GET /api/buildings` — list buildings
-- `GET /api/buildings/{id}/analysis` — risk analysis + recommendations
-- `GET /api/health` — check data is preprocessed
+Both modes share the same paths under their prefix:
+
+- `GET /api/riskpulse-no-ml/buildings` — list buildings (stats mode)
+- `GET /api/riskpulse-no-ml/buildings/{id}/analysis` — risk + recommendations
+- `GET /api/riskpulse-ml/buildings/{id}/analysis` — ML analysis
+- `GET /api/health` — preprocess status and building count
 
 ## Extending (for your 4 techs)
 
 | Person | Task |
 |--------|------|
-| Backend | Add Meridian Tower KONE + Smartti fusion |
 | Backend | Wire OpenAI for Finnish alarm → technician checklist |
-| Frontend | Role toggle (owner / manager / tech) |
+| Frontend | Mobile-friendly technician layout |
 | Data | Room utilization → cleaning risk signal |
+| ML | Tune models per building profile |
 
 ## Notes
 
 - First run **must** execute `preprocess.py` (reads from `Luotea-Hackathon-2026/` datasets)
+- `data/processed/*.json` is gitignored — each developer generates it locally
 - Risk scoring is intentionally simple and explainable for judges
 - Finnish alarm/incident text is preserved — good for authenticity in pitch
