@@ -24,6 +24,12 @@ Property maintenance is still largely **reactive**: teams respond after alarms, 
 
 Same underlying analysis — **three different views**, each in language that role actually uses.
 
+### Source data
+
+- Hackathon datasets are **provided by Luotea** and treated as **confidential**.
+- They are **not included in this repository**
+- https://github.com/tmlehti3/Luotea-Hackathon-2026
+
 ---
 
 ## Demo at a glance
