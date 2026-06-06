@@ -89,7 +89,7 @@ Add captures to [`docs/screenshots/`](docs/screenshots/) and they will render he
 |--------------|---------|
 | [`dev`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/tree/dev) | Ongoing work |
 | [`main`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/tree/main) | Tested & integrated |
-| [Release Tags](https://github.com/muneer2ishtech/Luotea-Hackathon-2026/tags) | Stable releases (latest [`v0.4.0`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/releases/tag/v0.4.0)) |
+| [Release Tags](https://github.com/muneer2ishtech/Luotea-Hackathon-2026/tags) | Stable releases — use the **latest tag** |
 
 ---
 
