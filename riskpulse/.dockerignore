@@ -6,6 +6,8 @@ venv/
 .env.*
 .git/
 .gitignore
+data/source/*
+!data/source/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
 *.md

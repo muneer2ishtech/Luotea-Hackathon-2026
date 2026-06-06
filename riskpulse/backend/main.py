@@ -13,7 +13,7 @@ from fastapi.responses import FileResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
 from audiences import build_all_audiences, build_portfolio_summary
-from config import BUILDINGS, DATA_DIR
+from config import BUILDINGS, DATA_DIR, SOURCE_DATA_DIR
 from recommendations import generate_recommendations
 from recommendations_ml import generate_recommendations_ml
 from risk_engine import analyze_building
@@ -166,6 +166,7 @@ def health():
     available = _available_buildings()
     return {
         "status": "ok" if available else "needs_preprocess",
+        "source_data_dir": str(SOURCE_DATA_DIR),
         "data_dir": str(DATA_DIR),
         "configured_buildings": len(BUILDINGS),
         "available_buildings": len(available),
