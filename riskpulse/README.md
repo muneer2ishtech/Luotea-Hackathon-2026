@@ -94,19 +94,37 @@ taskkill //PID <pid> //F
 
 ### Docker
 
-Requires Docker Desktop and the organizer data folder at `../../Luotea-Hackathon-2026` (relative to `riskpulse/`).
+Requires [Docker Desktop](https://www.docker.com/products/docker-desktop/) and the organizer data folder at `../../Luotea-Hackathon-2026` (relative to `riskpulse/`).
+
+**Stop the local Python server first** if it is running on port 8090 (`Ctrl+C` in that terminal, or see [Stop the server](#stop-the-server) above). Docker needs the port free.
 
 ```bash
 cd /d/Practice/Luotea_Hackathon_2026/lh2026/riskpulse
 
-# Default port 8090 — preprocess runs automatically on container start
+# Foreground (logs in terminal) — preprocess runs automatically on start
 docker compose up --build
 
-# Custom host port
-PORT=9000 docker compose up --build
+# Background
+docker compose up --build -d
+docker compose logs -f    # follow logs
+docker compose down       # stop and remove container
 ```
 
-Open **http://localhost:8090/riskpulse-no-ml** (or your chosen port).
+Open **http://localhost:8090/riskpulse-no-ml** (or `/riskpulse-ml`).
+
+Custom host port:
+
+```bash
+PORT=9000 docker compose up --build
+# → http://localhost:9000/riskpulse-no-ml
+```
+
+Verify:
+
+```bash
+curl http://localhost:8090/api/health
+# expect: "available_buildings": 7
+```
 
 Build/run without compose:
 
