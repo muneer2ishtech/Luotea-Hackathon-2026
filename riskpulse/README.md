@@ -38,7 +38,7 @@ Click **Owner | Manager | Technician** in the header. Same data pipeline, differ
 
 Organizer datasets live in `../Luotea-Hackathon-2026/` (read-only). Team code lives in `lh2026/riskpulse/`.
 
-**Default port: `8090`**
+**Default port: `8090`** · **Python: 3.14+** (latest stable; Docker image uses `python:3.14-slim`)
 
 ```bash
 cd /d/Practice/Luotea_Hackathon_2026/lh2026/riskpulse
