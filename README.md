@@ -14,7 +14,7 @@ Property maintenance is still largely **reactive**: teams respond after alarms, 
 
 **RiskPulse** connects hackathon datasets into a single pipeline:
 
-**Data → Signals → Decisions**
+### Data → Signals → Decisions
 
 | Stage | What happens |
 |-------|----------------|
@@ -95,14 +95,6 @@ docker compose up --build
 | [`dev`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/tree/dev) | Ongoing work |
 | [`main`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/tree/main) | Tested & integrated |
 | [Release Tags](https://github.com/muneer2ishtech/Luotea-Hackathon-2026/tags) | Stable releases (latest [`v0.4.0`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/releases/tag/v0.4.0)) |
-
----
-
-## Data & repos
-
-| Repo | Role |
-|------|------|
-| **Organizer data** (`Luotea-Hackathon-2026/`) | Read-only hackathon datasets — **do not commit changes there** |
 
 ---
 
