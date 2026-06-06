@@ -117,6 +117,136 @@ body[data-role="technician"] .role-banner { border-left: 4px solid #e76f51; }
   font-weight: 500;
 }
 
+.mode-badge {
+  display: inline-block;
+  margin-top: 0.35rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  width: fit-content;
+}
+
+.mode-stats {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.mode-ml {
+  background: #9b5de5;
+  color: white;
+}
+
+.header-ml {
+  background: linear-gradient(135deg, #2d6a4f 0%, #4a4e69 100%);
+}
+
+.mode-switch {
+  display: flex;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mode-link {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.4rem 0.75rem;
+}
+
+.mode-link.active {
+  background: white;
+  color: var(--green);
+}
+
+.mode-intro {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 1.25rem;
+  padding: 0.65rem 1rem;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.ml-panel {
+  border: 2px solid #9b5de5;
+  background: linear-gradient(180deg, #faf8ff 0%, #fff 100%);
+  margin-bottom: 1.25rem;
+}
+
+.ml-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.75rem;
+}
+
+.ml-tile {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.75rem;
+}
+
+.ml-tile.alert {
+  border-color: var(--red);
+  background: var(--red-bg);
+}
+
+.ml-tile-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.ml-tile-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0.25rem 0;
+}
+
+.ml-tile-value.ml-tile-small {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.ml-tile-detail {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.ml-expl {
+  margin-top: 0.75rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.action-ml {
+  border-color: #9b5de5;
+}
+
+.ml-tag {
+  display: inline-block;
+  background: #9b5de5;
+  color: white;
+  font-size: 0.6rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  margin-left: 0.35rem;
+}
+
+.footer a {
+  color: var(--green);
+}
+
 .building-select {
   display: flex;
   align-items: center;

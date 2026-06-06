@@ -1,12 +1,15 @@
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+# lh2026/riskpulse/backend → team repo is lh2026; organizer data is sibling folder
+TEAM_ROOT = Path(__file__).resolve().parents[2]
+HACKATHON_DATA = TEAM_ROOT.parent / "Luotea-Hackathon-2026"
+
 DATA_DIR = Path(__file__).resolve().parents[1] / "data" / "processed"
 
-ALARMS_CSV = ROOT / "Alarms" / "alarms.csv"
-WORK_ORDERS_CSV = ROOT / "Work orders" / "work_orders_anonymized 1.csv"
-MAINTENANCE_CSV = ROOT / "Maintenance schedule (EH-työt)" / "Scheduled maitenance plans.csv"
-AURORA_SMARTTI = ROOT / "Smartti" / "aurora_house.json"
+ALARMS_CSV = HACKATHON_DATA / "Alarms" / "alarms.csv"
+WORK_ORDERS_CSV = HACKATHON_DATA / "Work orders" / "work_orders_anonymized 1.csv"
+MAINTENANCE_CSV = HACKATHON_DATA / "Maintenance schedule (EH-työt)" / "Scheduled maitenance plans.csv"
+AURORA_SMARTTI = HACKATHON_DATA / "Smartti" / "aurora_house.json"
 
 BUILDINGS = {
     "lentokentankatu_11": {

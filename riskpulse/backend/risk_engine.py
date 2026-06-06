@@ -290,5 +290,6 @@ def analyze_building(data: dict[str, Any]) -> dict[str, Any]:
 
     analysis["building_id"] = building_id
     analysis["meta"] = data.get("meta", {})
+    analysis["method"] = "stats"
     analysis["computed_at"] = datetime.now(timezone.utc).isoformat()
     return analysis

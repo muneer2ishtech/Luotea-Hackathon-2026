@@ -29,8 +29,10 @@ Click **Owner | Manager | Technician** in the header. Same data pipeline, differ
 
 ## Quick start
 
+Organizer datasets live in `../Luotea-Hackathon-2026/` (unchanged). Our code lives in `lh2026/riskpulse/`.
+
 ```powershell
-cd riskpulse
+cd D:\Practice\Luotea_Hackathon_2026\lh2026\riskpulse
 pip install -r requirements.txt
 
 # Step 1: preprocess hackathon data (~30 sec first time)
@@ -41,7 +43,12 @@ python preprocess.py
 python -m uvicorn main:app --reload --port 8080
 ```
 
-Open **http://localhost:8080** in your browser.
+Open **http://localhost:8080/riskpulse-no-ml** (statistics) or **http://localhost:8080/riskpulse-ml** (ML models).
+
+| URL | Engine |
+|-----|--------|
+| `/riskpulse-no-ml` | Z-scores, baselines, rules — explainable, no trained models |
+| `/riskpulse-ml` | Isolation Forest anomaly detection + linear forecast + escalation probability |
 
 ## Team pitch flow (10 min internal)
 
@@ -81,6 +88,6 @@ riskpulse/
 
 ## Notes
 
-- First run **must** execute `preprocess.py` (reads from parent repo datasets)
+- First run **must** execute `preprocess.py` (reads from `Luotea-Hackathon-2026/` datasets)
 - Risk scoring is intentionally simple and explainable for judges
 - Finnish alarm/incident text is preserved — good for authenticity in pitch

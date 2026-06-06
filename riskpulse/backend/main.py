@@ -4,21 +4,24 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from typing import Callable
 
-from fastapi import FastAPI, HTTPException
+from fastapi import APIRouter, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
 from audiences import build_all_audiences, build_portfolio_summary
 from config import BUILDINGS, DATA_DIR
 from recommendations import generate_recommendations
+from recommendations_ml import generate_recommendations_ml
 from risk_engine import analyze_building
+from risk_engine_ml import analyze_building_ml
 
 app = FastAPI(
     title="RiskPulse",
     description="Luotea Hackathon 2026 — reactive to predictive maintenance demo",
-    version="0.1.0",
+    version="0.2.0",
 )
 
 app.add_middleware(
@@ -47,64 +50,26 @@ def _load_building(building_id: str) -> dict:
     return data
 
 
-@app.get("/api/health")
-def health():
-    ready = (DATA_DIR / "index.json").exists()
-    return {"status": "ok" if ready else "needs_preprocess", "data_dir": str(DATA_DIR)}
-
-
-@app.get("/api/buildings")
-def list_buildings():
-    index_path = DATA_DIR / "index.json"
-    if index_path.exists():
-        with open(index_path, encoding="utf-8") as f:
-            return json.load(f)
-    return {
-        "buildings": [{"id": k, **v} for k, v in BUILDINGS.items()],
-    }
-
-
-@app.get("/api/portfolio")
-def get_portfolio():
-    """Owner view: all buildings compared on one screen."""
+def _portfolio_for(analyze_fn: Callable[[dict], dict]) -> list[dict]:
     pairs: list[tuple[dict, dict]] = []
     for building_id in BUILDINGS:
         data = _load_building(building_id)
-        analysis = analyze_building(data)
-        pairs.append((data, analysis))
-    portfolio = build_portfolio_summary(pairs)
-    avg_reliability = round(
-        sum(r["reliability_index"] for r in portfolio) / len(portfolio), 1
-    ) if portfolio else 0
-    return {
-        "portfolio": portfolio,
-        "summary": {
-            "asset_count": len(portfolio),
-            "avg_reliability_index": avg_reliability,
-            "highest_risk": portfolio[0] if portfolio else None,
-            "lowest_risk": portfolio[-1] if portfolio else None,
-        },
-    }
+        pairs.append((data, analyze_fn(data)))
+    return build_portfolio_summary(pairs)
 
 
-@app.get("/api/buildings/{building_id}/analysis")
-def get_analysis(building_id: str):
-    if building_id not in BUILDINGS:
-        raise HTTPException(404, "Unknown building")
+def _analysis_payload(
+    building_id: str,
+    analyze_fn: Callable[[dict], dict],
+    recommend_fn: Callable,
+) -> dict:
     data = _load_building(building_id)
-    analysis = analyze_building(data)
-    actions = generate_recommendations(data, analysis)
-
-    # Portfolio context for owner comparability
-    portfolio_pairs = []
-    for bid in BUILDINGS:
-        d = _load_building(bid)
-        portfolio_pairs.append((d, analyze_building(d)))
-    portfolio = build_portfolio_summary(portfolio_pairs)
-
+    analysis = analyze_fn(data)
+    actions = recommend_fn(data, analysis)
+    portfolio = _portfolio_for(analyze_fn)
     audiences = build_all_audiences(data, analysis, actions, portfolio)
-
     return {
+        "mode": analysis.get("method", "stats"),
         "analysis": analysis,
         "recommendations": actions,
         "audiences": audiences,
@@ -116,18 +81,81 @@ def get_analysis(building_id: str):
     }
 
 
-@app.get("/api/buildings/{building_id}/chart")
-def get_chart(building_id: str):
-    if building_id not in BUILDINGS:
-        raise HTTPException(404, "Unknown building")
-    data = _load_building(building_id)
-    analysis = analyze_building(data)
-    return analysis.get("weekly_chart", {})
+def _register_mode_routes(
+    router: APIRouter,
+    analyze_fn: Callable[[dict], dict],
+    recommend_fn: Callable,
+) -> None:
+    @router.get("/buildings")
+    def list_buildings():
+        index_path = DATA_DIR / "index.json"
+        if index_path.exists():
+            with open(index_path, encoding="utf-8") as f:
+                payload = json.load(f)
+        else:
+            payload = {"buildings": [{"id": k, **v} for k, v in BUILDINGS.items()]}
+        payload["mode"] = "ml" if analyze_fn is analyze_building_ml else "stats"
+        return payload
+
+    @router.get("/portfolio")
+    def get_portfolio():
+        portfolio = _portfolio_for(analyze_fn)
+        avg_reliability = round(
+            sum(r["reliability_index"] for r in portfolio) / len(portfolio), 1
+        ) if portfolio else 0
+        return {
+            "mode": "ml" if analyze_fn is analyze_building_ml else "stats",
+            "portfolio": portfolio,
+            "summary": {
+                "asset_count": len(portfolio),
+                "avg_reliability_index": avg_reliability,
+                "highest_risk": portfolio[0] if portfolio else None,
+                "lowest_risk": portfolio[-1] if portfolio else None,
+            },
+        }
+
+    @router.get("/buildings/{building_id}/analysis")
+    def get_analysis(building_id: str):
+        if building_id not in BUILDINGS:
+            raise HTTPException(404, "Unknown building")
+        return _analysis_payload(building_id, analyze_fn, recommend_fn)
+
+    @router.get("/buildings/{building_id}/chart")
+    def get_chart(building_id: str):
+        if building_id not in BUILDINGS:
+            raise HTTPException(404, "Unknown building")
+        data = _load_building(building_id)
+        analysis = analyze_fn(data)
+        return analysis.get("weekly_chart", {})
+
+
+no_ml_router = APIRouter(prefix="/api/riskpulse-no-ml", tags=["no-ml"])
+ml_router = APIRouter(prefix="/api/riskpulse-ml", tags=["ml"])
+_register_mode_routes(no_ml_router, analyze_building, generate_recommendations)
+_register_mode_routes(ml_router, analyze_building_ml, generate_recommendations_ml)
+app.include_router(no_ml_router)
+app.include_router(ml_router)
+
+
+@app.get("/api/health")
+def health():
+    ready = (DATA_DIR / "index.json").exists()
+    return {"status": "ok" if ready else "needs_preprocess", "data_dir": str(DATA_DIR)}
 
 
 @app.get("/")
-def serve_index():
-    return FileResponse(FRONTEND_DIR / "index.html")
+def root():
+    return RedirectResponse(url="/riskpulse-no-ml")
+
+
+@app.get("/riskpulse-no-ml")
+def page_no_ml():
+    return FileResponse(FRONTEND_DIR / "riskpulse-no-ml.html")
+
+
+@app.get("/riskpulse-ml")
+def page_ml():
+    return FileResponse(FRONTEND_DIR / "riskpulse-ml.html")
 
 
 app.mount("/static", StaticFiles(directory=FRONTEND_DIR), name="static")

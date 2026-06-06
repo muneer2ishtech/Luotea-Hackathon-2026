@@ -3,6 +3,12 @@ let currentBuilding = null;
 let currentRole = "owner";
 let cachedPayload = null;
 
+const CONFIG = window.RISKPULSE || {
+  mode: "no-ml",
+  apiPrefix: "/api/riskpulse-no-ml",
+  subtitle: "Statistics + rules — explainable baselines",
+};
+
 const $ = (sel) => document.querySelector(sel);
 const $$ = (sel) => document.querySelectorAll(sel);
 
@@ -40,7 +46,42 @@ function setRole(role) {
   document.body.dataset.role = role;
 }
 
-function renderOwner(aud) {
+function renderMlPanel(ml, targetId = "ml-content") {
+  const el = $(`#${targetId}`);
+  if (!el || !ml) return;
+
+  if (!ml.anomaly?.available && !ml.forecast?.available) {
+    el.innerHTML = `<p class="muted">${ml.reason || "ML models need more historical data for this building."}</p>`;
+    return;
+  }
+
+  const failPct = Math.round((ml.failure_probability_7d || 0) * 100);
+  el.innerHTML = `
+    <div class="ml-tile ${ml.anomaly?.is_anomaly ? "alert" : ""}">
+      <div class="ml-tile-label">Anomaly detection</div>
+      <div class="ml-tile-value">${ml.anomaly?.is_anomaly ? "ANOMALY" : "Normal pattern"}</div>
+      <div class="ml-tile-detail">${ml.anomaly?.model || "—"} · score ${ml.anomaly?.anomaly_score ?? "—"}</div>
+    </div>
+    <div class="ml-tile">
+      <div class="ml-tile-label">7-day escalation risk</div>
+      <div class="ml-tile-value">${failPct}%</div>
+      <div class="ml-tile-detail">${ml.failure_label || ""}</div>
+    </div>
+    <div class="ml-tile">
+      <div class="ml-tile-label">Forecast</div>
+      <div class="ml-tile-value">${ml.forecast?.available ? ml.forecast.predicted_value : "—"}</div>
+      <div class="ml-tile-detail">${ml.forecast?.available ? `${ml.forecast.horizon} · ${ml.forecast.trend} trend` : "—"}</div>
+    </div>
+    <div class="ml-tile">
+      <div class="ml-tile-label">Models</div>
+      <div class="ml-tile-value ml-tile-small">${(ml.models_used || []).join(", ")}</div>
+    </div>`;
+
+  const expl = $("#ml-expl");
+  if (expl) expl.textContent = ml.explainability || "";
+}
+
+function renderOwner(aud, analysis) {
   const o = aud.owner;
   $("#owner-headline").textContent = o.headline;
   $("#owner-subtitle").textContent = o.subtitle;
@@ -61,6 +102,10 @@ function renderOwner(aud) {
     </div>`
     )
     .join("");
+
+  if (CONFIG.mode === "ml" && analysis?.ml) {
+    renderMlPanel(analysis.ml, "ml-content-owner");
+  }
 
   const tbody = $("#portfolio-table tbody");
   tbody.innerHTML = o.portfolio
@@ -105,6 +150,10 @@ function renderManager(aud, analysis, buildingId) {
   $("#manager-subtitle").textContent = m.subtitle;
   $("#situation-bar").textContent = m.situation_summary;
 
+  if (CONFIG.mode === "ml") {
+    renderMlPanel(analysis.ml);
+  }
+
   const card = $("#score-card");
   card.className = `score-card level-${analysis.level}`;
   $("#risk-score").textContent = Math.round(analysis.score);
@@ -120,8 +169,7 @@ function renderManager(aud, analysis, buildingId) {
           .join("")}</ul>`
       : `<h3>Efficiency snapshot</h3><p class="muted">Work order metrics available for industrial sites.</p>`;
 
-  const ul = $("#signals");
-  ul.innerHTML = m.signals
+  $("#signals").innerHTML = m.signals
     .map(
       (s) => `
     <li>
@@ -137,9 +185,7 @@ function renderManager(aud, analysis, buildingId) {
   if (m.calendar) {
     $("#calendar-panel").hidden = false;
     $("#calendar-desc").textContent = m.calendar.recommendation;
-    $("#calendar-sample").innerHTML = m.calendar.sample
-      .map((c) => `<li>${c}</li>`)
-      .join("");
+    $("#calendar-sample").innerHTML = m.calendar.sample.map((c) => `<li>${c}</li>`).join("");
   } else {
     $("#calendar-panel").hidden = true;
   }
@@ -147,8 +193,8 @@ function renderManager(aud, analysis, buildingId) {
   $("#manager-actions").innerHTML = m.actions
     .map(
       (a) => `
-    <article class="action-card">
-      <div class="priority">${a.priority}</div>
+    <article class="action-card ${a.id?.startsWith("ml_") ? "action-ml" : ""}">
+      <div class="priority">${a.priority}${a.id?.startsWith("ml_") ? ' <span class="ml-tag">ML</span>' : ""}</div>
       <h3>${a.title}</h3>
       <p class="reason">${a.reason}</p>
       <ol>${(a.steps || []).map((s) => `<li>${s}</li>`).join("")}</ol>
@@ -157,7 +203,7 @@ function renderManager(aud, analysis, buildingId) {
     )
     .join("");
 
-  renderChart(m.chart || analysis.weekly_chart, buildingId);
+  renderChart(m.chart || analysis.weekly_chart, buildingId, analysis);
 }
 
 function renderTechnician(aud) {
@@ -202,13 +248,18 @@ function renderTechnician(aud) {
     .join("");
 }
 
-function renderChart(chartData, buildingId) {
+function renderChart(chartData, buildingId, analysis) {
   if (!chartData?.weeks?.length) return;
 
   const isCo2 = buildingId === "aurora_house";
-  $("#chart-desc").textContent = isCo2
-    ? "Daily average CO₂ vs baseline — act before comfort complaints."
-    : "Weekly alarms vs baseline — spikes mean reallocate capacity this week.";
+  const isMl = CONFIG.mode === "ml";
+  $("#chart-desc").textContent = isMl
+    ? isCo2
+      ? "Daily CO₂ with ML forecast point — anomaly model on multi-sensor patterns."
+      : "Weekly alarms with ML forecast — Isolation Forest flags abnormal weeks."
+    : isCo2
+      ? "Daily average CO₂ vs baseline — act before comfort complaints."
+      : "Weekly alarms vs baseline — spikes mean reallocate capacity this week.";
 
   const ctx = $("#risk-chart").getContext("2d");
   if (chartInstance) chartInstance.destroy();
@@ -217,36 +268,49 @@ function renderChart(chartData, buildingId) {
   const baseline = chartData.baseline_median;
   const upper = chartData.upper_band;
 
+  const datasets = [
+    {
+      label: isCo2 ? "Avg CO₂ (ppm)" : "Alarms / week",
+      data: chartData.counts,
+      borderColor: isMl ? "#6a4c93" : "#2d6a4f",
+      backgroundColor: isMl ? "rgba(106, 76, 147, 0.12)" : "rgba(45, 106, 79, 0.12)",
+      fill: true,
+      tension: 0.3,
+      pointRadius: 3,
+    },
+    {
+      label: "Baseline",
+      data: labels.map(() => baseline),
+      borderColor: "#95a5a6",
+      borderDash: [6, 4],
+      pointRadius: 0,
+    },
+    {
+      label: "Elevated",
+      data: labels.map(() => upper),
+      borderColor: "#e76f51",
+      borderDash: [2, 2],
+      pointRadius: 0,
+    },
+  ];
+
+  if (chartData.forecast_point && isMl) {
+    const forecastData = labels.map(() => null);
+    forecastData[forecastData.length - 1] = chartData.counts[chartData.counts.length - 1];
+    datasets.push({
+      label: chartData.forecast_point.label,
+      data: [...labels.slice(0, -1).map(() => null), chartData.forecast_point.value],
+      borderColor: "#9b5de5",
+      backgroundColor: "#9b5de5",
+      pointRadius: 8,
+      pointStyle: "star",
+      showLine: false,
+    });
+  }
+
   chartInstance = new Chart(ctx, {
     type: "line",
-    data: {
-      labels,
-      datasets: [
-        {
-          label: isCo2 ? "Avg CO₂ (ppm)" : "Alarms / week",
-          data: chartData.counts,
-          borderColor: "#2d6a4f",
-          backgroundColor: "rgba(45, 106, 79, 0.12)",
-          fill: true,
-          tension: 0.3,
-          pointRadius: 3,
-        },
-        {
-          label: "Baseline",
-          data: labels.map(() => baseline),
-          borderColor: "#95a5a6",
-          borderDash: [6, 4],
-          pointRadius: 0,
-        },
-        {
-          label: "Elevated",
-          data: labels.map(() => upper),
-          borderColor: "#e76f51",
-          borderDash: [2, 2],
-          pointRadius: 0,
-        },
-      ],
-    },
+    data: { labels, datasets },
     options: {
       responsive: true,
       plugins: { legend: { display: false } },
@@ -259,17 +323,20 @@ function renderChart(chartData, buildingId) {
     },
   });
 
-  $("#chart-legend").innerHTML = `
-    <span><i style="background:#2d6a4f"></i> Actual</span>
+  let legend = `
+    <span><i style="background:${isMl ? "#6a4c93" : "#2d6a4f"}"></i> Actual</span>
     <span><i style="background:#95a5a6"></i> Baseline (~${baseline})</span>
-    <span><i style="background:#e76f51"></i> Elevated (~${upper})</span>
-  `;
+    <span><i style="background:#e76f51"></i> Elevated (~${upper})</span>`;
+  if (chartData.forecast_point && isMl) {
+    legend += `<span><i style="background:#9b5de5"></i> ML forecast (${chartData.forecast_point.value})</span>`;
+  }
+  $("#chart-legend").innerHTML = legend;
 }
 
 function renderAll(payload) {
   cachedPayload = payload;
   const { analysis, audiences } = payload;
-  renderOwner(audiences);
+  renderOwner(audiences, analysis);
   renderManager(audiences, analysis, currentBuilding);
   renderTechnician(audiences);
 }
@@ -277,25 +344,30 @@ function renderAll(payload) {
 async function loadBuilding(buildingId) {
   document.body.classList.add("loading");
   try {
-    const data = await fetchJson(`/api/buildings/${buildingId}/analysis`);
+    const data = await fetchJson(`${CONFIG.apiPrefix}/buildings/${buildingId}/analysis`);
     currentBuilding = buildingId;
     renderAll(data);
   } catch (err) {
     console.error(err);
-    $("#risk-label").textContent = "Error — run preprocess.py first";
+    if ($("#risk-label")) $("#risk-label").textContent = "Error — run preprocess.py first";
   } finally {
     document.body.classList.remove("loading");
   }
 }
 
 async function init() {
+  const intro = $("#mode-intro");
+  if (intro && CONFIG.subtitle) {
+    intro.textContent = CONFIG.subtitle;
+  }
+
   $$(".role-tab").forEach((btn) => {
     btn.addEventListener("click", () => setRole(btn.dataset.role));
   });
   setRole("owner");
 
   try {
-    const index = await fetchJson("/api/buildings");
+    const index = await fetchJson(`${CONFIG.apiPrefix}/buildings`);
     const select = $("#building");
     (index.buildings || []).forEach((b) => {
       const opt = document.createElement("option");
