@@ -94,7 +94,7 @@ docker compose up --build
 |--------------|---------|
 | [`dev`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/tree/dev) | Ongoing work |
 | [`main`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/tree/main) | Tested & integrated |
-| [Releases / tags](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/releases) | Stable releases (latest [`v0.4.0`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/releases/tag/v0.4.0)) |
+| [Release Tags](https://github.com/muneer2ishtech/Luotea-Hackathon-2026/tags) | Stable releases (latest [`v0.4.0`](https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026/releases/tag/v0.4.0)) |
 
 ---
 
@@ -102,7 +102,6 @@ docker compose up --build
 
 | Repo | Role |
 |------|------|
-| **This repo** (`lh2026`) | Team code — RiskPulse lives in [`riskpulse/`](riskpulse/) |
 | **Organizer data** (`Luotea-Hackathon-2026/`) | Read-only hackathon datasets — **do not commit changes there** |
 
 ---
