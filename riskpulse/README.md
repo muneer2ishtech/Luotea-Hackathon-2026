@@ -41,7 +41,7 @@ riskpulse/
 
 Luotea provides the hackathon datasets under confidentiality. **Do not commit files under `data/source/`** to this repository; they remain on each machine only.
 
-Download or clone the organizer repository (see [Source data](../README.md#source-data)), then copy the files below into `riskpulse/data/source/` **keeping the same folder names**:
+Download or clone the organizer repository (see [Source data](../README.md#source-data)), then copy the files below into `data/source/` **keeping the same folder names**:
 
 | Copy from organizer repo | To `data/source/` |
 |--------------------------|-------------------|
@@ -74,7 +74,8 @@ cp "$ORG/Smartti/kone/"*_normalized.json "$DST/Smartti/kone/"
 ## Quick start (local)
 
 ```bash
-cd lh2026/riskpulse
+git clone https://github.com/muneer2ishtech/Luotea-Hackathon-2026.git
+cd Luotea-Hackathon-2026/riskpulse
 pip install -r requirements.txt
 
 # 1. Copy source data (once) — see table above
@@ -127,7 +128,7 @@ Populate `data/source/` first (same files as above). Docker mounts that folder r
 **Stop any local server on 8090 first.**
 
 ```bash
-cd lh2026/riskpulse
+cd Luotea-Hackathon-2026/riskpulse
 docker compose up --build
 docker compose up --build -d   # background
 docker compose logs -f
@@ -214,4 +215,4 @@ Building registry: `backend/config.py`. Reads from `data/source/`, writes to `da
 
 - Run `python preprocess.py` after updating files in `data/source/`.
 - `data/source/` and `data/processed/` are **gitignored**; never commit Luotea dataset files.
-- Team code changes belong in this repository only (`lh2026`).
+- Team code changes belong in this repository only (`Luotea-Hackathon-2026`).
