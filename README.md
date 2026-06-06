@@ -77,18 +77,7 @@ Add captures to [`docs/screenshots/`](docs/screenshots/) and they will render he
 
 ---
 
-## Try it
-
-**Developers:** full setup (local, Docker, ports, API) → **[`riskpulse/README.md`](riskpulse/README.md)**
-
-Fastest path if you have Docker + organizer data:
-
-```bash
-git clone https://ishtech.github.com/muneer2ishtech/Luotea-Hackathon-2026.git
-cd Luotea-Hackathon-2026/riskpulse
-docker compose up --build
-# → http://localhost:8090/riskpulse-no-ml
-```
+## Repository
 
 | Branch / tag | Purpose |
 |--------------|---------|
@@ -104,6 +93,6 @@ Mahmood Akhtar · [Muneer Syed](https://github.com/muneer2ishtech) · Vinay · S
 
 ---
 
-<p align="center">
-  <strong>Technical documentation → <a href="riskpulse/README.md">riskpulse/README.md</a></strong>
-</p>
+## Run RiskPulse
+
+For **installation, configuration, and how to run** the demo (local or Docker), see **[`riskpulse/README.md`](riskpulse/README.md)**.
