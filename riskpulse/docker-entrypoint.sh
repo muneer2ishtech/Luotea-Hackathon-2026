@@ -4,7 +4,7 @@ set -eu
 PORT="${PORT:-8090}"
 cd /app/backend
 
-echo "Preprocessing hackathon data from ${HACKATHON_DATA:-default path}..."
+echo "Preprocessing from ${SOURCE_DATA_DIR:-data/source}..."
 python preprocess.py
 
 echo "Starting RiskPulse on http://0.0.0.0:${PORT}"

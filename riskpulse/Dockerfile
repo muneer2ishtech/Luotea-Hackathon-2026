@@ -10,7 +10,7 @@ COPY frontend/ ./frontend/
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 RUN sed -i 's/\r$//' /docker-entrypoint.sh \
     && chmod +x /docker-entrypoint.sh \
-    && mkdir -p data/processed
+    && mkdir -p data/source data/processed
 
 ENV PORT=8090
 ENV PYTHONUNBUFFERED=1

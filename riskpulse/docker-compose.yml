@@ -4,8 +4,7 @@ services:
     ports:
       - "${PORT:-8090}:${PORT:-8090}"
     volumes:
-      # Organizer datasets (read-only). Adjust if your clone layout differs.
-      - ../../Luotea-Hackathon-2026:/data/hackathon:ro
+      - ./data/source:/app/data/source:ro
     environment:
-      HACKATHON_DATA: /data/hackathon
+      SOURCE_DATA_DIR: /app/data/source
       PORT: ${PORT:-8090}

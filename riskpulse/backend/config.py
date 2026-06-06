@@ -1,17 +1,14 @@
 import os
 from pathlib import Path
 
-# lh2026/riskpulse/backend → team repo is lh2026; organizer data is sibling folder
-TEAM_ROOT = Path(__file__).resolve().parents[2]
-_DEFAULT_HACKATHON_DATA = TEAM_ROOT.parent / "Luotea-Hackathon-2026"
-HACKATHON_DATA = Path(os.environ.get("HACKATHON_DATA", _DEFAULT_HACKATHON_DATA))
+RISKPULSE_ROOT = Path(__file__).resolve().parents[1]
+SOURCE_DATA_DIR = Path(os.environ.get("SOURCE_DATA_DIR", RISKPULSE_ROOT / "data" / "source"))
+DATA_DIR = RISKPULSE_ROOT / "data" / "processed"
 
-DATA_DIR = Path(__file__).resolve().parents[1] / "data" / "processed"
-
-ALARMS_CSV = HACKATHON_DATA / "Alarms" / "alarms.csv"
-WORK_ORDERS_CSV = HACKATHON_DATA / "Work orders" / "work_orders_anonymized 1.csv"
-MAINTENANCE_CSV = HACKATHON_DATA / "Maintenance schedule (EH-työt)" / "Scheduled maitenance plans.csv"
-SMARTTI_DIR = HACKATHON_DATA / "Smartti"
+ALARMS_CSV = SOURCE_DATA_DIR / "Alarms" / "alarms.csv"
+WORK_ORDERS_CSV = SOURCE_DATA_DIR / "Work orders" / "work_orders_anonymized 1.csv"
+MAINTENANCE_CSV = SOURCE_DATA_DIR / "Maintenance schedule (EH-työt)" / "Scheduled maitenance plans.csv"
+SMARTTI_DIR = SOURCE_DATA_DIR / "Smartti"
 KONE_DIR = SMARTTI_DIR / "kone"
 
 # All hackathon sites from README (7 properties)
