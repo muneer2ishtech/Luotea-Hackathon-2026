@@ -13,6 +13,7 @@ build/
 .ruff_cache/
 .coverage
 htmlcov/
+*.log
 
 # Virtual environments
 .venv/
@@ -35,3 +36,7 @@ data/processed/*
 *.swp
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Windows mark-of-the-web (files downloaded from the internet)
+*:Zone.Identifier
